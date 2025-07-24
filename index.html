@@ -8,14 +8,19 @@
     body { font-family: Arial, sans-serif; background: #f2f2f2; padding: 1rem; }
     h1 { color: #2c3e50; }
     .search-bar, .year-filter, .genre-filter, .language-filter { margin-bottom: 1rem; }
-    .alphabet { margin: 1rem 0; display: flex; flex-wrap: wrap; gap: 4px; }
+    .alphabet { margin: 1rem 0; }
+    .alphabet-row { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 0.5rem; }
     .alphabet span { cursor: pointer; margin: 0 4px; font-weight: bold; }
     .alphabet span.active { color: white; background-color: #2980b9; padding: 2px 6px; border-radius: 4px; }
     .book-list, .author-list, .pagination { margin-top: 1rem; }
-    .book { background: #fff; padding: 1rem; margin-bottom: 0.5rem; border-radius: 5px; display: flex; gap: 1rem; }
+    .book { background: #fff; padding: 1rem; margin-bottom: 0.5rem; border-radius: 5px; display: flex; gap: 1rem; flex-wrap: wrap; }
     .book img { width: 80px; height: auto; object-fit: cover; }
     .pagination button { margin: 2px; padding: 4px 8px; cursor: pointer; }
     .pagination button.active { background-color: #2980b9; color: white; border: none; }
+    @media (max-width: 600px) {
+      .book { flex-direction: column; align-items: center; text-align: center; }
+      .book img { width: 120px; }
+    }
   </style>
 </head>
 <body>
@@ -46,7 +51,10 @@
     </select>
   </div>
 
-  <div class="alphabet" id="alphabet"></div>
+  <div class="alphabet" id="alphabet">
+    <div class="alphabet-row" id="ukrRow"></div>
+    <div class="alphabet-row" id="engRow"></div>
+  </div>
 
   <div class="author-list" id="authorList"></div>
   <div class="book-list" id="bookList"></div>
@@ -64,6 +72,7 @@
       books = await res.json();
       populateFilters();
       buildAlphabet();
+      readURLParams();
       applyFilters();
     }
 
@@ -85,12 +94,19 @@
     function buildAlphabet() {
       const ukr = "АБВГҐДЕЄЖЗИІЇЙКЛМНОПРСТУФХЦЧШЩЬЮЯ";
       const eng = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-      const container = document.getElementById('alphabet');
-      [...ukr + eng].forEach(letter => {
+      const ukrRow = document.getElementById('ukrRow');
+      const engRow = document.getElementById('engRow');
+      [...ukr].forEach(letter => {
         const span = document.createElement('span');
         span.textContent = letter;
         span.onclick = () => filterByLetter(letter, span);
-        container.appendChild(span);
+        ukrRow.appendChild(span);
+      });
+      [...eng].forEach(letter => {
+        const span = document.createElement('span');
+        span.textContent = letter;
+        span.onclick = () => filterByLetter(letter, span);
+        engRow.appendChild(span);
       });
     }
 
@@ -98,13 +114,13 @@
       activeLetter = letter;
       document.querySelectorAll('.alphabet span').forEach(s => s.classList.remove('active'));
       span.classList.add('active');
-
       const allAuthors = books.flatMap(b => Array.isArray(b.authors) ? b.authors : [b.author]);
       const authors = [...new Set(allAuthors.filter(a => a.toUpperCase().startsWith(letter)))];
       document.getElementById('bookList').innerHTML = '';
       document.getElementById('pagination').innerHTML = '';
       document.getElementById('authorList').innerHTML = '<h3>Автори на літеру "' + letter + '":</h3>' +
         authors.map(a => `<div onclick="showBooksByAuthor('${a}')" style="cursor:pointer; color:#2980b9">${a}</div>`).join('');
+      updateURLParams();
     }
 
     function showBooksByAuthor(author) {
@@ -132,6 +148,7 @@
       });
       currentPage = 1;
       renderBooks();
+      updateURLParams();
     }
 
     function renderBooks() {
@@ -167,6 +184,29 @@
         btn.className = i === currentPage ? 'active' : '';
         btn.onclick = () => { currentPage = i; renderBooks(); };
         pagination.appendChild(btn);
+      }
+    }
+
+    function updateURLParams() {
+      const params = new URLSearchParams();
+      params.set('search', document.getElementById('searchInput').value);
+      params.set('year', document.getElementById('yearSelect').value);
+      params.set('genre', document.getElementById('genreSelect').value);
+      params.set('language', document.getElementById('languageSelect').value);
+      params.set('letter', activeLetter);
+      history.replaceState(null, '', '?' + params.toString());
+    }
+
+    function readURLParams() {
+      const params = new URLSearchParams(window.location.search);
+      document.getElementById('searchInput').value = params.get('search') || '';
+      document.getElementById('yearSelect').value = params.get('year') || '';
+      document.getElementById('genreSelect').value = params.get('genre') || '';
+      document.getElementById('languageSelect').value = params.get('language') || '';
+      activeLetter = params.get('letter') || '';
+      if (activeLetter) {
+        const letterSpan = [...document.querySelectorAll('.alphabet span')].find(s => s.textContent === activeLetter);
+        if (letterSpan) filterByLetter(activeLetter, letterSpan);
       }
     }
 
