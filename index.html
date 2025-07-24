@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Бібліотечний каталог</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f2f2f2; padding: 1rem; }
+    h1 { color: #2c3e50; }
+    .search-bar, .year-filter { margin-bottom: 1rem; }
+    .alphabet { margin: 1rem 0; display: flex; flex-wrap: wrap; gap: 4px; }
+    .alphabet-row { margin-bottom: 0.5rem; }
+    .alphabet span { cursor: pointer; margin: 0 4px; font-weight: bold; }
+    .book-list, .author-list { margin-top: 1rem; }
+    .book { background: #fff; padding: 1rem; margin-bottom: 0.5rem; border-radius: 5px; display: flex; gap: 1rem; }
+    .book img { width: 80px; height: auto; object-fit: cover; }
+  </style>
+</head>
+<body>
+  <h1>Бібліотечний каталог</h1>
+
+  <div class="search-bar">
+    <input type="text" id="searchInput" placeholder="Пошук книг (автор, назва, видавництво)..." style="width: 100%; padding: 8px;">
+  </div>
+
+  <div class="year-filter">
+    <label for="yearSelect">Фільтр за роком:</label>
+    <select id="yearSelect" onchange="filterByYear()">
+      <option value="">Усі роки</option>
+    </select>
+  </div>
+
+  <div class="alphabet">
+   
+    <div class="alphabet-row">
+      <!-- Автоматичне створення літер -->
+      <script>
+        const ukr = "АБВГҐДЕЄЖЗИІЇЙКЛМНОПРСТУФХЦЧШЩЬЮЯ";
+        const eng = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        document.write([...ukr].map(l => `<span onclick=\"filterByLetter('${l}')\">${l}</span>`).join(''));
+        document.write('<br>');
+        document.write([...eng].map(l => `<span onclick=\"filterByLetter('${l}')\">${l}</span>`).join(''));
+      </script>
+    </div>
+  </div>
+
+  <div class="author-list" id="authorList"></div>
+  <div class="book-list" id="bookList"></div>
+
+  <script>
+    let books = [];
+
+    async function loadBooks() {
+      const res = await fetch('books.json');
+      books = await res.json();
+      populateYears();
+      renderBooks(books);
+    }
+
+    function populateYears() {
+      const years = [...new Set(books.map(b => b.year))].sort((a,b)=>b-a);
+      const yearSelect = document.getElementById('yearSelect');
+      years.forEach(y => {
+        const opt = document.createElement('option');
+        opt.value = y;
+        opt.textContent = y;
+        yearSelect.appendChild(opt);
+      });
+    }
+
+    document.getElementById('searchInput').addEventListener('input', function(e) {
+      const term = e.target.value.toLowerCase();
+      const results = books.filter(b =>
+        b.title.toLowerCase().includes(term) ||
+        b.author.toLowerCase().includes(term) ||
+        b.publisher.toLowerCase().includes(term)
+      );
+      renderBooks(results);
+    });
+
+    function filterByYear() {
+      const selectedYear = document.getElementById('yearSelect').value;
+      const filtered = selectedYear ? books.filter(b => b.year == selectedYear) : books;
+      renderBooks(filtered);
+    }
+
+    function filterByLetter(letter) {
+      const authors = [...new Set(books.map(b => b.author).filter(a => a.toUpperCase().startsWith(letter)))];
+      document.getElementById('bookList').innerHTML = '';
+      document.getElementById('authorList').innerHTML = '<h3>Автори на літеру "' + letter + '":</h3>' +
+        authors.map(a => `<div onclick="showBooksByAuthor('${a}')" style="cursor:pointer; color:#2980b9">${a}</div>`).join('');
+    }
+
+    function showBooksByAuthor(author) {
+      const results = books.filter(b => b.author === author);
+      renderBooks(results);
+    }
+
+    function renderBooks(list) {
+      document.getElementById('authorList').innerHTML = '';
+      document.getElementById('bookList').innerHTML = list.map(b => `
+        <div class="book">
+          <img src="${b.image || 'https://via.placeholder.com/80x120?text=Книга'}" alt="${b.title}">
+          <div>
+            <strong>${b.title}</strong><br>
+            Автор: ${b.author}<br>
+            Видавництво: ${b.publisher}, ${b.year}
+          </div>
+        </div>
+      `).join('');
+    }
+
+    loadBooks();
+  </script>
+</body>
+</html>
