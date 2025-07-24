@@ -7,13 +7,15 @@
   <style>
     body { font-family: Arial, sans-serif; background: #f2f2f2; padding: 1rem; }
     h1 { color: #2c3e50; }
-    .search-bar, .year-filter { margin-bottom: 1rem; }
+    .search-bar, .year-filter, .genre-filter, .language-filter { margin-bottom: 1rem; }
     .alphabet { margin: 1rem 0; display: flex; flex-wrap: wrap; gap: 4px; }
-    .alphabet-row { margin-bottom: 0.5rem; }
     .alphabet span { cursor: pointer; margin: 0 4px; font-weight: bold; }
-    .book-list, .author-list { margin-top: 1rem; }
+    .alphabet span.active { color: white; background-color: #2980b9; padding: 2px 6px; border-radius: 4px; }
+    .book-list, .author-list, .pagination { margin-top: 1rem; }
     .book { background: #fff; padding: 1rem; margin-bottom: 0.5rem; border-radius: 5px; display: flex; gap: 1rem; }
     .book img { width: 80px; height: auto; object-fit: cover; }
+    .pagination button { margin: 2px; padding: 4px 8px; cursor: pointer; }
+    .pagination button.active { background-color: #2980b9; color: white; border: none; }
   </style>
 </head>
 <body>
@@ -25,91 +27,150 @@
 
   <div class="year-filter">
     <label for="yearSelect">Фільтр за роком:</label>
-    <select id="yearSelect" onchange="filterByYear()">
+    <select id="yearSelect" onchange="applyFilters()">
       <option value="">Усі роки</option>
     </select>
   </div>
 
-  <div class="alphabet">
-   
-    <div class="alphabet-row">
-      <!-- Автоматичне створення літер -->
-      <script>
-        const ukr = "АБВГҐДЕЄЖЗИІЇЙКЛМНОПРСТУФХЦЧШЩЬЮЯ";
-        const eng = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-        document.write([...ukr].map(l => `<span onclick=\"filterByLetter('${l}')\">${l}</span>`).join(''));
-        document.write('<br>');
-        document.write([...eng].map(l => `<span onclick=\"filterByLetter('${l}')\">${l}</span>`).join(''));
-      </script>
-    </div>
+  <div class="genre-filter">
+    <label for="genreSelect">Жанр:</label>
+    <select id="genreSelect" onchange="applyFilters()">
+      <option value="">Усі жанри</option>
+    </select>
   </div>
+
+  <div class="language-filter">
+    <label for="languageSelect">Мова:</label>
+    <select id="languageSelect" onchange="applyFilters()">
+      <option value="">Усі мови</option>
+    </select>
+  </div>
+
+  <div class="alphabet" id="alphabet"></div>
 
   <div class="author-list" id="authorList"></div>
   <div class="book-list" id="bookList"></div>
+  <div class="pagination" id="pagination"></div>
 
   <script>
     let books = [];
+    let currentPage = 1;
+    const booksPerPage = 10;
+    let filteredBooks = [];
+    let activeLetter = '';
 
     async function loadBooks() {
       const res = await fetch('books.json');
       books = await res.json();
-      populateYears();
-      renderBooks(books);
+      populateFilters();
+      buildAlphabet();
+      applyFilters();
     }
 
-    function populateYears() {
+    function populateFilters() {
       const years = [...new Set(books.map(b => b.year))].sort((a,b)=>b-a);
+      const genres = [...new Set(books.map(b => b.genre).filter(Boolean))].sort();
+      const languages = [...new Set(books.map(b => b.language).filter(Boolean))].sort();
+
       const yearSelect = document.getElementById('yearSelect');
-      years.forEach(y => {
-        const opt = document.createElement('option');
-        opt.value = y;
-        opt.textContent = y;
-        yearSelect.appendChild(opt);
+      years.forEach(y => yearSelect.innerHTML += `<option value="${y}">${y}</option>`);
+
+      const genreSelect = document.getElementById('genreSelect');
+      genres.forEach(g => genreSelect.innerHTML += `<option value="${g}">${g}</option>`);
+
+      const languageSelect = document.getElementById('languageSelect');
+      languages.forEach(l => languageSelect.innerHTML += `<option value="${l}">${l}</option>`);
+    }
+
+    function buildAlphabet() {
+      const ukr = "АБВГҐДЕЄЖЗИІЇЙКЛМНОПРСТУФХЦЧШЩЬЮЯ";
+      const eng = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+      const container = document.getElementById('alphabet');
+      [...ukr + eng].forEach(letter => {
+        const span = document.createElement('span');
+        span.textContent = letter;
+        span.onclick = () => filterByLetter(letter, span);
+        container.appendChild(span);
       });
     }
 
-    document.getElementById('searchInput').addEventListener('input', function(e) {
-      const term = e.target.value.toLowerCase();
-      const results = books.filter(b =>
-        b.title.toLowerCase().includes(term) ||
-        b.author.toLowerCase().includes(term) ||
-        b.publisher.toLowerCase().includes(term)
-      );
-      renderBooks(results);
-    });
+    function filterByLetter(letter, span) {
+      activeLetter = letter;
+      document.querySelectorAll('.alphabet span').forEach(s => s.classList.remove('active'));
+      span.classList.add('active');
 
-    function filterByYear() {
-      const selectedYear = document.getElementById('yearSelect').value;
-      const filtered = selectedYear ? books.filter(b => b.year == selectedYear) : books;
-      renderBooks(filtered);
-    }
-
-    function filterByLetter(letter) {
-      const authors = [...new Set(books.map(b => b.author).filter(a => a.toUpperCase().startsWith(letter)))];
+      const allAuthors = books.flatMap(b => Array.isArray(b.authors) ? b.authors : [b.author]);
+      const authors = [...new Set(allAuthors.filter(a => a.toUpperCase().startsWith(letter)))];
       document.getElementById('bookList').innerHTML = '';
+      document.getElementById('pagination').innerHTML = '';
       document.getElementById('authorList').innerHTML = '<h3>Автори на літеру "' + letter + '":</h3>' +
         authors.map(a => `<div onclick="showBooksByAuthor('${a}')" style="cursor:pointer; color:#2980b9">${a}</div>`).join('');
     }
 
     function showBooksByAuthor(author) {
-      const results = books.filter(b => b.author === author);
-      renderBooks(results);
+      filteredBooks = books.filter(b => (Array.isArray(b.authors) ? b.authors.includes(author) : b.author === author));
+      currentPage = 1;
+      renderBooks();
     }
 
-    function renderBooks(list) {
+    function applyFilters() {
+      const term = document.getElementById('searchInput').value.toLowerCase();
+      const year = document.getElementById('yearSelect').value;
+      const genre = document.getElementById('genreSelect').value;
+      const language = document.getElementById('languageSelect').value;
+
+      filteredBooks = books.filter(b => {
+        const authorText = Array.isArray(b.authors) ? b.authors.join(', ').toLowerCase() : b.author.toLowerCase();
+        return (
+          b.title.toLowerCase().includes(term) &&
+          authorText.includes(term) &&
+          b.publisher.toLowerCase().includes(term) &&
+          (!year || b.year == year) &&
+          (!genre || b.genre === genre) &&
+          (!language || b.language === language)
+        );
+      });
+      currentPage = 1;
+      renderBooks();
+    }
+
+    function renderBooks() {
       document.getElementById('authorList').innerHTML = '';
-      document.getElementById('bookList').innerHTML = list.map(b => `
+      const bookList = document.getElementById('bookList');
+      const pagination = document.getElementById('pagination');
+
+      const start = (currentPage - 1) * booksPerPage;
+      const end = start + booksPerPage;
+      const paginatedBooks = filteredBooks.slice(start, end);
+
+      bookList.innerHTML = paginatedBooks.map(b => {
+        const authorDisplay = Array.isArray(b.authors) ? b.authors.join(', ') : b.author;
+        return `
         <div class="book">
           <img src="${b.image || 'https://via.placeholder.com/80x120?text=Книга'}" alt="${b.title}">
           <div>
             <strong>${b.title}</strong><br>
-            Автор: ${b.author}<br>
-            Видавництво: ${b.publisher}, ${b.year}
+            Автор(и): ${authorDisplay}<br>
+            Видавництво: ${b.publisher}, ${b.year}<br>
+            ${b.genre ? 'Жанр: ' + b.genre + '<br>' : ''}
+            ${b.language ? 'Мова: ' + b.language : ''}
           </div>
         </div>
-      `).join('');
+        `;
+      }).join('');
+
+      const totalPages = Math.ceil(filteredBooks.length / booksPerPage);
+      pagination.innerHTML = '';
+      for (let i = 1; i <= totalPages; i++) {
+        const btn = document.createElement('button');
+        btn.textContent = i;
+        btn.className = i === currentPage ? 'active' : '';
+        btn.onclick = () => { currentPage = i; renderBooks(); };
+        pagination.appendChild(btn);
+      }
     }
 
+    document.getElementById('searchInput').addEventListener('input', applyFilters);
     loadBooks();
   </script>
 </body>
