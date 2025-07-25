@@ -15,6 +15,20 @@
   <script>
     let jsonOutput = [];
 
+    function formatExcelDate(excelDate) {
+      if (typeof excelDate === 'number') {
+        const date = new Date((excelDate - 25569) * 86400 * 1000);
+        const year = date.getFullYear();
+        const month = (date.getMonth() + 1).toString().padStart(2, '0');
+        const day = date.getDate().toString().padStart(2, '0');
+        return `${year}-${month}-${day}`;
+      }
+      if (typeof excelDate === 'string') {
+        return excelDate; // already in correct format
+      }
+      return "";
+    }
+
     document.getElementById('inputFile').addEventListener('change', function (e) {
       const reader = new FileReader();
       reader.onload = function (e) {
@@ -35,7 +49,7 @@
             genre: row["genre"] ? row["genre"].split(',').map(g => g.trim()) : [],
             image: row["image"] || "",
             description: row["description"] || "",
-            added: row["added"] || ""
+            added: formatExcelDate(row["added"])
           };
         });
 
