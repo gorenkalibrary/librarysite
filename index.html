@@ -121,17 +121,29 @@
     }
 
     function filterByLetter(letter, span) {
-      activeLetter = letter;
-      document.querySelectorAll('.alphabet span').forEach(s => s.classList.remove('active'));
-      span.classList.add('active');
-      const allAuthors = books.flatMap(b => Array.isArray(b.authors) ? b.authors : [b.author]);
-      const authors = [...new Set(allAuthors.filter(a => a.toUpperCase().startsWith(letter)))].sort((a, b) => a.localeCompare(b));
-      document.getElementById('bookList').innerHTML = '';
-      document.getElementById('pagination').innerHTML = '';
-      document.getElementById('authorList').innerHTML = '<h3>Автори на літеру "' + letter + '":</h3>' +
-        authors.map(a => `<div onclick="showBooksByAuthor('${a}')" style="cursor:pointer; color:#2980b9">${a}</div>`).join('');
-      updateURLParams();
-    }
+  activeLetter = letter;
+  document.querySelectorAll('.alphabet span').forEach(s => s.classList.remove('active'));
+  span.classList.add('active');
+
+  const allAuthors = books.flatMap(b => Array.isArray(b.authors) ? b.authors : [b.author]);
+  const authors = [...new Set(allAuthors.filter(a => a.toUpperCase().startsWith(letter)))].sort((a, b) => a.localeCompare(b));
+
+  document.getElementById('bookList').innerHTML = '';
+  document.getElementById('pagination').innerHTML = '';
+  document.getElementById('authorList').innerHTML = '<h3>Автори на літеру "' + letter + '":</h3>' +
+    authors.map(a => `<div onclick="showBooksByAuthor('${a}')" style="cursor:pointer; color:#2980b9">${a}</div>`).join('');
+
+  // ОНОВЛЕНЕ: показує всі книги авторів на цю літеру одразу
+  filteredBooks = books.filter(b => {
+    const bAuthors = Array.isArray(b.authors) ? b.authors : [b.author];
+    return bAuthors.some(a => a.toUpperCase().startsWith(letter));
+  });
+  currentPage = 1;
+  renderBooks();
+
+  updateURLParams();
+}
+
 
     function showBooksByAuthor(author) {
       filteredBooks = books.filter(b => (Array.isArray(b.authors) ? b.authors.includes(author) : b.author === author));
