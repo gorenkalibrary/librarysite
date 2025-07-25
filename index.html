@@ -17,61 +17,11 @@
     .book img { width: 80px; height: auto; object-fit: cover; }
     .pagination button { margin: 2px; padding: 4px 8px; cursor: pointer; }
     .pagination button.active { background-color: #2980b9; color: white; border: none; }
+    .annotation { background: #eef; padding: 8px; margin-top: 5px; border-left: 4px solid #2980b9; border-radius: 4px; display: none; }
     @media (max-width: 600px) {
       .book { flex-direction: column; align-items: center; text-align: center; }
       .book img { width: 120px; }
     }
- h1 {
-      text-align: center;
-      font-size: 2rem;
-      padding: 0.5rem;
-      background: #ecf0f1;
-      border-radius: 10px;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    }
-
-    .book {
-      display: grid;
-      grid-template-columns: 80px 1fr;
-      gap: 1rem;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-      transition: transform 0.2s ease;
-    }
-
-    .book:hover {
-      transform: scale(1.02);
-    }
-
-    body {
-      background: #fafafa;
-      color: #2c3e50;
-    }
-
-    .alphabet {
-      position: sticky;
-      top: 0;
-      background: #fff;
-      padding: 0.5rem 0;
-      z-index: 10;
-    }
-
-    .tag {
-      display: inline-block;
-      background: #dff0d8;
-      color: #3c763d;
-      padding: 2px 6px;
-      font-size: 0.8rem;
-      border-radius: 4px;
-    }
-
-    @media (max-width: 600px) {
-      select {
-        width: 100%;
-        padding: 8px;
-        margin-top: 4px;
-      }
-    }
-
   </style>
 </head>
 <body>
@@ -181,31 +131,26 @@
     }
 
     function applyFilters() {
-  const term = document.getElementById('searchInput').value.toLowerCase();
-  const year = document.getElementById('yearSelect').value;
-  const genre = document.getElementById('genreSelect').value;
-  const language = document.getElementById('languageSelect').value;
+      const term = document.getElementById('searchInput').value.toLowerCase();
+      const year = document.getElementById('yearSelect').value;
+      const genre = document.getElementById('genreSelect').value;
+      const language = document.getElementById('languageSelect').value;
 
-  filteredBooks = books.filter(b => {
-    const authorText = Array.isArray(b.authors) ? b.authors.join(', ').toLowerCase() : b.author.toLowerCase();
-    
-    const matchesSearch = !term || (
-      b.title.toLowerCase().includes(term) ||
-      authorText.includes(term) ||
-      b.publisher.toLowerCase().includes(term)
-    );
-
-    const matchesYear = !year || b.year == year;
-    const matchesGenre = !genre || b.genre === genre;
-    const matchesLanguage = !language || b.language === language;
-
-    return matchesSearch && matchesYear && matchesGenre && matchesLanguage;
-  });
-
-  currentPage = 1;
-  renderBooks();
-  updateURLParams();
-}
+      filteredBooks = books.filter(b => {
+        const authorText = Array.isArray(b.authors) ? b.authors.join(', ').toLowerCase() : b.author.toLowerCase();
+        return (
+          b.title.toLowerCase().includes(term) &&
+          authorText.includes(term) &&
+          b.publisher.toLowerCase().includes(term) &&
+          (!year || b.year == year) &&
+          (!genre || b.genre === genre) &&
+          (!language || b.language === language)
+        );
+      });
+      currentPage = 1;
+      renderBooks();
+      updateURLParams();
+    }
 
     function renderBooks() {
       document.getElementById('authorList').innerHTML = '';
@@ -218,6 +163,10 @@
 
       bookList.innerHTML = paginatedBooks.map(b => {
         const authorDisplay = Array.isArray(b.authors) ? b.authors.join(', ') : b.author;
+        const annotationId = 'desc_' + Math.random().toString(36).substr(2, 9);
+        const annotationLink = b.description ? `<a href="#" onclick="toggleAnnotation('${annotationId}'); return false;">Аннотація</a><br>` : '';
+        const annotationBlock = b.description ? `<div id="${annotationId}" class="annotation">${b.description}</div>` : '';
+
         return `
         <div class="book">
           <img src="${b.image || 'https://via.placeholder.com/80x120?text=Книга'}" alt="${b.title}">
@@ -225,8 +174,10 @@
             <strong>${b.title}</strong><br>
             Автор(и): ${authorDisplay}<br>
             Видавництво: ${b.publisher}, ${b.year}<br>
-            ${b.genre ? '<span class="tag">' + b.genre + '</span><br>' : ''}
-            ${b.language ? 'Мова: ' + b.language : ''}
+            ${b.genre ? 'Жанр: ' + b.genre + '<br>' : ''}
+            ${b.language ? 'Мова: ' + b.language + '<br>' : ''}
+            ${annotationLink}
+            ${annotationBlock}
           </div>
         </div>
         `;
@@ -240,6 +191,13 @@
         btn.className = i === currentPage ? 'active' : '';
         btn.onclick = () => { currentPage = i; renderBooks(); };
         pagination.appendChild(btn);
+      }
+    }
+
+    function toggleAnnotation(id) {
+      const el = document.getElementById(id);
+      if (el) {
+        el.style.display = (el.style.display === 'none') ? 'block' : 'none';
       }
     }
 
