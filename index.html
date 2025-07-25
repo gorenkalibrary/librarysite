@@ -18,8 +18,8 @@
     .pagination button { margin: 2px; padding: 4px 8px; cursor: pointer; }
     .pagination button.active { background-color: #2980b9; color: white; border: none; }
     .annotation { background: #eef; padding: 8px; margin-top: 5px; border-left: 4px solid #2980b9; border-radius: 4px; display: none; }
-    .badge-new { background-color: #27ae60; color: white; padding: 2px 6px; border-radius: 4px; font-size: 0.75rem; margin-left: 6px; }
-    .badge-genre { background-color: #3498db; color: white; padding: 2px 6px; border-radius: 4px; font-size: 0.75rem; margin-left: 6px; }
+    .badge-new { background-color: #2ecc71; color: white; padding: 2px 6px; border-radius: 4px; font-size: 0.75rem; margin-left: 6px; display: inline-block; }
+    .badge-genre { background-color: #3498db; color: white; padding: 2px 6px; border-radius: 4px; font-size: 0.75rem; margin-left: 6px; display: inline-block; }
     @media (max-width: 600px) {
       .book { flex-direction: column; align-items: center; text-align: center; }
       .book img { width: 120px; }
@@ -71,25 +71,23 @@
     let activeLetter = '';
 
     async function loadBooks() {
-  const res = await fetch('books.json');
-  books = await res.json();
+      const res = await fetch('books.json');
+      books = await res.json();
 
-  books.sort((a, b) => {
-    const dateA = new Date(a.added || '2000-01-01');
-    const dateB = new Date(b.added || '2000-01-01');
-    return dateB - dateA;
-  });
+      books.sort((a, b) => {
+        const dateA = new Date(a.added || '2000-01-01');
+        const dateB = new Date(b.added || '2000-01-01');
+        return dateB - dateA;
+      });
 
-  populateFilters();
-  buildAlphabet();
+      populateFilters();
+      buildAlphabet();
 
-  // Чекаємо поки alphabet збудована, потім викликаємо URL-фільтри
-  setTimeout(() => {
-    readURLParams();
-    if (!activeLetter) applyFilters();
-  }, 0);
-}
-
+      setTimeout(() => {
+        readURLParams();
+        if (!activeLetter) applyFilters();
+      }, 0);
+    }
 
     function populateFilters() {
       const years = [...new Set(books.map(b => b.year))].sort((a,b)=>b-a);
@@ -126,29 +124,17 @@
     }
 
     function filterByLetter(letter, span) {
-  activeLetter = letter;
-  document.querySelectorAll('.alphabet span').forEach(s => s.classList.remove('active'));
-  span.classList.add('active');
-
-  const allAuthors = books.flatMap(b => Array.isArray(b.authors) ? b.authors : [b.author]);
-  const authors = [...new Set(allAuthors.filter(a => a.toUpperCase().startsWith(letter)))].sort((a, b) => a.localeCompare(b));
-
-  document.getElementById('bookList').innerHTML = '';
-  document.getElementById('pagination').innerHTML = '';
-  document.getElementById('authorList').innerHTML = '<h3>Автори на літеру "' + letter + '":</h3>' +
-    authors.map(a => `<div onclick="showBooksByAuthor('${a}')" style="cursor:pointer; color:#2980b9">${a}</div>`).join('');
-
-  // ОНОВЛЕНЕ: показує всі книги авторів на цю літеру одразу
-  filteredBooks = books.filter(b => {
-    const bAuthors = Array.isArray(b.authors) ? b.authors : [b.author];
-    return bAuthors.some(a => a.toUpperCase().startsWith(letter));
-  });
-  currentPage = 1;
-  renderBooks();
-
-  updateURLParams();
-}
-
+      activeLetter = letter;
+      document.querySelectorAll('.alphabet span').forEach(s => s.classList.remove('active'));
+      span.classList.add('active');
+      const allAuthors = books.flatMap(b => Array.isArray(b.authors) ? b.authors : [b.author]);
+      const authors = [...new Set(allAuthors.filter(a => a.toUpperCase().startsWith(letter)))];
+      document.getElementById('bookList').innerHTML = '';
+      document.getElementById('pagination').innerHTML = '';
+      document.getElementById('authorList').innerHTML = '<h3>Автори на літеру "' + letter + '":</h3>' +
+        authors.map(a => `<div onclick="showBooksByAuthor('${a}')" style="cursor:pointer; color:#2980b9">${a}</div>`).join('');
+      updateURLParams();
+    }
 
     function showBooksByAuthor(author) {
       filteredBooks = books.filter(b => (Array.isArray(b.authors) ? b.authors.includes(author) : b.author === author));
@@ -242,31 +228,17 @@
     }
 
     function readURLParams() {
-  const params = new URLSearchParams(window.location.search);
-  document.getElementById('searchInput').value = params.get('search') || '';
-  document.getElementById('yearSelect').value = params.get('year') || '';
-  document.getElementById('genreSelect').value = params.get('genre') || '';
-  document.getElementById('languageSelect').value = params.get('language') || '';
-  activeLetter = params.get('letter') || '';
-
-  if (activeLetter) {
-    const letterSpan = [...document.querySelectorAll('.alphabet span')].find(s => s.textContent === activeLetter);
-    if (letterSpan) {
-      filterByLetter(activeLetter, letterSpan);
-
-      // Додати автоматичний вибір першого автора на цю літеру
-      const allAuthors = books.flatMap(b => Array.isArray(b.authors) ? b.authors : [b.author]);
-      const authors = [...new Set(allAuthors.filter(a => a.toUpperCase().startsWith(activeLetter)))].sort((a, b) => a.localeCompare(b));
-      if (authors.length > 0) {
-        showBooksByAuthor(authors[0]); // показати книги для першого автора
+      const params = new URLSearchParams(window.location.search);
+      document.getElementById('searchInput').value = params.get('search') || '';
+      document.getElementById('yearSelect').value = params.get('year') || '';
+      document.getElementById('genreSelect').value = params.get('genre') || '';
+      document.getElementById('languageSelect').value = params.get('language') || '';
+      activeLetter = params.get('letter') || '';
+      if (activeLetter) {
+        const letterSpan = [...document.querySelectorAll('.alphabet span')].find(s => s.textContent === activeLetter);
+        if (letterSpan) filterByLetter(activeLetter, letterSpan);
       }
     }
-  } else {
-    applyFilters(); // якщо немає фільтру по літері
-  }
-}
-
-
 
     document.getElementById('searchInput').addEventListener('input', applyFilters);
     loadBooks();
