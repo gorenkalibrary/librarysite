@@ -128,7 +128,7 @@
       document.querySelectorAll('.alphabet span').forEach(s => s.classList.remove('active'));
       span.classList.add('active');
       const allAuthors = books.flatMap(b => Array.isArray(b.authors) ? b.authors : [b.author]);
-      const authors = [...new Set(allAuthors.filter(a => a.toUpperCase().startsWith(letter)))];
+      const authors = [...new Set(allAuthors.filter(a => a.toUpperCase().startsWith(letter)))].sort((a, b) =>  a.localeCompare(b, 'uk', { sensitivity: 'base' }));
       document.getElementById('bookList').innerHTML = '';
       document.getElementById('pagination').innerHTML = '';
       document.getElementById('authorList').innerHTML = '<h3>Автори на літеру "' + letter + '":</h3>' +
