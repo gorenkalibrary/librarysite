@@ -155,7 +155,7 @@
           authorText.includes(term) ||
           b.publisher.toLowerCase().includes(term)) &&
           (!year || b.year == year) &&
-          (!genre || b.genre === genre) &&
+          (!genre || (Array.isArray(b.genre) ? b.genre.includes(genre) : b.genre === genre)) &&
           (!language || b.language === language)
         );
       });
@@ -168,7 +168,6 @@
       document.getElementById('authorList').innerHTML = '';
       const bookList = document.getElementById('bookList');
       const pagination = document.getElementById('pagination');
-
       const start = (currentPage - 1) * booksPerPage;
       const end = start + booksPerPage;
       const paginatedBooks = filteredBooks.slice(start, end);
@@ -180,7 +179,8 @@
         const annotationBlock = b.description ? `<div id="${annotationId}" class="annotation">${b.description}</div>` : '';
         const isNew = b.added && (new Date() - new Date(b.added)) < 1000 * 60 * 60 * 24 * 30;
         const newBadge = isNew ? '<span class="badge-new">Нове надходження</span>' : '';
-        const genreBadge = b.genre ? `<span class="badge-genre">${b.genre}</span>` : '';
+        const genreBadge = b.genre ? (Array.isArray(b.genre)      ? b.genre.map(g => `<span class="badge-genre">${g}</span>`).join(' ')       : `<span class="badge-genre">${b.genre}</span>`)   : '';
+
 
         return `
         <div class="book">
