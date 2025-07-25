@@ -21,8 +21,8 @@
     "year": "2011",
     "language": "Українська",
     "genre": [
-      "наукова фантастика",
-      "гумор"
+      "Наукова фантастика",
+      "Гумор"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -35,11 +35,11 @@
     "year": "2015",
     "language": "Українська",
     "genre": [
-      "наукова фантастика"
+      "Наукова фантастика"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-08-25"
+    "added": "2025-07-24"
   },
   {
     "title": "Небезпечні мандри",
@@ -48,8 +48,8 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "наукова фантастика",
-      "трилер"
+      "Наукова фантастика",
+      "Трилер"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -88,7 +88,7 @@
     "year": "2003",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -114,7 +114,8 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "філософський роман"
+      "Роман",
+      "Філософія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -153,7 +154,8 @@
     "year": "2014",
     "language": "Українська",
     "genre": [
-      "історичний роман"
+      "Роман",
+      "Історія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -166,7 +168,7 @@
     "year": "2003",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -179,7 +181,7 @@
     "year": "1999",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -192,7 +194,7 @@
     "year": "1997",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -205,7 +207,8 @@
     "year": "1997",
     "language": "Українська",
     "genre": [
-      "Історичний роман"
+      "Роман",
+      "Історія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -257,7 +260,7 @@
     "year": "1980",
     "language": "Українська",
     "genre": [
-      "поезія"
+      "Поезія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -270,8 +273,8 @@
     "year": "2009",
     "language": "Українська",
     "genre": [
-      "Фентезі",
-      "дитяча література"
+      "Дитяча література",
+      "Фентезі"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -284,7 +287,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -310,7 +313,8 @@
     "year": "2015",
     "language": "Українська",
     "genre": [
-      "Пригодницький роман"
+      "Роман",
+      "Пригоди"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -323,7 +327,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "драматургія"
+      "Драматургія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -336,7 +340,8 @@
     "year": "2015",
     "language": "Українська",
     "genre": [
-      "роман-епопея"
+      "Роман",
+      "Епопея"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -349,7 +354,7 @@
     "year": "1960",
     "language": "Українська",
     "genre": [
-      "поезія"
+      "Поезія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -375,7 +380,8 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "історичний роман"
+      "Роман",
+      "Історія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -388,7 +394,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "наукова фантастика"
+      "Наукова фантастика"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -401,7 +407,7 @@
     "year": "1944",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -414,7 +420,8 @@
     "year": "2008",
     "language": "Українська",
     "genre": [
-      "історичний роман"
+      "Роман",
+      "Історія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -427,7 +434,7 @@
     "year": "2012",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -440,7 +447,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "теорія літератури"
+      "Теорія літератури"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -466,7 +473,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -479,7 +486,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -492,7 +499,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -505,7 +512,8 @@
     "year": "2000",
     "language": "Українська",
     "genre": [
-      "антиутопія"
+      "Роман",
+      "Антиутопія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -531,7 +539,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -557,7 +565,7 @@
     "year": "2007",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -570,7 +578,8 @@
     "year": "2006",
     "language": "Українська",
     "genre": [
-      "Історичний роман"
+      "Роман",
+      "Історія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -609,7 +618,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "коротка проза / есеї"
+      "коротка Проза / есеї"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -622,7 +631,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -635,7 +644,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "наукова фантастика"
+      "Наукова фантастика"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -648,7 +657,8 @@
     "year": "2012",
     "language": "Українська",
     "genre": [
-      "антиутопія"
+      "Роман",
+      "Антиутопія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -674,7 +684,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "драма"
+      "Драма"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -687,7 +697,8 @@
     "year": "2024",
     "language": "Українська",
     "genre": [
-      "готичний роман / психологічна проза"
+      "Роман",
+      "Готика"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -700,7 +711,9 @@
     "year": "2024",
     "language": "Українська",
     "genre": [
-      "готичний роман / жіночий роман"
+      "Роман",
+      "Жіночий роман",
+      "Готика"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -713,7 +726,7 @@
     "year": "1847",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -726,7 +739,8 @@
     "year": "2012",
     "language": "Українська",
     "genre": [
-      "дитяча класика"
+      "Дитяча література",
+      "Класика"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -739,7 +753,8 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "пригодницький роман"
+      "Роман",
+      "Пригоди"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -752,7 +767,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -778,7 +793,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "наукова фантастика"
+      "Наукова фантастика"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -791,7 +806,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "повість"
+      "Повість"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -830,7 +845,7 @@
     "year": "1957",
     "language": "Українська",
     "genre": [
-      "роман-психологізм"
+      "Роман-психологізм"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -843,7 +858,7 @@
     "year": "2009",
     "language": "Українська",
     "genre": [
-      "проза"
+      "Проза"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -869,7 +884,8 @@
     "year": "2003",
     "language": "Українська",
     "genre": [
-      "історичний роман"
+      "Роман",
+      "Історія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -882,7 +898,8 @@
     "year": "1983",
     "language": "Українська",
     "genre": [
-      "гумористичні новели"
+      "Новела",
+      "Гумор"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -895,8 +912,8 @@
     "year": "2002",
     "language": "Українська",
     "genre": [
-      "автобіографічна проза",
-      "мемуаристика"
+      "Автобіографія",
+      "Мемуари"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -935,7 +952,7 @@
     "year": "1970",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -961,7 +978,7 @@
     "year": "2003",
     "language": "Українська",
     "genre": [
-      "поезія / лірика"
+      "Поезія / лірика"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -974,7 +991,7 @@
     "year": "2001",
     "language": "Українська",
     "genre": [
-      "поезія / лірика"
+      "Поезія / лірика"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -987,7 +1004,7 @@
     "year": "2005",
     "language": "Українська",
     "genre": [
-      "поезія / лірика"
+      "Поезія / лірика"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -1013,7 +1030,7 @@
     "year": "1978",
     "language": "Українська",
     "genre": [
-      "поезія"
+      "Поезія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -1026,7 +1043,7 @@
     "year": "1966",
     "language": "Українська",
     "genre": [
-      "поезія"
+      "Поезія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -1039,7 +1056,7 @@
     "year": "1987",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -1052,7 +1069,8 @@
     "year": "2009",
     "language": "Українська",
     "genre": [
-      "автобіографічний роман"
+      "Автобіографія",
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -1078,7 +1096,7 @@
     "year": "1928",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -1091,7 +1109,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -1104,7 +1122,7 @@
     "year": "1988",
     "language": "Українська",
     "genre": [
-      "повість"
+      "Повість"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -1117,8 +1135,8 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "роман",
-      "історична проза"
+      "Роман",
+      "Історія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -1131,7 +1149,8 @@
     "year": "2010",
     "language": "Українська",
     "genre": [
-      "сатиричний роман"
+      "Роман",
+      "Сатира"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -1144,7 +1163,7 @@
     "year": "2016",
     "language": "Українська",
     "genre": [
-      "поезія"
+      "Поезія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -1183,7 +1202,8 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "гумористичний роман"
+      "Роман",
+      "Гумор"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -1196,7 +1216,8 @@
     "year": "1927",
     "language": "Українська",
     "genre": [
-      "модерністський роман"
+      "Роман",
+      "Модерн"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -1209,7 +1230,8 @@
     "year": "1925",
     "language": "Українська",
     "genre": [
-      "модерністський роман"
+      "Роман",
+      "Модерн"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -1222,7 +1244,7 @@
     "year": "1931",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -1235,7 +1257,7 @@
     "year": "2015",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -1274,7 +1296,8 @@
     "year": "2014",
     "language": "Українська",
     "genre": [
-      "антиутопія"
+      "Роман",
+      "Антиутопія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -1301,7 +1324,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -1314,7 +1337,7 @@
     "year": "2018",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -1327,7 +1350,7 @@
     "year": "2017",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -1340,7 +1363,7 @@
     "year": "1928",
     "language": "Українська",
     "genre": [
-      "поезія"
+      "Поезія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -1353,7 +1376,7 @@
     "year": "2009",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -1366,7 +1389,7 @@
     "year": "2011",
     "language": "Українська",
     "genre": [
-      "повість"
+      "Повість"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -1379,7 +1402,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "поезія"
+      "Поезія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -1392,7 +1415,7 @@
     "year": "2011",
     "language": "Українська",
     "genre": [
-      "наукова фантастика"
+      "Наукова фантастика"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -1405,7 +1428,8 @@
     "year": "2007",
     "language": "Українська",
     "genre": [
-      "філософський роман"
+      "Роман",
+      "Філософія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -1431,7 +1455,7 @@
     "year": "1932",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -1444,7 +1468,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -1457,8 +1481,8 @@
     "year": "2016",
     "language": "Українська",
     "genre": [
-      "дитяча література",
-      "класика"
+      "Дитяча література",
+      "Класика"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -1471,7 +1495,7 @@
     "year": "2004",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -1484,7 +1508,7 @@
     "year": "2012",
     "language": "Українська",
     "genre": [
-      "поезія"
+      "Поезія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -1497,7 +1521,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -1510,7 +1534,7 @@
     "year": "2012",
     "language": "Українська",
     "genre": [
-      "дитяча література"
+      "Дитяча література"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -1575,7 +1599,7 @@
     "year": "1951",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -1588,7 +1612,8 @@
     "year": "1938",
     "language": "Українська",
     "genre": [
-      "кримінальний роман"
+      "Роман",
+      "Кримінал"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -1601,7 +1626,7 @@
     "year": "1966",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -1640,7 +1665,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -1653,8 +1678,7 @@
     "year": "2008",
     "language": "Українська",
     "genre": [
-      "роман",
-      "магічний реалізм"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -1667,8 +1691,7 @@
     "year": "2017",
     "language": "Українська",
     "genre": [
-      "магічний реалізм",
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -1681,7 +1704,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -1694,7 +1717,8 @@
     "year": "2014",
     "language": "Українська",
     "genre": [
-      "історичний роман"
+      "Роман",
+      "Історія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -1707,7 +1731,8 @@
     "year": "2015",
     "language": "Українська",
     "genre": [
-      "алегоричний роман"
+      "Роман",
+      "Алегорія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -1720,7 +1745,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -1733,7 +1758,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -1746,8 +1771,8 @@
     "year": "2013",
     "language": "Українська",
     "genre": [
-      "дитяча література",
-      "фантастика"
+      "Дитяча література",
+      "Фантастика"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -1761,7 +1786,7 @@
     "language": "Українська",
     "genre": [
       "Наукова фантастика",
-      "драма"
+      "Драма"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -1800,7 +1825,7 @@
     "year": "1722",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -1813,7 +1838,7 @@
     "year": "2010",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -1826,7 +1851,8 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "комікс / пригоди"
+      "Комікс",
+      "Пригоди"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -1839,7 +1865,8 @@
     "year": "1916",
     "language": "Українська",
     "genre": [
-      "Автобіографічний роман"
+      "Автобіографія",
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -1865,8 +1892,8 @@
     "year": "2006",
     "language": "Українська",
     "genre": [
-      "модернізм",
-      "роман"
+      "Роман",
+      "Модерн"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -1918,7 +1945,7 @@
     "year": "1985",
     "language": "Українська",
     "genre": [
-      "публіцистика"
+      "Публіцистика"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -1931,7 +1958,8 @@
     "year": "2023",
     "language": "Українська",
     "genre": [
-      "автобіографічний соціально‑побутовий роман"
+      "Автобіографія",
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -1944,7 +1972,7 @@
     "year": "2012",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -1970,8 +1998,8 @@
     "year": "1955",
     "language": "Українська",
     "genre": [
-      "нарис",
-      "спогади"
+      "Нарис",
+      "Спогади"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -1984,7 +2012,8 @@
     "year": "2018",
     "language": "Українська",
     "genre": [
-      "сатиричний роман"
+      "Роман",
+      "Сатира"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -1997,7 +2026,8 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "історичний роман"
+      "Роман",
+      "Історія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -2010,7 +2040,7 @@
     "year": "1969",
     "language": "Українська",
     "genre": [
-      "поезія"
+      "Поезія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -2023,7 +2053,7 @@
     "year": "1971",
     "language": "Українська",
     "genre": [
-      "поезія"
+      "Поезія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -2049,8 +2079,9 @@
     "year": "2014",
     "language": "Українська",
     "genre": [
-      "готичний роман",
-      "детектив"
+      "Роман",
+      "Готика",
+      "Детектив"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -2063,7 +2094,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -2102,7 +2133,8 @@
     "year": "2004",
     "language": "Українська",
     "genre": [
-      "історичний детектив"
+      "Детектив",
+      "Історія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -2115,7 +2147,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -2128,7 +2160,7 @@
     "year": 1871,
     "language": "Українська",
     "genre": [
-      "соціально‑психологічний роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -2141,7 +2173,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "поезія"
+      "Поезія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -2154,7 +2186,7 @@
     "year": "1954",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -2193,7 +2225,8 @@
     "year": "2014",
     "language": "Українська",
     "genre": [
-      "Антивоєнний роман"
+      "Роман",
+      "Антивоєнне"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -2206,7 +2239,8 @@
     "year": "2015",
     "language": "Українська",
     "genre": [
-      "антиутопія"
+      "Роман",
+      "Антиутопія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -2219,7 +2253,7 @@
     "year": "2004",
     "language": "Українська",
     "genre": [
-      "поезія"
+      "Поезія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -2232,7 +2266,7 @@
     "year": "2008",
     "language": "Українська",
     "genre": [
-      "поезія"
+      "Поезія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -2245,7 +2279,7 @@
     "year": "2010",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -2284,7 +2318,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -2297,7 +2331,7 @@
     "year": "2003",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -2310,7 +2344,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -2323,7 +2357,8 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "історичний роман"
+      "Роман",
+      "Історія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -2336,7 +2371,8 @@
     "year": "2004",
     "language": "Українська",
     "genre": [
-      "Алегоричний роман"
+      "Роман",
+      "Алегорія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -2349,7 +2385,7 @@
     "year": "2015",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -2362,7 +2398,9 @@
     "year": "2015",
     "language": "Українська",
     "genre": [
-      "сучасна проза / феміністичний роман"
+      "Проза",
+      "Модерн",
+      "Фемінізм"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -2375,7 +2413,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "публіцистика/есе"
+      "Публіцистика"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -2388,7 +2426,7 @@
     "year": "1987",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -2414,7 +2452,7 @@
     "year": "1930",
     "language": "Українська",
     "genre": [
-      "поезія"
+      "Поезія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -2440,7 +2478,8 @@
     "year": "2015",
     "language": "Українська",
     "genre": [
-      "історичний роман"
+      "Роман",
+      "Історія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -2453,7 +2492,7 @@
     "year": "2000",
     "language": "Українська",
     "genre": [
-      "експериментальний роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -2466,7 +2505,7 @@
     "year": "2005",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -2479,7 +2518,7 @@
     "year": "1989",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -2492,8 +2531,8 @@
     "year": "2010",
     "language": "Українська",
     "genre": [
-      "наукова фантастика",
-      "драма"
+      "Наукова фантастика",
+      "Драма"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -2506,7 +2545,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -2519,7 +2558,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -2545,7 +2584,7 @@
     "year": "1986",
     "language": "Українська",
     "genre": [
-      "поезія"
+      "Поезія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -2558,7 +2597,8 @@
     "year": "2013",
     "language": "Українська",
     "genre": [
-      "філософський роман"
+      "Роман",
+      "Філософія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -2571,8 +2611,8 @@
     "year": "2014",
     "language": "Українська",
     "genre": [
-      "роман",
-      "трилер"
+      "Роман",
+      "Трилер"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -2585,7 +2625,7 @@
     "year": "2013",
     "language": "Українська",
     "genre": [
-      "наукова фантастика"
+      "Наукова фантастика"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -2598,7 +2638,7 @@
     "year": "1983",
     "language": "Українська",
     "genre": [
-      "п’єса"
+      "П’єса"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -2611,8 +2651,7 @@
     "year": "2017",
     "language": "Українська",
     "genre": [
-      "новела",
-      "експресіонізм"
+      "Новела"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -2638,7 +2677,8 @@
     "year": "2012",
     "language": "Українська",
     "genre": [
-      "соціально‑побутова повість / гумореска"
+      "Повість",
+      "Гумореска"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -2651,7 +2691,8 @@
     "year": "2012",
     "language": "Українська",
     "genre": [
-      "повість‑романтик гумор / романтична проза"
+      "Проза",
+      "Гумор"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -2664,7 +2705,8 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "сатиричний роман"
+      "Роман",
+      "Сатира"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -2677,7 +2719,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -2690,8 +2732,8 @@
     "year": "2010",
     "language": "Українська",
     "genre": [
-      "фентезі",
-      "казка"
+      "Фентезі",
+      "Казка"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -2745,7 +2787,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "проза"
+      "Проза"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -2758,7 +2800,7 @@
     "year": "2011",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -2772,7 +2814,7 @@
     "language": "Українська",
     "genre": [
       "трилер",
-      "фантастика"
+      "Фантастика"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -2785,8 +2827,8 @@
     "year": "2013",
     "language": "Українська",
     "genre": [
-      "роман",
-      "екологічна проза"
+      "Роман",
+      "Екологія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -2799,7 +2841,7 @@
     "year": "2016",
     "language": "Українська",
     "genre": [
-      "документальна проза"
+      "документальна Проза"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -2838,7 +2880,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "драма"
+      "Драма"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -2851,7 +2893,7 @@
     "year": "2012",
     "language": "Українська",
     "genre": [
-      "проза"
+      "Проза"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -2864,7 +2906,8 @@
     "year": "2001",
     "language": "Українська",
     "genre": [
-      "філософський роман",
+      "Роман",
+      "Філософія",
       "пригоди"
     ],
     "image": "bookicon.png",
@@ -2878,7 +2921,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -2891,7 +2934,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "репортаж"
+      "Репортаж"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -2904,7 +2947,8 @@
     "year": "2015",
     "language": "Українська",
     "genre": [
-      "Пригодницький роман"
+      "Роман",
+      "Пригоди"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -2917,7 +2961,8 @@
     "year": "2016",
     "language": "Українська",
     "genre": [
-      "Пригодницький роман"
+      "Роман",
+      "Пригоди"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -2930,7 +2975,8 @@
     "year": "2014",
     "language": "Українська",
     "genre": [
-      "Пригодницький роман"
+      "Роман",
+      "Пригоди"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -2943,7 +2989,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -2956,7 +3002,8 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "готичний роман"
+      "Роман",
+      "Готика"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -2995,7 +3042,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -3008,7 +3055,7 @@
     "year": "2019",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -3047,7 +3094,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "поезія"
+      "Поезія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -3060,7 +3107,7 @@
     "year": "1984",
     "language": "Українська",
     "genre": [
-      "поезія"
+      "Поезія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -3073,7 +3120,8 @@
     "year": "1979",
     "language": "Українська",
     "genre": [
-      "історичний роман / лірико‑епічна проза"
+      "Роман",
+      "Історія / лірико‑епічна Проза"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -3099,7 +3147,7 @@
     "year": "1976",
     "language": "Українська",
     "genre": [
-      "поезія"
+      "Поезія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -3112,7 +3160,7 @@
     "year": "1992",
     "language": "Українська",
     "genre": [
-      "історична драма‑повість"
+      "історична Драма‑Повість"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -3139,7 +3187,7 @@
     "year": "2008",
     "language": "Українська",
     "genre": [
-      "соціально‑побутова п’єса / драма"
+      "соціально‑побутова П’єса / Драма"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -3191,7 +3239,7 @@
     "year": "2012",
     "language": "Українська",
     "genre": [
-      "повість",
+      "Повість",
       "модернізм"
     ],
     "image": "bookicon.png",
@@ -3218,7 +3266,7 @@
     "year": "1961",
     "language": "Українська",
     "genre": [
-      "драма"
+      "Драма"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -3231,7 +3279,8 @@
     "year": "1978",
     "language": "Українська",
     "genre": [
-      "історичний роман"
+      "Роман",
+      "Історія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -3244,7 +3293,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -3257,8 +3306,8 @@
     "year": "2006",
     "language": "Українська",
     "genre": [
-      "роман",
-      "філософський роман"
+      "Роман",
+      "Філософія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -3271,7 +3320,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -3285,7 +3334,7 @@
     "language": "Українська",
     "genre": [
       "Сатира",
-      "наукова фантастика"
+      "Наукова фантастика"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -3298,7 +3347,7 @@
     "year": "2016",
     "language": "Українська",
     "genre": [
-      "фантастика"
+      "Фантастика"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -3311,8 +3360,8 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "психологія",
-      "філософія"
+      "Психологія",
+      "Філософія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -3338,7 +3387,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -3351,7 +3400,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -3364,7 +3413,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -3377,8 +3426,9 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "мемуари",
-      "документальна проза"
+      "Проза",
+      "Мемуари",
+      "Документалістика"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -3404,7 +3454,7 @@
     "year": "1962",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -3417,7 +3467,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "автобіографія"
+      "Автобіографія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -3456,7 +3506,7 @@
     "year": "2003",
     "language": "Українська",
     "genre": [
-      "поезія"
+      "Поезія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -3469,7 +3519,7 @@
     "year": "2013",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -3482,7 +3532,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -3495,8 +3545,8 @@
     "year": "2019",
     "language": "Українська",
     "genre": [
-      "Автобіографічний роман",
-      "пригоди"
+      "Автобіографія",
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -3509,7 +3559,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -3522,7 +3572,7 @@
     "year": "2010",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -3535,7 +3585,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -3548,7 +3598,7 @@
     "year": "2014",
     "language": "Українська",
     "genre": [
-      "фентезі"
+      "Фентезі"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -3574,7 +3624,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "проза"
+      "Проза"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -3587,7 +3637,7 @@
     "year": "2016",
     "language": "Українська",
     "genre": [
-      "дитяча література"
+      "Дитяча література"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -3613,7 +3663,7 @@
     "year": 2000,
     "language": "Українська",
     "genre": [
-      "фентезі"
+      "Фентезі"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -3626,7 +3676,7 @@
     "year": "2003",
     "language": "Українська",
     "genre": [
-      "фентезі"
+      "Фентезі"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -3639,7 +3689,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "щоденник"
+      "Щоденник"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -3652,7 +3702,7 @@
     "year": "1999",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -3665,7 +3715,8 @@
     "year": "2013",
     "language": "Українська",
     "genre": [
-      "автобіографічний роман"
+      "Автобіографія",
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -3678,7 +3729,7 @@
     "year": "2013",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -3691,7 +3742,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "поезія"
+      "Поезія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -3704,7 +3755,8 @@
     "year": "2005",
     "language": "Українська",
     "genre": [
-      "Пригодницький роман"
+      "Роман",
+      "Пригоди"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -3730,7 +3782,8 @@
     "year": "2012",
     "language": "Українська",
     "genre": [
-      "дитяча казка"
+      "Дитяча література",
+      "Казка"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -3743,7 +3796,8 @@
     "year": "2013",
     "language": "Українська",
     "genre": [
-      "дитяча фантастика"
+      "Дитяча література",
+      "Фантастика"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -3756,7 +3810,7 @@
     "year": "2010",
     "language": "Українська",
     "genre": [
-      "проза"
+      "Проза"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -3769,7 +3823,7 @@
     "year": "2008",
     "language": "Українська",
     "genre": [
-      "проза"
+      "Проза"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -3782,7 +3836,8 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "філософський роман"
+      "Роман",
+      "Філософія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -3795,7 +3850,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "публіцистика"
+      "Публіцистика"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -3821,7 +3876,8 @@
     "year": "2015",
     "language": "Українська",
     "genre": [
-      "дитяча проза"
+      "Дитяча література",
+      "Проза"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -3834,7 +3890,7 @@
     "year": "2006",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -3860,7 +3916,8 @@
     "year": "2014",
     "language": "Українська",
     "genre": [
-      "дитяча казка"
+      "Дитяча література",
+      "Казка"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -3873,7 +3930,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "поезія"
+      "Поезія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -3912,7 +3969,8 @@
     "year": "2011",
     "language": "Українська",
     "genre": [
-      "історична проза"
+      "Проза",
+      "Історія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -3925,7 +3983,8 @@
     "year": "2016",
     "language": "Українська",
     "genre": [
-      "історичний роман"
+      "Роман",
+      "Історія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -3938,7 +3997,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -3964,7 +4023,8 @@
     "year": 1973,
     "language": "Українська",
     "genre": [
-      "автобіографічний роман"
+      "Автобіографія",
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -3977,7 +4037,8 @@
     "year": "2016",
     "language": "Українська",
     "genre": [
-      "історичний роман"
+      "Роман",
+      "Історія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4003,7 +4064,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "поезія"
+      "Поезія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4016,7 +4077,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4029,8 +4090,8 @@
     "year": "2013",
     "language": "Українська",
     "genre": [
-      "дитяча література",
-      "роман"
+      "Дитяча література",
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4043,7 +4104,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4069,7 +4130,8 @@
     "year": "2012",
     "language": "Українська",
     "genre": [
-      "історична проза"
+      "Проза",
+      "Історія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4082,7 +4144,8 @@
     "year": "2013",
     "language": "Українська",
     "genre": [
-      "історична проза"
+      "Проза",
+      "Історія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4095,8 +4158,8 @@
     "year": "2014",
     "language": "Українська",
     "genre": [
-      "роман",
-      "історична проза"
+      "Роман",
+      "Історія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4109,7 +4172,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "поезія"
+      "Поезія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4122,7 +4185,8 @@
     "year": "1930",
     "language": "Українська",
     "genre": [
-      "філософський роман"
+      "Роман",
+      "Філософія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4135,7 +4199,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4148,7 +4212,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "поезія"
+      "Поезія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4187,7 +4251,8 @@
     "year": "2007",
     "language": "Українська",
     "genre": [
-      "дитяча проза"
+      "Дитяча література",
+      "Проза"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4200,7 +4265,7 @@
     "year": "1970",
     "language": "Українська",
     "genre": [
-      "соціально-побутова драма"
+      "соціально-побутова Драма"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4213,7 +4278,8 @@
     "year": "2017",
     "language": "Українська",
     "genre": [
-      "пригодницький роман"
+      "Роман",
+      "Пригоди"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4226,6 +4292,7 @@
     "year": "2016",
     "language": "Українська",
     "genre": [
+      "Роман",
       "Антиутопія"
     ],
     "image": "bookicon.png",
@@ -4252,7 +4319,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "поезія"
+      "Поезія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4265,7 +4332,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "поезія"
+      "Поезія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4278,7 +4345,8 @@
     "year": "2007",
     "language": "Українська",
     "genre": [
-      "антиутопія"
+      "Роман",
+      "Антиутопія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4291,7 +4359,8 @@
     "year": "2010",
     "language": "Українська",
     "genre": [
-      "сатирична антиутопія"
+      "Сатира",
+      "Антиутопія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4304,7 +4373,8 @@
     "year": "2014",
     "language": "Українська",
     "genre": [
-      "антиутопія"
+      "Роман",
+      "Антиутопія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4317,7 +4387,7 @@
     "year": "2013",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4330,7 +4400,7 @@
     "year": "2012",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4343,7 +4413,7 @@
     "year": "2011",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4356,7 +4426,7 @@
     "year": "2012",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4369,7 +4439,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "поезія"
+      "Поезія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4382,7 +4452,8 @@
     "year": "2016",
     "language": "Українська",
     "genre": [
-      "дитяча фантастика"
+      "Дитяча література",
+      "Фантастика"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4434,7 +4505,8 @@
     "year": "2015",
     "language": "Українська",
     "genre": [
-      "дитяча проза"
+      "Дитяча література",
+      "Проза"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4447,7 +4519,7 @@
     "year": 1951,
     "language": "Українська",
     "genre": [
-      "роман (серія)"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4460,7 +4532,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "постмодернізм"
+      "Постмодернізм"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4473,7 +4545,7 @@
     "year": "1970",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4486,7 +4558,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4499,7 +4571,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "драма"
+      "Драма"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4512,8 +4584,9 @@
     "year": "2017",
     "language": "Українська",
     "genre": [
-      "роман",
-      "жіночий психологічний роман"
+      "Роман",
+      "Жіночий роман",
+      "Психологія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4526,7 +4599,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "поезія"
+      "Поезія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4539,7 +4612,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "проза"
+      "Проза"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4552,7 +4625,7 @@
     "year": "2005",
     "language": "Українська",
     "genre": [
-      "драматургія"
+      "Драматургія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4565,7 +4638,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "проза"
+      "Проза"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4591,7 +4664,7 @@
     "year": "2010",
     "language": "Українська",
     "genre": [
-      "проза"
+      "Проза"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4604,7 +4677,7 @@
     "year": "2015",
     "language": "Українська",
     "genre": [
-      "фентезі"
+      "Фентезі"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4656,7 +4729,8 @@
     "year": "2010",
     "language": "Українська",
     "genre": [
-      "антивоєнний роман"
+      "Роман",
+      "Антивоєнне"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4682,8 +4756,9 @@
     "year": "2011",
     "language": "Українська",
     "genre": [
-      "філософський роман",
-      "драма"
+      "Роман",
+      "Філософія",
+      "Драма"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4710,7 +4785,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "поезія"
+      "Поезія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4723,7 +4798,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "поезія"
+      "Поезія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4736,7 +4811,8 @@
     "year": "1999",
     "language": "Українська",
     "genre": [
-      "історичний роман"
+      "Роман",
+      "Історія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4749,7 +4825,7 @@
     "year": "1910",
     "language": "Українська",
     "genre": [
-      "поезія / лірика"
+      "Поезія / лірика"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4762,7 +4838,7 @@
     "year": "1748",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4775,7 +4851,8 @@
     "year": "2010",
     "language": "Українська",
     "genre": [
-      "сучасна проза"
+      "Проза",
+      "Модерн"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4788,7 +4865,8 @@
     "year": "2018",
     "language": "Українська",
     "genre": [
-      "дитяча проза"
+      "Дитяча література",
+      "Проза"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4801,7 +4879,7 @@
     "year": "2001",
     "language": "Українська",
     "genre": [
-      "фентезі"
+      "Фентезі"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4814,7 +4892,7 @@
     "year": "2000",
     "language": "Українська",
     "genre": [
-      "фентезі"
+      "Фентезі"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4827,7 +4905,7 @@
     "year": "2000",
     "language": "Українська",
     "genre": [
-      "фентезі"
+      "Фентезі"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4840,7 +4918,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "проза"
+      "Проза"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4853,7 +4931,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "поезія"
+      "Поезія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4892,7 +4970,7 @@
     "year": "2015",
     "language": "Українська",
     "genre": [
-      "історична фантастика"
+      "Фантастика"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4918,7 +4996,7 @@
     "year": "2009",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4931,7 +5009,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "публіцистика"
+      "Публіцистика"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4944,7 +5022,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4957,7 +5035,7 @@
     "year": "2013",
     "language": "Українська",
     "genre": [
-      "сучасна проза"
+      "сучасна Проза"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4970,7 +5048,8 @@
     "year": "2016",
     "language": "Українська",
     "genre": [
-      "дитяча проза"
+      "Дитяча література",
+      "Проза"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4983,7 +5062,7 @@
     "year": "1971",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5010,7 +5089,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5023,7 +5102,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5036,7 +5115,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "публіцистика"
+      "Публіцистика"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5049,7 +5128,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "поезія"
+      "Поезія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5062,7 +5141,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "поезія"
+      "Поезія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5075,7 +5154,8 @@
     "year": "2011",
     "language": "Українська",
     "genre": [
-      "сатиричний роман"
+      "Роман",
+      "Сатира"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5088,7 +5168,7 @@
     "year": "2015",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5101,8 +5181,8 @@
     "year": "2018",
     "language": "Українська",
     "genre": [
-      "дитяча література",
-      "казка"
+      "Дитяча література",
+      "Казка"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5115,7 +5195,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5141,7 +5221,7 @@
     "year": "1962",
     "language": "Українська",
     "genre": [
-      "лірика / вірш‑поезія"
+      "лірика / вірш‑Поезія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5154,7 +5234,7 @@
     "year": "1960",
     "language": "Українська",
     "genre": [
-      "лірика / вірш‑поезія"
+      "лірика / вірш‑Поезія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5167,7 +5247,7 @@
     "year": "2008",
     "language": "Українська",
     "genre": [
-      "дитяча література"
+      "Дитяча література"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5193,7 +5273,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "Філософська поезія"
+      "Філософська Поезія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5206,7 +5286,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5232,7 +5312,7 @@
     "year": "2012",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5245,7 +5325,7 @@
     "year": "2000",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5271,7 +5351,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5284,7 +5364,7 @@
     "year": "1979",
     "language": "Українська",
     "genre": [
-      "психологічна проза"
+      "психологічна Проза"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5310,7 +5390,7 @@
     "year": "2010",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5336,7 +5416,7 @@
     "year": "1760",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5388,7 +5468,7 @@
     "year": "1990‑і",
     "language": "Українська",
     "genre": [
-      "поезія / політична лірика"
+      "Поезія / політична лірика"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5401,7 +5481,7 @@
     "year": "1980‑і",
     "language": "Українська",
     "genre": [
-      "поезія / есеїстика"
+      "Поезія / есеїстика"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5414,8 +5494,9 @@
     "year": "2009",
     "language": "Українська",
     "genre": [
-      "дитяча література",
-      "віршована казка"
+      "Дитяча література",
+      "Казка",
+      "Вірші"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5428,8 +5509,8 @@
     "year": "2008",
     "language": "Українська",
     "genre": [
-      "дитяча література",
-      "екологічна казка"
+      "Дитяча література",
+      "Казка"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5442,7 +5523,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5455,7 +5536,8 @@
     "year": "1847",
     "language": "Українська",
     "genre": [
-      "соціально‑побутовий сатиричний роман"
+      "соціально‑побутовий Роман",
+      "Сатира"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5507,7 +5589,7 @@
     "year": "2003",
     "language": "Українська",
     "genre": [
-      "фентезі"
+      "Фентезі"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5520,7 +5602,7 @@
     "year": "2008",
     "language": "Українська",
     "genre": [
-      "фентезі"
+      "Фентезі"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5533,7 +5615,7 @@
     "year": "2006",
     "language": "Українська",
     "genre": [
-      "фентезі"
+      "Фентезі"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5546,7 +5628,7 @@
     "year": "2005",
     "language": "Українська",
     "genre": [
-      "фентезі"
+      "Фентезі"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5559,7 +5641,7 @@
     "year": "2005",
     "language": "Українська",
     "genre": [
-      "фентезі"
+      "Фентезі"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5572,7 +5654,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5585,7 +5667,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5598,8 +5680,8 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "роман",
-      "сатира"
+      "Роман",
+      "Сатира"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5612,7 +5694,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5677,7 +5759,7 @@
     "year": "2024",
     "language": "Українська",
     "genre": [
-      "історична драма‑поема"
+      "історична Драма‑поема"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5690,7 +5772,7 @@
     "year": "2024",
     "language": "Українська",
     "genre": [
-      "драматична поема / драматична лірика"
+      "Драматична поема / Драматична лірика"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5703,7 +5785,7 @@
     "year": "2024",
     "language": "Українська",
     "genre": [
-      "лірика / поезія"
+      "лірика / Поезія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5716,7 +5798,7 @@
     "year": "2024",
     "language": "Українська",
     "genre": [
-      "феєрія / драма‑поема"
+      "феєрія / Драма‑поема"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5755,7 +5837,7 @@
     "year": "1749",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5768,7 +5850,7 @@
     "year": "2009",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5781,7 +5863,7 @@
     "year": "2016",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5794,7 +5876,8 @@
     "year": "2010",
     "language": "Українська",
     "genre": [
-      "історичний роман"
+      "Роман",
+      "Історія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5807,7 +5890,7 @@
     "year": "1924",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5820,7 +5903,7 @@
     "year": "1915",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5833,7 +5916,7 @@
     "year": "1910",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5846,7 +5929,7 @@
     "year": "1908",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5859,7 +5942,7 @@
     "year": "2003",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5872,7 +5955,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5924,7 +6007,7 @@
     "year": "2001",
     "language": "Українська",
     "genre": [
-      "психологічна повість / соціально‑побутова проза"
+      "психологічна Повість / соціально‑побутова Проза"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5937,7 +6020,8 @@
     "year": "2000‑ті",
     "language": "Українська",
     "genre": [
-      "епос / соціально‑історична проза"
+      "епос / соціально‑Проза",
+      "Історія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5950,7 +6034,8 @@
     "year": "2018",
     "language": "Українська",
     "genre": [
-      "історичний повість / історичний роман"
+      "історичний Повість / Роман",
+      "Історія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5963,7 +6048,8 @@
     "year": "2013",
     "language": "Українська",
     "genre": [
-      "Філософський роман"
+      "Роман",
+      "Філософія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5976,8 +6062,8 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "психологія",
-      "філософія"
+      "Психологія",
+      "Філософія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -6070,7 +6156,8 @@
     "year": "2013",
     "language": "Українська",
     "genre": [
-      "Історичний роман"
+      "Роман",
+      "Історія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -6135,7 +6222,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -6148,7 +6235,7 @@
     "year": "1840",
     "language": "Українська",
     "genre": [
-      "поезія"
+      "Поезія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -6174,7 +6261,8 @@
     "year": "2000‑ті",
     "language": "Українська",
     "genre": [
-      "історичний роман / поема"
+      "Роман",
+      "Історія / поема"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -6187,7 +6275,7 @@
     "year": "1841",
     "language": "Українська",
     "genre": [
-      "поема"
+      "Поема"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -6200,7 +6288,7 @@
     "year": "1845",
     "language": "Українська",
     "genre": [
-      "поезія"
+      "Поезія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -6239,7 +6327,9 @@
     "year": "2024",
     "language": "Українська",
     "genre": [
-      "готичний роман / рання наукова фантастика"
+      "Роман",
+      "Готика",
+      "Наукова фантастика"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -6265,7 +6355,8 @@
     "year": "2015",
     "language": "Українська",
     "genre": [
-      "історичний роман"
+      "Роман",
+      "Історія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -6278,7 +6369,8 @@
     "year": "2018",
     "language": "Українська",
     "genre": [
-      "історичний роман"
+      "Роман",
+      "Історія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -6291,7 +6383,8 @@
     "year": "2013",
     "language": "Українська",
     "genre": [
-      "історичний роман"
+      "Роман",
+      "Історія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -6317,7 +6410,8 @@
     "year": "2017",
     "language": "Українська",
     "genre": [
-      "дитяча фантастика"
+      "Дитяча література",
+      "Фантастика"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -6330,7 +6424,8 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "історичний роман"
+      "Роман",
+      "Історія"
     ],
     "image": "bookicon.png",
     "description": "",
