@@ -125,7 +125,7 @@
       document.querySelectorAll('.alphabet span').forEach(s => s.classList.remove('active'));
       span.classList.add('active');
       const allAuthors = books.flatMap(b => Array.isArray(b.authors) ? b.authors : [b.author]);
-      const authors = [...new Set(allAuthors.filter(a => a.toUpperCase().startsWith(letter)))];
+      const authors = [...new Set(allAuthors.filter(a => a.toUpperCase().startsWith(letter)))].sort((a, b) => a.localeCompare(b));
       document.getElementById('bookList').innerHTML = '';
       document.getElementById('pagination').innerHTML = '';
       document.getElementById('authorList').innerHTML = '<h3>Автори на літеру "' + letter + '":</h3>' +
@@ -225,17 +225,22 @@
     }
 
     function readURLParams() {
-      const params = new URLSearchParams(window.location.search);
-      document.getElementById('searchInput').value = params.get('search') || '';
-      document.getElementById('yearSelect').value = params.get('year') || '';
-      document.getElementById('genreSelect').value = params.get('genre') || '';
-      document.getElementById('languageSelect').value = params.get('language') || '';
-      activeLetter = params.get('letter') || '';
-      if (activeLetter) {
-        const letterSpan = [...document.querySelectorAll('.alphabet span')].find(s => s.textContent === activeLetter);
-        if (letterSpan) filterByLetter(activeLetter, letterSpan);
-      }
+  const params = new URLSearchParams(window.location.search);
+  document.getElementById('searchInput').value = params.get('search') || '';
+  document.getElementById('yearSelect').value = params.get('year') || '';
+  document.getElementById('genreSelect').value = params.get('genre') || '';
+  document.getElementById('languageSelect').value = params.get('language') || '';
+  activeLetter = params.get('letter') || '';
+
+  if (activeLetter) {
+    const letterSpan = [...document.querySelectorAll('.alphabet span')].find(s => s.textContent === activeLetter);
+    if (letterSpan) {
+      filterByLetter(activeLetter, letterSpan);
     }
+  } else {
+    applyFilters(); // якщо не передана літера — застосовуємо решту фільтрів
+  }
+}
 
     document.getElementById('searchInput').addEventListener('input', applyFilters);
     loadBooks();
