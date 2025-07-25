@@ -198,11 +198,13 @@
     }
 
     function toggleAnnotation(id) {
-      const el = document.getElementById(id);
-      if (el) {
-        el.style.display = (el.style.display === 'none') ? 'block' : 'none';
-      }
-    }
+  const el = document.getElementById(id);
+  if (el) {
+    const isHidden = window.getComputedStyle(el).display === 'none';
+    el.style.display = isHidden ? 'block' : 'none';
+  }
+}
+
 
     function updateURLParams() {
       const params = new URLSearchParams();
