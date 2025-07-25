@@ -2,54 +2,73 @@
 <html lang="uk">
 <head>
   <meta charset="UTF-8">
-  <title>Конвертер Excel у JSON</title>
+  <title>Конвертація Excel → JSON</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 </head>
 <body>
-  <h2>Завантаж Excel (books.xlsx)</h2>
-  <input type="file" id="upload" accept=".xlsx" />
-  <pre id="output" style="white-space: pre-wrap;"></pre>
+  <h2>Конвертер Excel (books.xlsx) → JSON (books.json)</h2>
+  <input type="file" id="excelFile" accept=".xlsx" />
+  <button onclick="convert()">Конвертувати</button>
   <a id="downloadLink" style="display:none;" download="books.json">⬇️ Завантажити books.json</a>
 
-  <script src="https://cdn.sheetjs.com/xlsx-latest/package/dist/xlsx.full.min.js"></script>
   <script>
-    document.getElementById('upload').addEventListener('change', async (e) => {
-      const file = e.target.files[0];
-      const reader = new FileReader();
+    function convert() {
+      const fileInput = document.getElementById('excelFile');
+      const file = fileInput.files[0];
+      if (!file) {
+        alert("Оберіть файл Excel (.xlsx)");
+        return;
+      }
 
+      const reader = new FileReader();
       reader.onload = function (e) {
         const data = new Uint8Array(e.target.result);
         const workbook = XLSX.read(data, { type: 'array' });
         const sheet = workbook.Sheets[workbook.SheetNames[0]];
-        let books = XLSX.utils.sheet_to_json(sheet);
+        const raw = XLSX.utils.sheet_to_json(sheet);
 
-        const today = new Date().toISOString().split('T')[0];
+        // Обробка полів
+        const books = raw.map(row => {
+          const authors = row.authors || row.author || "";
+          const addedRaw = row.added;
 
-        books = books.map(book => {
-          // Поле "authors" — масив, якщо є кілька авторів через кому
-          if (book.authors && typeof book.authors === 'string') {
-            book.authors = book.authors.split(',').map(a => a.trim());
+          // Конвертація дати з числа в YYYY-MM-DD
+          let added = "";
+          if (typeof addedRaw === 'number') {
+            const date = XLSX.SSF.parse_date_code(addedRaw);
+            if (date) {
+              const pad = n => String(n).padStart(2, '0');
+              added = `${date.y}-${pad(date.m)}-${pad(date.d)}`;
+            }
+          } else if (typeof addedRaw === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(addedRaw)) {
+            added = addedRaw;
           }
 
-          // Додаємо поле "added" лише якщо його нема
-          if (!book.added) {
-            book.added = today;
-          }
-
-          return book;
+          return {
+            title: row.title || "",
+            authors: (typeof authors === 'string') ? authors.split(',').map(a => a.trim()) : [],
+            publisher: row.publisher || "",
+            year: row.year || "",
+            genre: row.genre || "",
+            language: row.language || "",
+            description: row.description || "",
+            added: added,
+            image: row.image || ""
+          };
         });
 
         const json = JSON.stringify(books, null, 2);
-        document.getElementById('output').textContent = json;
-
         const blob = new Blob([json], { type: 'application/json' });
         const url = URL.createObjectURL(blob);
+
         const link = document.getElementById('downloadLink');
         link.href = url;
-        link.style.display = 'inline';
+        link.style.display = 'inline-block';
+        link.textContent = '⬇️ Завантажити books.json';
       };
 
       reader.readAsArrayBuffer(file);
-    });
+    }
   </script>
 </body>
 </html>
