@@ -1,5340 +1,4854 @@
 [
   {
     "title": "І не лишилось жодного",
+    "author": "Крісті Агата",
     "publisher": "А-БА-БА-ГА-ЛА-МА-ГА",
     "year": "2019",
     "genre": "Детектив",
     "language": "Українська",
-    "description": "Агату Крісті знають у всьому світі як королеву детективу. Продано близько мільярда примірників її творів англійською мовою, ще один мільярд — у перекладі 100 іноземними мовами. Вона — найпопулярніший автор усіх часів. За кількістю перевидань її книжки поступаються лише Біблії та творам Шекспіра.\r\n\r\nРоман «І не лишилось жодного» було екранізовано безліч разів, зокрема відомим є двосерійний фільм «Десять негренят».\r\n\r\nДесятеро незнайомців опинилися на далекому Солдатському острові: усі отримали дивне запрошення приїхати сюди, до розкішного будинку. Однак поки вони не розуміють, хто і для чого їх викликав… Згодом починається жахіття: хтось жорстоко й вигадливо вбиває гостей, а зі столу, на якому стояло рівно десять порцелянових статуеток, перед кожним убивством зникає одна… Як ця моторошна історія пов’язана із дитячою лічилкою? І, головне, хто наступний?",
+    "description": "Агату Крісті знають у всьому світі як королеву детективу. Продано близько мільярда примірників її творів англійською мовою, ще один мільярд — у перекладі 100 іноземними мовами. Вона — найпопулярніший автор усіх часів. За кількістю перевидань її книжки поступаються лише Біблії та творам Шекспіра.\n\nРоман «І не лишилось жодного» було екранізовано безліч разів, зокрема відомим є двосерійний фільм «Десять негренят».\n\nДесятеро незнайомців опинилися на далекому Солдатському острові: усі отримали дивне запрошення приїхати сюди, до розкішного будинку. Однак поки вони не розуміють, хто і для чого їх викликав… Згодом починається жахіття: хтось жорстоко й вигадливо вбиває гостей, а зі столу, на якому стояло рівно десять порцелянових статуеток, перед кожним убивством зникає одна… Як ця моторошна історія пов’язана із дитячою лічилкою? І, головне, хто наступний?",
     "image": "bookicon.png",
-    "authors": [
-      "Крісті Агата"
-    ]
+    "added": 45863
   },
   {
     "title": "Путівник по Галактиці для космотуристів",
+    "author": "Адамс Дуґлас",
     "publisher": "Клуб Сімейного Дозвілля",
     "year": "2011",
     "genre": "наукова фантастика, гумор",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Адамс Дуґлас"
-    ]
+    "added": 45863
   },
   {
     "title": "Путівник Галактикою (ч. 1-5)",
+    "author": "Адамс Дуґлас",
     "publisher": "КМ-Букс",
     "year": "2015",
     "genre": "наукова фантастика",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Адамс Дуґлас"
-    ]
+    "added": 45894
   },
   {
     "title": "Небезпечні мандри",
+    "author": "Адамс Річард",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "наукова фантастика, трилер",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Адамс Річард"
-    ]
+    "added": 45667
   },
   {
     "title": "Джерело",
+    "author": "Айн Ренд",
     "publisher": "N/A",
     "year": "1943",
     "genre": "Роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Айн Ренд"
-    ]
+    "added": 45667
   },
   {
     "title": "Вінні-Пух",
+    "author": "Алан Александр Мілн",
     "publisher": "Видавництво Старого Лева",
     "year": "2015",
     "genre": "Дитяча література",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Алан Александр Мілн"
-    ]
+    "added": 45667
   },
   {
     "title": "Брик-лейн",
+    "author": "Алі Моніка",
     "publisher": "N/A",
     "year": "2003",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Алі Моніка"
-    ]
+    "added": 45667
   },
   {
     "title": "Казки Емми Андієвської",
+    "author": "Андієвська Емма",
     "publisher": "Дух і Літера",
     "year": "2002",
     "genre": "Казки",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Андієвська Емма"
-    ]
+    "added": 45667
   },
   {
     "title": "Роман про людське призначення",
+    "author": "Андієвська Емма",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "філософський роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Андієвська Емма"
-    ]
+    "added": 45667
   },
   {
     "title": "Умови людського існування",
+    "author": "Андре Мальро",
     "publisher": "N/A",
     "year": "1933",
     "genre": "Філософія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Андре Мальро"
-    ]
+    "added": 45667
   },
   {
     "title": "М’яке та пухнасте",
+    "author": "Андрусяк Іван",
     "publisher": "А-БА-БА-ГА-ЛА-МА-ГА",
     "year": "2000",
     "genre": "Дитяча література",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Андрусяк Іван"
-    ]
+    "added": 45667
   },
   {
     "title": "Фелікс Австрія",
+    "author": "Андрухович Софія",
     "publisher": "Клуб Сімейного Дозвілля",
     "year": "2014",
     "genre": "історичний роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Андрухович Софія"
-    ]
+    "added": 45667
   },
   {
     "title": "Московіада",
+    "author": "Андрухович Юрій",
     "publisher": "Юніверс",
     "year": "2003",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Андрухович Юрій"
-    ]
+    "added": 45667
   },
   {
     "title": "Дванадцять обручів",
+    "author": "Андрухович Юрій",
     "publisher": "Фоліо",
     "year": "1999",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Андрухович Юрій"
-    ]
+    "added": 45667
   },
   {
     "title": "Перверзія",
+    "author": "Андрухович Юрій",
     "publisher": "Фоліо",
     "year": "1997",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Андрухович Юрій"
-    ]
+    "added": 45667
   },
   {
     "title": "Червоний намет",
+    "author": "Аніта Діамант",
     "publisher": "N/A",
     "year": "1997",
     "genre": "Історичний роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Аніта Діамант"
-    ]
+    "added": 45667
   },
   {
     "title": "Щоденник Анни Франк",
+    "author": "Анна Франк",
     "publisher": "Клуб Сімейного Дозвілля",
     "year": "2017",
     "genre": "Документалістика",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Анна Франк"
-    ]
+    "added": 45848
   },
   {
     "title": "Великий Мольн",
+    "author": "Анрі-Александр Лоран-Фурньє",
     "publisher": "N/A",
     "year": "1913",
     "genre": "Роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Анрі-Александр Лоран-Фурньє"
-    ]
+    "added": 45667
   },
   {
     "title": "Сибірські новели",
+    "author": "Антоненко-Давидович Борис",
     "publisher": "Видавництво ім. Олени Теліги",
     "year": "2012",
     "genre": "новели",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Антоненко-Давидович Борис"
-    ]
+    "added": 45667
   },
   {
     "title": "Зелена Євангелія",
+    "author": "Антонич Богдан-Ігор",
     "publisher": "Дніпро",
     "year": "1980",
     "genre": "поезія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Антонич Богдан-Ігор"
-    ]
+    "added": 45667
   },
   {
     "title": "Маленький принц",
+    "author": "Антуан де Сент-Екзюпері",
     "publisher": "А-БА-БА-ГА-ЛА-МА-ГА",
     "year": "2009",
     "genre": "Фентезі, дитяча література",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Антуан де Сент-Екзюпері"
-    ]
+    "added": 45667
   },
   {
     "title": "Орельєн",
+    "author": "Арагон Луї",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Арагон Луї"
-    ]
+    "added": 45667
   },
   {
     "title": "Витоки тоталітаризму",
+    "author": "Арендт Ганна",
     "publisher": "N/A",
     "year": "1951",
     "genre": "політична філософія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Арендт Ганна"
-    ]
+    "added": 45667
   },
   {
     "title": "Бісова душа, або Заклятий скарб",
+    "author": "Арєнєв Володимир",
     "publisher": "А-БА-БА-ГА-ЛА-МА-ГА",
     "year": "2015",
     "genre": "Пригодницький роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Арєнєв Володимир"
-    ]
+    "added": 45667
   },
   {
     "title": "Театр і його двійник",
+    "author": "Арто Антонен",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "драматургія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Арто Антонен"
-    ]
+    "added": 45667
   },
   {
     "title": "Сад Гетсиманський",
+    "author": "Багряний Іван",
     "publisher": "Клуб Сімейного Дозвілля",
     "year": "2015",
     "genre": "роман-епопея",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Багряний Іван"
-    ]
+    "added": 45667
   },
   {
     "title": "Карби",
+    "author": "Бажан Микола",
     "publisher": "Радянський письменник",
     "year": "1960",
     "genre": "поезія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Бажан Микола"
-    ]
+    "added": 45667
   },
   {
     "title": "Володіти",
+    "author": "Байетт Антонія",
     "publisher": "N/A",
     "year": "1988",
     "genre": "психологічний роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Байетт Антонія"
-    ]
+    "added": 45667
   },
   {
     "title": "Земля благословенна",
+    "author": "Бак Перл",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "історичний роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Бак Перл"
-    ]
+    "added": 45667
   },
   {
     "title": "Автокатастрофа",
+    "author": "Баллард Джорд",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "наукова фантастика",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Баллард Джорд"
-    ]
+    "added": 45667
   },
   {
     "title": "Жовтий князь",
+    "author": "Барка Василь",
     "publisher": "Літопис",
     "year": "1944",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Барка Василь"
-    ]
+    "added": 45667
   },
   {
     "title": "Регенерація",
+    "author": "Баркер Пет",
     "publisher": "Meridian Czernowitz",
     "year": "2008",
     "genre": "історичний роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Баркер Пет"
-    ]
+    "added": 45667
   },
   {
     "title": "Відчуття закінчення",
+    "author": "Барнс Джуліан",
     "publisher": "Нора-Друк",
     "year": "2012",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Барнс Джуліан"
-    ]
+    "added": 45667
   },
   {
     "title": "Нульовий ступінь письма",
+    "author": "Барт Ролан",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "теорія літератури",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Барт Ролан"
-    ]
+    "added": 45667
   },
   {
     "title": "Неймовірні пригоди Остапа і Даринки, Канікули Остапа і Даринки",
+    "author": "Бачинський Андрій",
     "publisher": "А-БА-БА-ГА-ЛА-МА-ГА",
     "year": "2015",
     "genre": "Дитяча література",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Бачинський Андрій"
-    ]
+    "added": 45667
   },
   {
     "title": "Спадщина",
+    "author": "Бедфорд Сибіл",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Бедфорд Сибіл"
-    ]
+    "added": 45667
   },
   {
     "title": "Втрачена честь Катаріни Блум",
+    "author": "Белль Генріх",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Белль Генріх"
-    ]
+    "added": 45667
   },
   {
     "title": "Повість старих дружин",
+    "author": "Беннетт Арнольд",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Беннетт Арнольд"
-    ]
+    "added": 45667
   },
   {
     "title": "Механічний апельсин",
+    "author": "Берджес Ентоні",
     "publisher": "Клуб Сімейного Дозвілля",
     "year": "2000",
     "genre": "антиутопія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Берджес Ентоні"
-    ]
+    "added": 45667
   },
   {
     "title": "Мій друг Юрко Циркуль",
+    "author": "Бердт Валентин",
     "publisher": "Веселка",
     "year": "2010",
     "genre": "Дитяча література",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Бердт Валентин"
-    ]
+    "added": 45667
   },
   {
     "title": "Під сонцем Сатани",
+    "author": "Бернанос Жорж",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Бернанос Жорж"
-    ]
+    "added": 45667
   },
   {
     "title": "Диво калинове",
+    "author": "Білоус Дмитро",
     "publisher": "НСПУ",
     "year": "2015",
     "genre": "Проза",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Білоус Дмитро"
-    ]
+    "added": 45667
   },
   {
     "title": "Готель Централь",
+    "author": "Білоцерківець Наталка",
     "publisher": "А-БА-БА-ГА-ЛА-МА-ГА",
     "year": "2007",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Білоцерківець Наталка"
-    ]
+    "added": 45667
   },
   {
     "title": "Шпага Славка Беркути",
+    "author": "Бічуя Ніна",
     "publisher": "Веселка",
     "year": "2006",
     "genre": "Історичний роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Бічуя Ніна"
-    ]
+    "added": 45667
   },
   {
     "title": "Звук павутинки",
+    "author": "Близнець Віктор",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "Поезія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Близнець Віктор"
-    ]
+    "added": 45667
   },
   {
     "title": "Шумовиння днів",
+    "author": "Борис Віан",
     "publisher": "N/A",
     "year": "1947",
     "genre": "Сюрреалізм",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Борис Віан"
-    ]
+    "added": 45667
   },
   {
     "title": "Вигадки",
+    "author": "Борхес Хорхе Луїс",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "коротка проза / есеї",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Борхес Хорхе Луїс"
-    ]
+    "added": 45667
   },
   {
     "title": "Смерть серця",
+    "author": "Боуен Елізабет",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Боуен Елізабет"
-    ]
+    "added": 45667
   },
   {
     "title": "Марсіанські хроніки",
+    "author": "Бредбері Рей",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "наукова фантастика",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Бредбері Рей"
-    ]
+    "added": 45667
   },
   {
     "title": "451° за Фаренгейтом",
+    "author": "Бредбері Рей",
     "publisher": "Фабула",
     "year": "2012",
     "genre": "антиутопія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Бредбері Рей"
-    ]
+    "added": 45667
   },
   {
     "title": "Надя",
+    "author": "Бретон Андре",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "сюрреалізм",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Бретон Андре"
-    ]
+    "added": 45667
   },
   {
     "title": "Кар'єра гангстера Артуро Уї, якого могло й не бути",
+    "author": "Брехт Бертольт",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "драма",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Брехт Бертольт"
-    ]
+    "added": 45667
   },
   {
     "title": "Буремний перевал",
+    "author": "Бронте Емілі",
     "publisher": "Книголав",
     "year": "2024",
     "genre": "готичний роман / психологічна проза",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Бронте Емілі"
-    ]
+    "added": 45667
   },
   {
     "title": "Джейн Ейр",
+    "author": "Бронте Шарлотта",
     "publisher": "Книголав",
     "year": "2024",
     "genre": "готичний роман / жіночий роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Бронте Шарлотта"
-    ]
+    "added": 45667
   },
   {
     "title": "Віллет",
+    "author": "Бронте Шарлотта",
     "publisher": "N/A",
     "year": "1847",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Бронте Шарлотта"
-    ]
+    "added": 45667
   },
   {
     "title": "Павутиння Шарлотти",
+    "author": "Брукс Вайт Елвін",
     "publisher": "КМ-Букс",
     "year": "2012",
     "genre": "дитяча класика",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Брукс Вайт Елвін"
-    ]
+    "added": 45667
   },
   {
     "title": "Татарська пустеля",
+    "author": "Буццаті Діно",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "пригодницький роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Буццаті Діно"
-    ]
+    "added": 45667
   },
   {
     "title": "Модифікація",
+    "author": "Бютор Мішель",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Бютор Мішель"
-    ]
+    "added": 45667
   },
   {
     "title": "Приблуда Проза",
+    "author": "Васильченко Степан",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "Проза",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Васильченко Степан"
-    ]
+    "added": 45667
   },
   {
     "title": "Війна світів",
+    "author": "Веллс Герберт",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "наукова фантастика",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Веллс Герберт"
-    ]
+    "added": 45667
   },
   {
     "title": "Мовчання моря",
+    "author": "Веркор (Жан Брюллер)",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "повість",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Веркор (Жан Брюллер)"
-    ]
+    "added": 45667
   },
   {
     "title": "Кумедія з Костем",
+    "author": "Винниченко Володимир",
     "publisher": "Молодь",
     "year": "1925",
     "genre": "П'єса",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Винниченко Володимир"
-    ]
+    "added": 45667
   },
   {
     "title": "Федько-халамидник",
+    "author": "Винниченко Володимир",
     "publisher": "Молодь",
     "year": "1926",
     "genre": "Роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Винниченко Володимир"
-    ]
+    "added": 45667
   },
   {
     "title": "Записки кирпатого Мефістофеля",
+    "author": "Винниченко Володимир",
     "publisher": "Радянський письменник",
     "year": "1957",
     "genre": "роман-психологізм",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Винниченко Володимир"
-    ]
+    "added": 45667
   },
   {
     "title": "Весняні ігри в осінніх садах",
+    "author": "Винничук Юрій",
     "publisher": "Зелений Пес",
     "year": "2009",
     "genre": "проза",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Винничук Юрій"
-    ]
+    "added": 45667
   },
   {
     "title": "Мальва Ланцюгова",
+    "author": "Винничук Юрій",
     "publisher": "Зелений Пес",
     "year": "2008",
     "genre": "детектив",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Винничук Юрій"
-    ]
+    "added": 45667
   },
   {
     "title": "Танго смерті",
+    "author": "Винничук Юрій",
     "publisher": "Зелений Пес",
     "year": "2003",
     "genre": "історичний роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Винничук Юрій"
-    ]
+    "added": 45667
   },
   {
     "title": "Мисливські усмішки",
+    "author": "Вишня Остап",
     "publisher": "Веселка",
     "year": "1983",
     "genre": "гумористичні новели",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Вишня Остап"
-    ]
+    "added": 45667
   },
   {
     "title": "Ніч (Ніч.Світанок.День.)",
+    "author": "Візель Елі",
     "publisher": "Meridian Czernowitz",
     "year": "2002",
     "genre": "автобіографічна проза, мемуаристика",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Візель Елі"
-    ]
+    "added": 45667
   },
   {
     "title": "Де росте червона папороть",
+    "author": "Вілсон Роулз",
     "publisher": "N/A",
     "year": "1974",
     "genre": "Роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Вілсон Роулз"
-    ]
+    "added": 45667
   },
   {
     "title": "Метелики на шпильках",
+    "author": "Вільде Ірина",
     "publisher": "Веселка",
     "year": "2011",
     "genre": "Проза",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Вільде Ірина"
-    ]
+    "added": 45667
   },
   {
     "title": "Сестри Річинські",
+    "author": "Вільде Ірина",
     "publisher": "Дніпро",
     "year": "1970",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Вільде Ірина"
-    ]
+    "added": 45667
   },
   {
     "title": "Шум і лють",
+    "author": "Вільям Фолкнер",
     "publisher": "Видавництво Старого Лева",
     "year": "2016",
     "genre": "Роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Вільям Фолкнер"
-    ]
+    "added": 45667
   },
   {
     "title": "На срібнім березі",
+    "author": "Вінграновський Микола",
     "publisher": "Дніпро",
     "year": "2003",
     "genre": "поезія / лірика",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Вінграновський Микола"
-    ]
+    "added": 45667
   },
   {
     "title": "Первінка",
+    "author": "Вінграновський Микола",
     "publisher": "Дніпро",
     "year": "2001",
     "genre": "поезія / лірика",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Вінграновський Микола"
-    ]
+    "added": 45667
   },
   {
     "title": "Сотворення світу",
+    "author": "Вінграновський Микола",
     "publisher": "Кальварія",
     "year": "2005",
     "genre": "поезія / лірика",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Вінграновський Микола"
-    ]
+    "added": 45667
   },
   {
     "title": "Сіроманець",
+    "author": "Вінграновський Микола",
     "publisher": "Молодь",
     "year": "1979",
     "genre": "Роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Вінграновський Микола"
-    ]
+    "added": 45667
   },
   {
     "title": "Сто поезій (збірка)",
+    "author": "Вінграновський Микола",
     "publisher": "Молодь",
     "year": "1978",
     "genre": "поезія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Вінграновський Микола"
-    ]
+    "added": 45667
   },
   {
     "title": "Первінка",
+    "author": "Вінграновський Микола",
     "publisher": "N/A",
     "year": "1966",
     "genre": "поезія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Вінграновський Микола"
-    ]
+    "added": 45667
   },
   {
     "title": "Пристрасть",
+    "author": "Вінтерсон Джанет",
     "publisher": "N/A",
     "year": "1987",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Вінтерсон Джанет"
-    ]
+    "added": 45667
   },
   {
     "title": "Апельсини – не єдиний фрукт",
+    "author": "Вінтерсон Джанет",
     "publisher": "Клуб Сімейного Дозвілля",
     "year": "2009",
     "genre": "автобіографічний роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Вінтерсон Джанет"
-    ]
+    "added": 45667
   },
   {
     "title": "До маяка",
+    "author": "Вірджинія Вулф",
     "publisher": "Видавництво Жупанського",
     "year": "2003",
     "genre": "Модернізм",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Вірджинія Вулф"
-    ]
+    "added": 45667
   },
   {
     "title": "Занепад і падіння",
+    "author": "Во Івлін",
     "publisher": "N/A",
     "year": "1928",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Во Івлін"
-    ]
+    "added": 45667
   },
   {
     "title": "Сенсація",
+    "author": "Во Івлін",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Во Івлін"
-    ]
+    "added": 45667
   },
   {
     "title": "Інститутка",
+    "author": "Вовчок Марко",
     "publisher": "Веселка",
     "year": "1988",
     "genre": "повість",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Вовчок Марко"
-    ]
+    "added": 45667
   },
   {
     "title": "Барва пурпурова",
+    "author": "Вокер Еліс",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "роман, історична проза",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Вокер Еліс"
-    ]
+    "added": 45667
   },
   {
     "title": "Бойня номер п'ять, або Хрестовий похід дітей",
+    "author": "Воннеґут Курт",
     "publisher": "Фоліо",
     "year": "2010",
     "genre": "сатиричний роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Воннеґут Курт"
-    ]
+    "added": 45667
   },
   {
     "title": "Без кори",
+    "author": "Воробйов Микола",
     "publisher": "Фоліо",
     "year": "2016",
     "genre": "поезія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Воробйов Микола"
-    ]
+    "added": 45667
   },
   {
     "title": "Прибулець з країни Нямликів",
+    "author": "Воронина Леся",
     "publisher": "А-БА-БА-ГА-ЛА-МА-ГА",
     "year": "2018",
     "genre": "Дитяча література",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Воронина Леся"
-    ]
+    "added": 45667
   },
   {
     "title": "Таємне товариство боягузів",
+    "author": "Воронина Леся",
     "publisher": "А-БА-БА-ГА-ЛА-МА-ГА",
     "year": "2019",
     "genre": "Пригодницька література",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Воронина Леся"
-    ]
+    "added": 45667
   },
   {
     "title": "Кодекс Вустерів",
+    "author": "Вудгауз П.Г.",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "гумористичний роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Вудгауз П.Г."
-    ]
+    "added": 45667
   },
   {
     "title": "На маяк",
+    "author": "Вулф Вірджинія",
     "publisher": "N/A",
     "year": "1927",
     "genre": "модерністський роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Вулф Вірджинія"
-    ]
+    "added": 45667
   },
   {
     "title": "Пані Деллоуей",
+    "author": "Вулф Вірджинія",
     "publisher": "N/A",
     "year": "1925",
     "genre": "модерністський роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Вулф Вірджинія"
-    ]
+    "added": 45667
   },
   {
     "title": "Хвилі",
+    "author": "Вулф Вірджинія",
     "publisher": "N/A",
     "year": "1931",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Вулф Вірджинія"
-    ]
+    "added": 45667
   },
   {
     "title": "Орландо",
+    "author": "Вулф Вірджинія",
     "publisher": "Клуб Сімейного Дозвілля",
     "year": "2015",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Вулф Вірджинія"
-    ]
+    "added": 45667
   },
   {
     "title": "Пригоди тричі славного розбійника Пинті",
+    "author": "Гаврош Олександр",
     "publisher": "А-БА-БА-ГА-ЛА-МА-ГА",
     "year": "2011",
     "genre": "Дитяча література",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Гаврош Олександр"
-    ]
+    "added": 45667
   },
   {
     "title": "Розбійник Пинтя у Заклятому місті",
+    "author": "Гаврош Олександр",
     "publisher": "А-БА-БА-ГА-ЛА-МА-ГА",
     "year": 2013,
     "genre": "Дитяча література",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Гаврош Олександр"
-    ]
+    "added": 45667
   },
   {
     "title": "Який чудесний світ новий!",
+    "author": "Гакслі Олдос",
     "publisher": "Клуб Сімейного Дозвілля",
     "year": "2014",
     "genre": "антиутопія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Гакслі Олдос"
-    ]
+    "added": 45667
   },
   {
     "title": "Страх і відраза в Лас-Вегасі",
+    "author": "Гантер С. Томпсон",
     "publisher": "N/A",
     "year": "1971",
     "genre": "Журналістика, гумор",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Гантер С. Томпсон"
-    ]
+    "added": 45667
   },
   {
     "title": "Мер Кестербріджа",
+    "author": "Гарді Томас",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Гарді Томас"
-    ]
+    "added": 45667
   },
   {
     "title": "Джуд непомітний",
+    "author": "Гарді Томас",
     "publisher": "Фоліо",
     "year": "2018",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Гарді Томас"
-    ]
+    "added": 45667
   },
   {
     "title": "Тесс з роду д'Ебервіллів",
+    "author": "Гарді Томас",
     "publisher": "Фоліо",
     "year": "2017",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Гарді Томас"
-    ]
+    "added": 45667
   },
   {
     "title": "Циганські романсеро",
+    "author": "Гарсія Лорка Федеріко",
     "publisher": "N/A",
     "year": "1928",
     "genre": "поезія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Гарсія Лорка Федеріко"
-    ]
+    "added": 45667
   },
   {
     "title": "І сонце сходить",
+    "author": "Гемінґвей Ернест",
     "publisher": "Клуб Сімейного Дозвілля",
     "year": "2009",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Гемінґвей Ернест"
-    ]
+    "added": 45667
   },
   {
     "title": "Старий і море",
+    "author": "Гемінґвей Ернест",
     "publisher": "КМ-Букс",
     "year": "2011",
     "genre": "повість",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Гемінґвей Ернест"
-    ]
+    "added": 45667
   },
   {
     "title": "Діти трепети",
+    "author": "Герасим'юк Василь",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "поезія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Герасим'юк Василь"
-    ]
+    "added": 45667
   },
   {
     "title": "Дюна",
+    "author": "Герберт Френк",
     "publisher": "Клуб Сімейного Дозвілля",
     "year": "2011",
     "genre": "наукова фантастика",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Герберт Френк"
-    ]
+    "added": 45667
   },
   {
     "title": "Сіддхартха",
+    "author": "Гессе Герман",
     "publisher": "Фоліо",
     "year": "2007",
     "genre": "філософський роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Гессе Герман"
-    ]
+    "added": 45667
   },
   {
     "title": "Алкоголі. Вірші 1898 — 1913 років",
+    "author": "Гійом Аполлінер",
     "publisher": "N/A",
     "year": "1913",
     "genre": "Поезія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Гійом Аполлінер"
-    ]
+    "added": 45667
   },
   {
     "title": "Нова Граб-стріт",
+    "author": "Гіссінг Джордж",
     "publisher": "N/A",
     "year": "1932",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Гіссінг Джордж"
-    ]
+    "added": 45667
   },
   {
     "title": "Приватні мемуари і сповідь виправданого грішника",
+    "author": "Гогг Джеймс",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Гогг Джеймс"
-    ]
+    "added": 45667
   },
   {
     "title": "Таємний сад",
+    "author": "Годґсон Бернет Френсіс",
     "publisher": "КМ-Букс",
     "year": "2016",
     "genre": "дитяча література, класика",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Годґсон Бернет Френсіс"
-    ]
+    "added": 45667
   },
   {
     "title": "Лінія краси",
+    "author": "Голлінггерст Алан",
     "publisher": "N/A",
     "year": "2004",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Голлінггерст Алан"
-    ]
+    "added": 45667
   },
   {
     "title": "Летюче віконце (збірка)",
+    "author": "Голобородько Василь",
     "publisher": "Ярославів Вал",
     "year": "2012",
     "genre": "поезія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Голобородько Василь"
-    ]
+    "added": 45667
   },
   {
     "title": "Сага про Форсайтів",
+    "author": "Голсуорсі Джон",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Голсуорсі Джон"
-    ]
+    "added": 45667
   },
   {
     "title": "Вітер у вербах",
+    "author": "Грем Кеннет",
     "publisher": "Видавництво Старого Лева",
     "year": "2012",
     "genre": "дитяча література",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Грем Кеннет"
-    ]
+    "added": 45667
   },
   {
     "title": "Зелена квітка тиші",
+    "author": "Григорів Михайло",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "Поезія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Григорів Михайло"
-    ]
+    "added": 45667
   },
   {
     "title": "Не такий",
+    "author": "Гридін Сергій",
     "publisher": "А-БА-БА-ГА-ЛА-МА-ГА",
     "year": "2017",
     "genre": "Проза",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Гридін Сергій"
-    ]
+    "added": 45667
   },
   {
     "title": "Федько у пошуках Чупакабри",
+    "author": "Гридін Сергій",
     "publisher": "А-БА-БА-ГА-ЛА-МА-ГА",
     "year": "2012",
     "genre": "Дитяча література",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Гридін Сергій"
-    ]
+    "added": 45667
   },
   {
     "title": "Федько, прибулець з Інтернету; Федько у віртуальному місті",
+    "author": "Гридін Сергій",
     "publisher": "А-БА-БА-ГА-ЛА-МА-ГА",
     "year": "2010",
     "genre": "Дитяча література",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Гридін Сергій"
-    ]
+    "added": 45667
   },
   {
     "title": "Кохання",
+    "author": "Грін Генрі",
     "publisher": "N/A",
     "year": "1951",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Грін Генрі"
-    ]
+    "added": 45667
   },
   {
     "title": "Брайтон-рок",
+    "author": "Грін Грем",
     "publisher": "N/A",
     "year": "1938",
     "genre": "кримінальний роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Грін Грем"
-    ]
+    "added": 45667
   },
   {
     "title": "Кінець роману",
+    "author": "Грін Грем",
     "publisher": "N/A",
     "year": "1966",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Грін Грем"
-    ]
+    "added": 45667
   },
   {
     "title": "Олень-Август",
+    "author": "Гуцало Євген",
     "publisher": "Веселка",
     "year": "2004",
     "genre": "Дитяча література",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Гуцало Євген"
-    ]
+    "added": 45667
   },
   {
     "title": "Лелеченя",
+    "author": "Гуцало Євген",
     "publisher": "Молодь",
     "year": "1980",
     "genre": "Проза",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Гуцало Євген"
-    ]
+    "added": 45667
   },
   {
     "title": "Старий бруд",
+    "author": "Ґардам Джейн",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Ґардам Джейн"
-    ]
+    "added": 45667
   },
   {
     "title": "Кохання під час холери",
+    "author": "Ґарсія Маркес Ґабріель",
     "publisher": "Фоліо",
     "year": "2008",
     "genre": "роман, магічний реалізм",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Ґарсія Маркес Ґабріель"
-    ]
+    "added": 45667
   },
   {
     "title": "Сто років самотності",
+    "author": "Ґарсія Маркес Ґабрієль",
     "publisher": "Клуб Сімейного Дозвілля",
     "year": "2017",
     "genre": "магічний реалізм, роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Ґарсія Маркес Ґабрієль"
-    ]
+    "added": 45850
   },
   {
     "title": "Незатишна ферма",
+    "author": "Ґіббонс Стелла",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Ґіббонс Стелла"
-    ]
+    "added": 45667
   },
   {
     "title": "Мемуари гейші",
+    "author": "Ґолден Артур",
     "publisher": "Клуб Сімейного Дозвілля",
     "year": "2014",
     "genre": "історичний роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Ґолден Артур"
-    ]
+    "added": 45667
   },
   {
     "title": "Володар мух",
+    "author": "Ґолдінґ Вільям",
     "publisher": "Клуб Сімейного Дозвілля",
     "year": "2015",
     "genre": "алегоричний роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Ґолдінґ Вільям"
-    ]
+    "added": 45667
   },
   {
     "title": "Берег Сіртів",
+    "author": "Ґрак Жульєн",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Ґрак Жульєн"
-    ]
+    "added": 45667
   },
   {
     "title": "Суть справи",
+    "author": "Ґрін Ґрем",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Ґрін Ґрем"
-    ]
+    "added": 45667
   },
   {
     "title": "Чарлі і шоколадна фабрика",
+    "author": "Дал Рональд",
     "publisher": "КМ-Букс",
     "year": "2013",
     "genre": "дитяча література, фантастика",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Дал Рональд"
-    ]
+    "added": 45667
   },
   {
     "title": "Квіти для Елджернона",
+    "author": "Деніел Кіз",
     "publisher": "КМ-Букс",
     "year": "2009",
     "genre": "Наукова фантастика, драма",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Деніел Кіз"
-    ]
+    "added": 45667
   },
   {
     "title": "Король Буків або Таємниця Смарагдової книги",
+    "author": "Дерманський Олександр",
     "publisher": "А-БА-БА-ГА-ЛА-МА-ГА",
     "year": "2011",
     "genre": "Дитяча література",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Дерманський Олександр"
-    ]
+    "added": 45667
   },
   {
     "title": "Серія книжок про Чудове Чудовисько",
+    "author": "Дерманський Олександр",
     "publisher": "А-БА-БА-ГА-ЛА-МА-ГА",
     "year": 2010,
     "genre": "Дитяча література",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Дерманський Олександр"
-    ]
+    "added": 45667
   },
   {
     "title": "Молль Флендерс",
+    "author": "Дефо Даніель",
     "publisher": "N/A",
     "year": "1722",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Дефо Даніель"
-    ]
+    "added": 45667
   },
   {
     "title": "Робінзон Крузо",
+    "author": "Дефо Даніель",
     "publisher": "А-БА-БА-ГА-ЛА-МА-ГА",
     "year": "2010",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Дефо Даніель"
-    ]
+    "added": 45667
   },
   {
     "title": "Блейк та Мортімер",
+    "author": "Джейкобс Едгар П.",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "комікс / пригоди",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Джейкобс Едгар П."
-    ]
+    "added": 45667
   },
   {
     "title": "Портрет митця замолоду",
+    "author": "Джеймс Джойс",
     "publisher": "N/A",
     "year": "1916",
     "genre": "Автобіографічний роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Джеймс Джойс"
-    ]
+    "added": 45667
   },
   {
     "title": "Френні і Зуї",
+    "author": "Джером Девід Селінджер",
     "publisher": "N/A",
     "year": "1961",
     "genre": "Новела",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Джером Девід Селінджер"
-    ]
+    "added": 45667
   },
   {
     "title": "Улісс",
+    "author": "Джойс Джеймс",
     "publisher": "Клуб Сімейного Дозвілля",
     "year": "2006",
     "genre": "модернізм, роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Джойс Джеймс"
-    ]
+    "added": 45667
   },
   {
     "title": "Світ за Гарпом",
+    "author": "Джон Ірвінг",
     "publisher": "N/A",
     "year": "1978",
     "genre": "Роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Джон Ірвінг"
-    ]
+    "added": 45667
   },
   {
     "title": "Грона гніву",
+    "author": "Джон Стейнбек",
     "publisher": "Клуб Сімейного Дозвілля",
     "year": "2016",
     "genre": "Соціальний роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Джон Стейнбек"
-    ]
+    "added": 45667
   },
   {
     "title": "Гра престолів (Цикл \"Пісня льоду і полум’я\")",
+    "author": "Джордж Р.Р. Мартін",
     "publisher": "Клуб Сімейного Дозвілля",
     "year": "2005",
     "genre": "Фентезі",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Джордж Р.Р. Мартін"
-    ]
+    "added": 45667
   },
   {
     "title": "Спогади і роздуми на фінішній прямій",
+    "author": "Дзюба Іван",
     "publisher": "Молодь",
     "year": "1985",
     "genre": "публіцистика",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Дзюба Іван"
-    ]
+    "added": 45667
   },
   {
     "title": "Девід Копперфільд",
+    "author": "Діккенс Чарльз",
     "publisher": "Книголав",
     "year": "2023",
     "genre": "автобіографічний соціально‑побутовий роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Діккенс Чарльз"
-    ]
+    "added": 45667
   },
   {
     "title": "Домбі і син",
+    "author": "Діккенс Чарльз",
     "publisher": "А-БА-БА-ГА-ЛА-МА-ГА",
     "year": "2012",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Діккенс Чарльз"
-    ]
+    "added": 45667
   },
   {
     "title": "На коні й під конем",
+    "author": "Дімаров Анатолій",
     "publisher": "Молодь",
     "year": "1974",
     "genre": "Роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Дімаров Анатолій"
-    ]
+    "added": 45667
   },
   {
     "title": "Зачарована Десна",
+    "author": "Довженко Олександр",
     "publisher": "Радянський письменник",
     "year": "1955",
     "genre": "нарис, спогади",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Довженко Олександр"
-    ]
+    "added": 45667
   },
   {
     "title": "Доктор Серафікус",
+    "author": "Домонтович Віктор",
     "publisher": "Фоліо",
     "year": "2018",
     "genre": "сатиричний роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Домонтович Віктор"
-    ]
+    "added": 45667
   },
   {
     "title": "Мангаттан-проект",
+    "author": "Дос Пассос Джон",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "історичний роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Дос Пассос Джон"
-    ]
+    "added": 45667
   },
   {
     "title": "Проростень (збірка)",
+    "author": "Драй-Хмара Михайло",
     "publisher": "Молодь",
     "year": "1969",
     "genre": "поезія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Драй-Хмара Михайло"
-    ]
+    "added": 45667
   },
   {
     "title": "Балади буднів",
+    "author": "Драч Іван",
     "publisher": "Молодь",
     "year": "1971",
     "genre": "поезія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Драч Іван"
-    ]
+    "added": 45667
   },
   {
     "title": "Школярка з передмістя",
+    "author": "Думанська Оксана",
     "publisher": "Клуб Сімейного Дозвілля",
     "year": "2018",
     "genre": "Проза",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Думанська Оксана"
-    ]
+    "added": 45667
   },
   {
     "title": "Ребекка",
+    "author": "дю Мор’є Дафна",
     "publisher": "Клуб Сімейного Дозвілля",
     "year": "2014",
     "genre": "готичний роман, детектив",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "дю Мор’є Дафна"
-    ]
+    "added": 45667
   },
   {
     "title": "Захоплення Лол Стайн",
+    "author": "Дюрас Марґеріт",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Дюрас Марґеріт"
-    ]
+    "added": 45667
   },
   {
     "title": "Ключ від Королівства",
+    "author": "Дяченки Марина та Сергій",
     "publisher": "А-БА-БА-ГА-ЛА-МА-ГА",
     "year": "2016",
     "genre": "Фентезі",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Дяченки Марина та Сергій"
-    ]
+    "added": 45667
   },
   {
     "title": "Голомоза співачка",
+    "author": "Ежен Йонеско",
     "publisher": "N/A",
     "year": "1950",
     "genre": "Абсурд",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Ежен Йонеско"
-    ]
+    "added": 45667
   },
   {
     "title": "Ім’я рози",
+    "author": "Еко Умберто",
     "publisher": "Фоліо",
     "year": "2004",
     "genre": "історичний детектив",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Еко Умберто"
-    ]
+    "added": 45667
   },
   {
     "title": "Даніель Деронда",
+    "author": "Еліот Джордж",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Еліот Джордж"
-    ]
+    "added": 45667
   },
   {
     "title": "Міддлмарч",
+    "author": "Еліот Джордж",
     "publisher": "N/A",
     "year": 1871,
     "genre": "соціально‑психологічний роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Еліот Джордж"
-    ]
+    "added": 45667
   },
   {
     "title": "Град скорботи",
+    "author": "Елюар Поль",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "поезія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Елюар Поль"
-    ]
+    "added": 45667
   },
   {
     "title": "Щасливчик Джим",
+    "author": "Еміс Кінґслі",
     "publisher": "N/A",
     "year": "1954",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Еміс Кінґслі"
-    ]
+    "added": 45667
   },
   {
     "title": "Синій лотос",
+    "author": "Ерже",
     "publisher": "N/A",
     "year": "1936",
     "genre": "Комікс",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Ерже"
-    ]
+    "added": 45667
   },
   {
     "title": "По кому подзвін",
+    "author": "Ернест Гемінґвей",
     "publisher": "А-БА-БА-ГА-ЛА-МА-ГА",
     "year": "2015",
     "genre": "Роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Ернест Гемінґвей"
-    ]
+    "added": 45667
   },
   {
     "title": "Прощавай, зброє",
+    "author": "Ернест Гемінґвей",
     "publisher": "А-БА-БА-ГА-ЛА-МА-ГА",
     "year": "2014",
     "genre": "Антивоєнний роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Ернест Гемінґвей"
-    ]
+    "added": 45667
   },
   {
     "title": "Оповідь служниці",
+    "author": "Етвуд Марґарет",
     "publisher": "Фабула",
     "year": "2015",
     "genre": "антиутопія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Етвуд Марґарет"
-    ]
+    "added": 45667
   },
   {
     "title": "Депеш Мод",
+    "author": "Жадан Сергій",
     "publisher": "Клуб Сімейного Дозвілля",
     "year": "2004",
     "genre": "поезія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Жадан Сергій"
-    ]
+    "added": 45667
   },
   {
     "title": "Месопотамія",
+    "author": "Жадан Сергій",
     "publisher": "Клуб Сімейного Дозвілля",
     "year": "2008",
     "genre": "поезія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Жадан Сергій"
-    ]
+    "added": 45667
   },
   {
     "title": "Ворошиловград",
+    "author": "Жадан Сергій",
     "publisher": "Фоліо",
     "year": "2010",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Жадан Сергій"
-    ]
+    "added": 45667
   },
   {
     "title": "Слова",
+    "author": "Жак Превер",
     "publisher": "N/A",
     "year": "1950",
     "genre": "Поезія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Жак Превер"
-    ]
+    "added": 45667
   },
   {
     "title": "Буття і ніщо",
+    "author": "Жан-Поль Сартр",
     "publisher": "N/A",
     "year": "1943",
     "genre": "Філософія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Жан-Поль Сартр"
-    ]
+    "added": 45667
   },
   {
     "title": "Богородиця квітів",
+    "author": "Жене Жан",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Жене Жан"
-    ]
+    "added": 45667
   },
   {
     "title": "Євангеліє від ластівки",
+    "author": "Жиленко Ірина",
     "publisher": "Смолоскип",
     "year": "2003",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Жиленко Ірина"
-    ]
+    "added": 45667
   },
   {
     "title": "Фальшивомонетники",
+    "author": "Жід Андре",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Жід Андре"
-    ]
+    "added": 45667
   },
   {
     "title": "Вершник на даху",
+    "author": "Жіоно Жан",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "історичний роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Жіоно Жан"
-    ]
+    "added": 45667
   },
   {
     "title": "Сліпота",
+    "author": "Жозе Сарамаґо",
     "publisher": "КМ-Букс",
     "year": "2004",
     "genre": "Алегоричний роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Жозе Сарамаґо"
-    ]
+    "added": 45667
   },
   {
     "title": "Музей покинутих секретів",
+    "author": "Забужко Оксана",
     "publisher": "Клуб Сімейного Дозвілля",
     "year": "2015",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Забужко Оксана"
-    ]
+    "added": 45667
   },
   {
     "title": "Польові дослідження з українського сексу",
+    "author": "Забужко Оксана",
     "publisher": "Комора",
     "year": "2015",
     "genre": "сучасна проза / феміністичний роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Забужко Оксана"
-    ]
+    "added": 45667
   },
   {
     "title": "Шевченко, Sex and Sickness",
+    "author": "Забужко Оксана",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "публіцистика/есе",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Забужко Оксана"
-    ]
+    "added": 45667
   },
   {
     "title": "Диво",
+    "author": "Загребельний Павло",
     "publisher": "Радянський письменник",
     "year": "1987",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Загребельний Павло"
-    ]
+    "added": 45667
   },
   {
     "title": "Дума про дитинство",
+    "author": "Запаренко Панас",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "Поезія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Запаренко Панас"
-    ]
+    "added": 45667
   },
   {
     "title": "Камена",
+    "author": "Зеров Микола",
     "publisher": "Видавництво Огієнка",
     "year": "1930",
     "genre": "поезія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Зеров Микола"
-    ]
+    "added": 45667
   },
   {
     "title": "Їхні очі бачили Бога",
+    "author": "Зора Ніл Герстон",
     "publisher": "N/A",
     "year": "1937",
     "genre": "Роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Зора Ніл Герстон"
-    ]
+    "added": 45667
   },
   {
     "title": "Мальви",
+    "author": "Іваничук Роман",
     "publisher": "Клуб Сімейного Дозвілля",
     "year": "2015",
     "genre": "історичний роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Іваничук Роман"
-    ]
+    "added": 45667
   },
   {
     "title": "Воццек & воццекургія",
+    "author": "Іздрик Юрко",
     "publisher": "Факт",
     "year": "2000",
     "genre": "експериментальний роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Іздрик Юрко"
-    ]
+    "added": 45667
   },
   {
     "title": "Молитва за Оуена Міні",
+    "author": "Ірвінг Джон",
     "publisher": "Фоліо",
     "year": "2005",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Ірвінг Джон"
-    ]
+    "added": 45667
   },
   {
     "title": "Залишок дня",
+    "author": "Ісіґуро Кадзуо",
     "publisher": "N/A",
     "year": "1989",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Ісіґуро Кадзуо"
-    ]
+    "added": 45667
   },
   {
     "title": "Не відпускай мене",
+    "author": "Ісіґуро Кадзуо",
     "publisher": "Наш Формат",
     "year": "2010",
     "genre": "наукова фантастика, драма",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Ісіґуро Кадзуо"
-    ]
+    "added": 45667
   },
   {
     "title": "Подорож ученого доктора Леонардо і його майбутньої коханки прекрасної Альчести у Слобожанську Швайцарію",
+    "author": "Йогансен Майк",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Йогансен Майк"
-    ]
+    "added": 45667
   },
   {
     "title": "Генерал мертвої армії",
+    "author": "Кадаре Ісмаїл",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Кадаре Ісмаїл"
-    ]
+    "added": 45667
   },
   {
     "title": "Вертеп маленького хлопчика",
+    "author": "Калинець Ігор",
     "publisher": "Веселка",
     "year": "1986",
     "genre": "Поезія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Калинець Ігор"
-    ]
+    "added": 45667
   },
   {
     "title": "Пробуджена муза. Невольнича муза (як один цілісний твір)",
+    "author": "Калинець Ігор",
     "publisher": "Дніпро",
     "year": "1986",
     "genre": "поезія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Калинець Ігор"
-    ]
+    "added": 45667
   },
   {
     "title": "Сторонній",
+    "author": "Камю Альберт",
     "publisher": "Видавництво Жупанського",
     "year": "2013",
     "genre": "філософський роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Камю Альберт"
-    ]
+    "added": 45667
   },
   {
     "title": "З холодним серцем",
+    "author": "Капоте Трумен",
     "publisher": "Клуб Сімейного Дозвілля",
     "year": "2014",
     "genre": "роман, трилер",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Капоте Трумен"
-    ]
+    "added": 45667
   },
   {
     "title": "Гра Ендера",
+    "author": "Кард Орсон Скотт",
     "publisher": "КМ-Букс",
     "year": "2013",
     "genre": "наукова фантастика",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Кард Орсон Скотт"
-    ]
+    "added": 45667
   },
   {
     "title": "Безталанна",
+    "author": "Карпенко-Карий Іван",
     "publisher": "Веселка",
     "year": "1983",
     "genre": "п’єса",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Карпенко-Карий Іван"
-    ]
+    "added": 45667
   },
   {
     "title": "Перетворення",
+    "author": "Кафка Франц",
     "publisher": "Дух і Літера",
     "year": "2017",
     "genre": "новела, експресіонізм",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Кафка Франц"
-    ]
+    "added": 45667
   },
   {
     "title": "Листи з осіннього саду",
+    "author": "Качан Анатолій",
     "publisher": "Смолоскип",
     "year": "2014",
     "genre": "Проза",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Качан Анатолій"
-    ]
+    "added": 45667
   },
   {
     "title": "Конотопська відьма",
+    "author": "Квітка‑Основ’яненко Григорій",
     "publisher": "Смолоскип",
     "year": "2012",
     "genre": "соціально‑побутова повість / гумореска",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Квітка‑Основ’яненко Григорій"
-    ]
+    "added": 45667
   },
   {
     "title": "Маруся",
+    "author": "Квітка‑Основ’яненко Григорій",
     "publisher": "Смолоскип",
     "year": "2012",
     "genre": "повість‑романтик гумор / романтична проза",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Квітка‑Основ’яненко Григорій"
-    ]
+    "added": 45667
   },
   {
     "title": "Зазі в метро",
+    "author": "Кено Ремон",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "сатиричний роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Кено Ремон"
-    ]
+    "added": 45667
   },
   {
     "title": "З перших рук",
+    "author": "Кері Джойс",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Кері Джойс"
-    ]
+    "added": 45667
   },
   {
     "title": "Аліса в Країні чудес",
+    "author": "Керрол Льюїс",
     "publisher": "Видавництво Старого Лева",
     "year": "2010",
     "genre": "фентезі, казка",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Керрол Льюїс"
-    ]
+    "added": 45667
   },
   {
     "title": "У дорозі",
+    "author": "Керуак Джек",
     "publisher": "Клуб Сімейного Дозвілля",
     "year": "2008",
     "genre": "бит-література, роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Керуак Джек"
-    ]
+    "added": 45667
   },
   {
     "title": "В дорозі",
+    "author": "Керуак Джек",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "роман, біт-література",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Керуак Джек"
-    ]
+    "added": 45667
   },
   {
     "title": "Місяць у колисці",
+    "author": "Кирпа Галина",
     "publisher": "Веселка",
     "year": "1998",
     "genre": "Казка",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Кирпа Галина"
-    ]
+    "added": 45667
   },
   {
     "title": "Тільки двічі живемо…",
+    "author": "Кисельов Леонід",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "проза",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Кисельов Леонід"
-    ]
+    "added": 45667
   },
   {
     "title": "Над зозулиним гніздом",
+    "author": "Кізі Кен",
     "publisher": "Фоліо",
     "year": "2011",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Кізі Кен"
-    ]
+    "added": 45667
   },
   {
     "title": "Протистояння",
+    "author": "Кінг Стівен",
     "publisher": "КМ-Букс",
     "year": "2011",
     "genre": "трилер, фантастика",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Кінг Стівен"
-    ]
+    "added": 45667
   },
   {
     "title": "Біблія отруйного лісу",
+    "author": "Кінгсолвер Барбара",
     "publisher": "КМ-Букс",
     "year": "2013",
     "genre": "роман, екологічна проза",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Кінгсолвер Барбара"
-    ]
+    "added": 45667
   },
   {
     "title": "Бабин Яр. Голосами",
+    "author": "Кіяновська Маріанна",
     "publisher": "Темпора",
     "year": "2016",
     "genre": "документальна проза",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Кіяновська Маріанна"
-    ]
+    "added": 45667
   },
   {
     "title": "Просто християнство",
+    "author": "Клайв Стейплз Льюїс",
     "publisher": "Богослов'я",
     "year": "1952",
     "genre": "Релігійна література",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Клайв Стейплз Льюїс"
-    ]
+    "added": 45667
   },
   {
     "title": "Печальні тропіки",
+    "author": "Клод Леві-Строс",
     "publisher": "N/A",
     "year": "1955",
     "genre": "Етнографія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Клод Леві-Строс"
-    ]
+    "added": 45667
   },
   {
     "title": "Атласний черевичок",
+    "author": "Клодель Поль",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "драма",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Клодель Поль"
-    ]
+    "added": 45667
   },
   {
     "title": "Valse mélancolique",
+    "author": "Кобилянська Ольга",
     "publisher": "Літературна Україна",
     "year": "2012",
     "genre": "проза",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Кобилянська Ольга"
-    ]
+    "added": 45667
   },
   {
     "title": "Алхімік",
+    "author": "Коельо Пауло",
     "publisher": "Клуб Сімейного Дозвілля",
     "year": "2001",
     "genre": "філософський роман, пригоди",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Коельо Пауло"
-    ]
+    "added": 45667
   },
   {
     "title": "Красуня господаря",
+    "author": "Коен Альбер",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Коен Альбер"
-    ]
+    "added": 45667
   },
   {
     "title": "Дефіляда в Москві",
+    "author": "Кожелянко Василь",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "репортаж",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Кожелянко Василь"
-    ]
+    "added": 45667
   },
   {
     "title": "Таємниця козацького скарбу",
+    "author": "Кокотюха Андрій",
     "publisher": "Клуб Сімейного Дозвілля",
     "year": "2015",
     "genre": "Пригодницький роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Кокотюха Андрій"
-    ]
+    "added": 45667
   },
   {
     "title": "Таємниця козацького човна",
+    "author": "Кокотюха Андрій",
     "publisher": "Клуб Сімейного Дозвілля",
     "year": "2016",
     "genre": "Пригодницький роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Кокотюха Андрій"
-    ]
+    "added": 45667
   },
   {
     "title": "Мисливці за привидами",
+    "author": "Коктюха Андрій",
     "publisher": "Клуб Сімейного Дозвілля",
     "year": "2014",
     "genre": "Пригодницький роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Коктюха Андрій"
-    ]
+    "added": 45667
   },
   {
     "title": "Вусики виноградної лози",
+    "author": "Колетт",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Колетт"
-    ]
+    "added": 45667
   },
   {
     "title": "Жінка в білому",
+    "author": "Коллінз Вілкі",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "готичний роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Коллінз Вілкі"
-    ]
+    "added": 45667
   },
   {
     "title": "Повне зібрання Шерлока Голмса",
+    "author": "Конан Дойл Артур",
     "publisher": "КМ-Букс",
     "year": "2015",
     "genre": "детектив",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Конан Дойл Артур"
-    ]
+    "added": 45667
   },
   {
     "title": "Собака Баскервілів",
+    "author": "Конан Дойл Артур",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "детектив",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Конан Дойл Артур"
-    ]
+    "added": 45667
   },
   {
     "title": "Лорд Джім",
+    "author": "Конрад Джозеф",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Конрад Джозеф"
-    ]
+    "added": 45667
   },
   {
     "title": "Серце пітьми",
+    "author": "Конрад Джозеф",
     "publisher": "Кальварія",
     "year": "2019",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Конрад Джозеф"
-    ]
+    "added": 45667
   },
   {
     "title": "Чмелик",
+    "author": "Королів-Старий Василь",
     "publisher": "Веселка",
     "year": "2009",
     "genre": "Казка",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Королів-Старий Василь"
-    ]
+    "added": 45667
   },
   {
     "title": "Нечиста сила, Хуха-Моховинка, Потерчата",
+    "author": "Королів-Старий Василь",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "Казки",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Королів-Старий Василь"
-    ]
+    "added": 45667
   },
   {
     "title": "Еней і життя інших",
+    "author": "Косач Юрій",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "поезія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Косач Юрій"
-    ]
+    "added": 45667
   },
   {
     "title": "Записки українського самашедшого",
+    "author": "Костенко Ліна",
     "publisher": "Веселка",
     "year": "1984",
     "genre": "поезія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Костенко Ліна"
-    ]
+    "added": 45667
   },
   {
     "title": "Маруся Чурай",
+    "author": "Костенко Ліна",
     "publisher": "Дніпро",
     "year": "1979",
     "genre": "історичний роман / лірико‑епічна проза",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Костенко Ліна"
-    ]
+    "added": 45667
   },
   {
     "title": "Бузиновий цар",
+    "author": "Костенко Ліна",
     "publisher": "Основи",
     "year": "1994",
     "genre": "Поезія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Костенко Ліна"
-    ]
+    "added": 45667
   },
   {
     "title": "Над берегами вічної ріки",
+    "author": "Костенко Ліна",
     "publisher": "Веселка",
     "year": "1976",
     "genre": "поезія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Костенко Ліна"
-    ]
+    "added": 45667
   },
   {
     "title": "Берестечко",
+    "author": "Костенко Ліна",
     "publisher": "Фоліо",
     "year": "1992",
     "genre": "історична драма‑повість",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Костенко Ліна"
-    ]
+    "added": 45667
   },
   {
     "title": "Енеїда",
+    "author": "Котляревський Іван",
     "publisher": "А-БА-БА-ГА-ЛА-МА-ГА",
     "year": "2007",
     "genre": "епос, сатира",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Котляревський Іван"
-    ]
+    "added": 45667
   },
   {
     "title": "Наталка Полтавка",
+    "author": "Котляревський Іван",
     "publisher": "Фоліо",
     "year": "2008",
     "genre": "соціально‑побутова п’єса / драма",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Котляревський Іван"
-    ]
+    "added": 45667
   },
   {
     "title": "Книга споминів",
+    "author": "Коцюбинська Михайлина",
     "publisher": "Фоліо",
     "year": "2008",
     "genre": "мемуари",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Коцюбинська Михайлина"
-    ]
+    "added": 45667
   },
   {
     "title": "Харитя",
+    "author": "Коцюбинський Михайло",
     "publisher": "Молодь",
     "year": "1905",
     "genre": "Проза",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Коцюбинський Михайло"
-    ]
+    "added": 45667
   },
   {
     "title": "Ялинка",
+    "author": "Коцюбинський Михайло",
     "publisher": "Молодь",
     "year": "1910",
     "genre": "Проза",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Коцюбинський Михайло"
-    ]
+    "added": 45667
   },
   {
     "title": "Тіні забутих предків",
+    "author": "Коцюбинський Михайло",
     "publisher": "КМ-Букс",
     "year": "2012",
     "genre": "повість, модернізм",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Коцюбинський Михайло"
-    ]
+    "added": 45667
   },
   {
     "title": "Убивство Роджера Екройда",
+    "author": "Крісті Агата",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "детектив",
     "language": "Українська",
-    "description": "Еркюль Пуаро береться за чергове розслідування. Проте цього разу випадок здається детективу надзвичайно банальним: в англійському містечку помирає дехто місіс Феррас, заможна вдовиця. Містяни вважають, що це самогубство, доки не знаходять убитим Роджера Екройда — вдівця, який збирався одружитися з місіс Феррас. Справа набуває цікавого повороту. Під підозрою опиняється майже все оточення жертв. Та найбільше мотивів для вбивства має Ральф Пейтон — спадкоємець убитого Роджера, що буквально «загруз» у боргах…\r\n\r\nЗвичайне розслідування перетворюється на складну головоломку, сповнену таємниць і загадок. Убивцею може виявитися будь-хто…",
+    "description": "Еркюль Пуаро береться за чергове розслідування. Проте цього разу випадок здається детективу надзвичайно банальним: в англійському містечку помирає дехто місіс Феррас, заможна вдовиця. Містяни вважають, що це самогубство, доки не знаходять убитим Роджера Екройда — вдівця, який збирався одружитися з місіс Феррас. Справа набуває цікавого повороту. Під підозрою опиняється майже все оточення жертв. Та найбільше мотивів для вбивства має Ральф Пейтон — спадкоємець убитого Роджера, що буквально «загруз» у боргах…\n\nЗвичайне розслідування перетворюється на складну головоломку, сповнену таємниць і загадок. Убивцею може виявитися будь-хто…",
     "image": "bookicon.png",
-    "authors": [
-      "Крісті Агата"
-    ]
+    "added": 45667
   },
   {
     "title": "Мина Мазайло",
+    "author": "Куліш Микола",
     "publisher": "Дніпро",
     "year": "1961",
     "genre": "драма",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Куліш Микола"
-    ]
+    "added": 45667
   },
   {
     "title": "Чорна рада",
+    "author": "Куліш Пантелеймон",
     "publisher": "Дніпро",
     "year": "1978",
     "genre": "історичний роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Куліш Пантелеймон"
-    ]
+    "added": 45667
   },
   {
     "title": "Жарт",
+    "author": "Кундера Мілан",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Кундера Мілан"
-    ]
+    "added": 45667
   },
   {
     "title": "Нестерпна легкість буття",
+    "author": "Кундера Мілан",
     "publisher": "Фоліо",
     "year": "2006",
     "genre": "роман, філософський роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Кундера Мілан"
-    ]
+    "added": 45667
   },
   {
     "title": "Будда з передмістя",
+    "author": "Курейші Ханіф",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Курейші Ханіф"
-    ]
+    "added": 45667
   },
   {
     "title": "Колиска для кішки",
+    "author": "Курт Воннеґут",
     "publisher": "N/A",
     "year": "1963",
     "genre": "Сатира, наукова фантастика",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Курт Воннеґут"
-    ]
+    "added": 45667
   },
   {
     "title": "Складки часу",
+    "author": "Л’Енґл Мадлен",
     "publisher": "КМ-Букс",
     "year": "2016",
     "genre": "фантастика",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Л’Енґл Мадлен"
-    ]
+    "added": 45667
   },
   {
     "title": "Твори",
+    "author": "Лакан Жак",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "психологія, філософія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Лакан Жак"
-    ]
+    "added": 45667
   },
   {
     "title": "Самотня голубка",
+    "author": "Ларрі Макмертрі",
     "publisher": "N/A",
     "year": "1992",
     "genre": "Роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Ларрі Макмертрі"
-    ]
+    "added": 45667
   },
   {
     "title": "Біля підніжжя вулкану",
+    "author": "Лаурі Малькольм",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Лаурі Малькольм"
-    ]
+    "added": 45667
   },
   {
     "title": "Протокол",
+    "author": "Ле Клезіо Жан-Марі Ґюстав",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Ле Клезіо Жан-Марі Ґюстав"
-    ]
+    "added": 45667
   },
   {
     "title": "Маленький острів",
+    "author": "Леві Андреа",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Леві Андреа"
-    ]
+    "added": 45667
   },
   {
     "title": "Чи це людина?",
+    "author": "Леві Прімо",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "мемуари, документальна проза",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Леві Прімо"
-    ]
+    "added": 45667
   },
   {
     "title": "Казка мойого життя",
+    "author": "Лепкий Богдан",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "Проза",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Лепкий Богдан"
-    ]
+    "added": 45667
   },
   {
     "title": "Золотий щоденник",
+    "author": "Лессінг Доріс",
     "publisher": "N/A",
     "year": "1962",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Лессінг Доріс"
-    ]
+    "added": 45667
   },
   {
     "title": "Спогади тієї, що вижила",
+    "author": "Лессінг Доріс",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "автобіографія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Лессінг Доріс"
-    ]
+    "added": 45667
   },
   {
     "title": "Біда навчить",
+    "author": "Українка Леся",
     "publisher": "Знання",
     "year": "1913",
     "genre": "Драма",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Українка Леся"
-    ]
+    "added": 45667
   },
   {
     "title": "Поетична казка",
+    "author": "Українка Леся",
     "publisher": "Знання",
     "year": "1911",
     "genre": "Поезія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Українка Леся"
-    ]
+    "added": 45667
   },
   {
     "title": "Друже Лі Бо, брате Ду Фу",
+    "author": "Лишега Олег",
     "publisher": "Факт",
     "year": "2003",
     "genre": "поезія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Лишега Олег"
-    ]
+    "added": 45667
   },
   {
     "title": "Вбити пересмішника",
+    "author": "Лі Гарпер",
     "publisher": "КМ-Букс",
     "year": "2013",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Лі Гарпер"
-    ]
+    "added": 45667
   },
   {
     "title": "Мартін Іден",
+    "author": "Лондон Джек",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Лондон Джек"
-    ]
+    "added": 45667
   },
   {
     "title": "Будиночок у прерії",
+    "author": "Лора Інґолз-Вайлдер",
     "publisher": "Видавництво Старого Лева",
     "year": "2019",
     "genre": "Автобіографічний роман, пригоди",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Лора Інґолз-Вайлдер"
-    ]
+    "added": 45667
   },
   {
     "title": "Коханець леді Чаттерлей",
+    "author": "Лоуренс Д. Г.",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Лоуренс Д. Г."
-    ]
+    "added": 45667
   },
   {
     "title": "Сини і коханці",
+    "author": "Лоуренс Девід Герберт",
     "publisher": "Видавництво Старого Лева",
     "year": "2010",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Лоуренс Девід Герберт"
-    ]
+    "added": 45667
   },
   {
     "title": "Закохані жінки",
+    "author": "Лоуренс Девід Герберт",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Лоуренс Девід Герберт"
-    ]
+    "added": 45667
   },
   {
     "title": "Хранитель",
+    "author": "Лоурі Лоїс",
     "publisher": "Видавництво Старого Лева",
     "year": "2014",
     "genre": "фентезі",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Лоурі Лоїс"
-    ]
+    "added": 45667
   },
   {
     "title": "Подорож на край ночі",
+    "author": "Луї-Фердінан Селін",
     "publisher": "N/A",
     "year": "1932",
     "genre": "Роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Луї-Фердінан Селін"
-    ]
+    "added": 45667
   },
   {
     "title": "Роки сподівань і втрат",
+    "author": "Луцький Юрій",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "проза",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Луцький Юрій"
-    ]
+    "added": 45667
   },
   {
     "title": "Найкращі друзі",
+    "author": "Лущевська Оксана",
     "publisher": "Видавництво Старого Лева",
     "year": "2016",
     "genre": "дитяча література",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Лущевська Оксана"
-    ]
+    "added": 45667
   },
   {
     "title": "Друзі за листуванням",
+    "author": "Лущевська Оксана",
     "publisher": "Клуб Сімейного Дозвілля",
     "year": "2017",
     "genre": "Проза",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Лущевська Оксана"
-    ]
+    "added": 45667
   },
   {
     "title": "Хроніки Нарнії",
+    "author": "Льюїс Клайв",
     "publisher": "А-БА-БА-ГА-ЛА-МА-ГА",
     "year": 2000,
     "genre": "фентезі",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Льюїс Клайв"
-    ]
+    "added": 45667
   },
   {
     "title": "Лев, Біла Відьма та шафа",
+    "author": "Льюїс Клайв Стейплз",
     "publisher": "А-БА-БА-ГА-ЛА-МА-ГА",
     "year": "2003",
     "genre": "фентезі",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Льюїс Клайв Стейплз"
-    ]
+    "added": 45667
   },
   {
     "title": "Щоденник",
+    "author": "Любченко Аркадій",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "щоденник",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Любченко Аркадій"
-    ]
+    "added": 45667
   },
   {
     "title": "Коли я був справжнім",
+    "author": "Маккарті Том",
     "publisher": "N/A",
     "year": "1999",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Маккарті Том"
-    ]
+    "added": 45667
   },
   {
     "title": "Прах Анджели",
+    "author": "Маккорт Френк",
     "publisher": "Клуб Сімейного Дозвілля",
     "year": "2013",
     "genre": "автобіографічний роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Маккорт Френк"
-    ]
+    "added": 45667
   },
   {
     "title": "Спокута",
+    "author": "Мак'юен Ієн",
     "publisher": "Нора-Друк",
     "year": "2013",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Мак'юен Ієн"
-    ]
+    "added": 45667
   },
   {
     "title": "Книга спостережень",
+    "author": "Маланюк Євген",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "поезія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Маланюк Євген"
-    ]
+    "added": 45667
   },
   {
     "title": "Таємний посол",
+    "author": "Малик Володимир",
     "publisher": "Веселка",
     "year": "2005",
     "genre": "Пригодницький роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Малик Володимир"
-    ]
+    "added": 45667
   },
   {
     "title": "Незвичайні пригоди Алі в Країні Недоладії",
+    "author": "Малик Галина",
     "publisher": "Веселка",
     "year": "2003",
     "genre": "Дитяча література",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Малик Галина"
-    ]
+    "added": 45667
   },
   {
     "title": "Абра&Кадабра",
+    "author": "Малик Галина",
     "publisher": "А-БА-БА-ГА-ЛА-МА-ГА",
     "year": "2012",
     "genre": "дитяча казка",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Малик Галина"
-    ]
+    "added": 45667
   },
   {
     "title": "Злочинці з паралельного світу",
+    "author": "Малик Галина",
     "publisher": "А-БА-БА-ГА-ЛА-МА-ГА",
     "year": "2013",
     "genre": "дитяча фантастика",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Малик Галина"
-    ]
+    "added": 45667
   },
   {
     "title": "Все поруч",
+    "author": "Малкович Іван",
     "publisher": "Кальварія",
     "year": "2010",
     "genre": "проза",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Малкович Іван"
-    ]
+    "added": 45667
   },
   {
     "title": "Згори вниз",
+    "author": "Малярчук Таня",
     "publisher": "Фоліо",
     "year": "2008",
     "genre": "проза",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Малярчук Таня"
-    ]
+    "added": 45667
   },
   {
     "title": "Зачарована гора",
+    "author": "Манн Томас",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "філософський роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Манн Томас"
-    ]
+    "added": 45667
   },
   {
     "title": "Всесвіт за колючим дротом",
+    "author": "Маринович Мирослав",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "публіцистика",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Маринович Мирослав"
-    ]
+    "added": 45667
   },
   {
     "title": "У пошуках утраченого часу",
+    "author": "Марсель Пруст",
     "publisher": "N/A",
     "year": 1913,
     "genre": "Модернізм",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Марсель Пруст"
-    ]
+    "added": 45667
   },
   {
     "title": "Гроза над Славутичем",
+    "author": "Матвієнко Костянтин",
     "publisher": "Видавництво Старого Лева",
     "year": "2015",
     "genre": "дитяча проза",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Матвієнко Костянтин"
-    ]
+    "added": 45667
   },
   {
     "title": "Солодка Даруся",
+    "author": "Матіос Марія",
     "publisher": "Клуб Сімейного Дозвілля",
     "year": "2006",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Матіос Марія"
-    ]
+    "added": 45667
   },
   {
     "title": "Казки Різдва",
+    "author": "Матіяш Богдана",
     "publisher": "Веселка",
     "year": "2010",
     "genre": "Казки",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Матіяш Богдана"
-    ]
+    "added": 45667
   },
   {
     "title": "День сніговика",
+    "author": "Матіяш Дзвінка",
     "publisher": "Видавництво Старого Лева",
     "year": "2014",
     "genre": "дитяча казка",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Матіяш Дзвінка"
-    ]
+    "added": 45667
   },
   {
     "title": "Князь роси",
+    "author": "Мельничук Тарас",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "поезія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Мельничук Тарас"
-    ]
+    "added": 45667
   },
   {
     "title": "Київські казки",
+    "author": "Мензатюк Зірка",
     "publisher": "Веселка",
     "year": "2010",
     "genre": "Казки",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Мензатюк Зірка"
-    ]
+    "added": 45667
   },
   {
     "title": "Таємниця козацької шаблі",
+    "author": "Мензатюк Зірка",
     "publisher": "Веселка",
     "year": "2008",
     "genre": "Дитяча література",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Мензатюк Зірка"
-    ]
+    "added": 45667
   },
   {
     "title": "Як я руйнувала імперію",
+    "author": "Мензатюк Зірка",
     "publisher": "А-БА-БА-ГА-ЛА-МА-ГА",
     "year": "2011",
     "genre": "історична проза",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Мензатюк Зірка"
-    ]
+    "added": 45839
   },
   {
     "title": "Вовча зала",
+    "author": "Ментел Гіларі",
     "publisher": "Фоліо",
     "year": "2016",
     "genre": "історичний роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Ментел Гіларі"
-    ]
+    "added": 45667
   },
   {
     "title": "Море, море",
+    "author": "Мердок Айріс",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Мердок Айріс"
-    ]
+    "added": 45667
   },
   {
     "title": "Хіба ревуть воли, як ясла повні?",
+    "author": "Мирний Панас",
     "publisher": "Веселка",
     "year": "1989",
     "genre": "соціально-психологічний роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Мирний Панас"
-    ]
+    "added": 45667
   },
   {
     "title": "Трилогія: Сексус, Плексус, Нексус",
+    "author": "Міллер Генрі",
     "publisher": "N/A",
     "year": 1973,
     "genre": "автобіографічний роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Міллер Генрі"
-    ]
+    "added": 45667
   },
   {
     "title": "Звіяні вітром",
+    "author": "Мітчелл Маргарет",
     "publisher": "Клуб Сімейного Дозвілля",
     "year": "2016",
     "genre": "історичний роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Мітчелл Маргарет"
-    ]
+    "added": 45667
   },
   {
     "title": "Арфа для павучка",
+    "author": "Мовчун Леся",
     "publisher": "А-БА-БА-ГА-ЛА-МА-ГА",
     "year": "2012",
     "genre": "Казки",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Мовчун Леся"
-    ]
+    "added": 45667
   },
   {
     "title": "Київські контури (збірка)",
+    "author": "Могильний Аттила",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "поезія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Могильний Аттила"
-    ]
+    "added": 45667
   },
   {
     "title": "Тягар пристрастей людських",
+    "author": "Моем Сомерсет",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Моем Сомерсет"
-    ]
+    "added": 45667
   },
   {
     "title": "Енн із Зелених дахів",
+    "author": "Монтгомері Люсі-Мод",
     "publisher": "Клуб Сімейного Дозвілля",
     "year": "2013",
     "genre": "дитяча література, роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Монтгомері Люсі-Мод"
-    ]
+    "added": 45667
   },
   {
     "title": "Зневага",
+    "author": "Моравіа Альберто",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Моравіа Альберто"
-    ]
+    "added": 45667
   },
   {
     "title": "Тереза Дескейру",
+    "author": "Моріак Франсуа",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "психологічний роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Моріак Франсуа"
-    ]
+    "added": 45667
   },
   {
     "title": "Іван Сірко – великий характерник",
+    "author": "Морозенко Марія",
     "publisher": "Видавництво Старого Лева",
     "year": "2012",
     "genre": "історична проза",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Морозенко Марія"
-    ]
+    "added": 45667
   },
   {
     "title": "Іван Сірко, славетний кошовий",
+    "author": "Морозенко Марія",
     "publisher": "Видавництво Старого Лева",
     "year": "2013",
     "genre": "історична проза",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Морозенко Марія"
-    ]
+    "added": 45667
   },
   {
     "title": "Кохана",
+    "author": "Моррісон Тоні",
     "publisher": "Клуб Сімейного Дозвілля",
     "year": "2014",
     "genre": "роман, історична проза",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Моррісон Тоні"
-    ]
+    "added": 45667
   },
   {
     "title": "Людина на крижині",
+    "author": "Москалець Кость",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "поезія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Москалець Кость"
-    ]
+    "added": 45667
   },
   {
     "title": "Людина без властивостей",
+    "author": "Музіль Роберт",
     "publisher": "N/A",
     "year": "1930",
     "genre": "філософський роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Музіль Роберт"
-    ]
+    "added": 45667
   },
   {
     "title": "Будинок для містера Бісваса",
+    "author": "Найпол В.С.",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Найпол В.С."
-    ]
+    "added": 45667
   },
   {
     "title": "Літаюча голова (збірка)",
+    "author": "Неборак Віктор",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "поезія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Неборак Віктор"
-    ]
+    "added": 45667
   },
   {
     "title": "В країні Сонячних зайчиків",
+    "author": "Нестайко Всеволод",
     "publisher": "Веселка",
     "year": "1972",
     "genre": "Дитяча література",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Нестайко Всеволод"
-    ]
+    "added": 45667
   },
   {
     "title": "Незвичайні пригоди в Лісовій школі",
+    "author": "Нестайко Всеволод",
     "publisher": "Веселка",
     "year": "1970",
     "genre": "Дитяча література",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Нестайко Всеволод"
-    ]
+    "added": 45667
   },
   {
     "title": "Тореадори з Васюківки",
+    "author": "Нестайко Всеволод",
     "publisher": "А-БА-БА-ГА-ЛА-МА-ГА",
     "year": "2007",
     "genre": "дитяча проза",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Нестайко Всеволод"
-    ]
+    "added": 45667
   },
   {
     "title": "Кайдашева сім'я",
+    "author": "Нечуй-Левицький Іван",
     "publisher": "Дніпро",
     "year": "1970",
     "genre": "соціально-побутова драма",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Нечуй-Левицький Іван"
-    ]
+    "added": 45667
   },
   {
     "title": "Лісом, небом, водою (трилогія)",
+    "author": "Оксеник Сергій",
     "publisher": "Видавництво Старого Лева",
     "year": "2017",
     "genre": "пригодницький роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Оксеник Сергій"
-    ]
+    "added": 45667
   },
   {
     "title": "Прекрасний новий світ",
+    "author": "Олдос Гакслі",
     "publisher": "Клуб Сімейного Дозвілля",
     "year": "2016",
     "genre": "Антиутопія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Олдос Гакслі"
-    ]
+    "added": 45667
   },
   {
     "title": "Архіпелаг ГУЛАГ",
+    "author": "Олександр Солженіцин",
     "publisher": "Клуб Сімейного Дозвілля",
     "year": "2013",
     "genre": "Документалістика",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Олександр Солженіцин"
-    ]
+    "added": 45667
   },
   {
     "title": "З журбою радість обнялась",
+    "author": "Олесь Олександр",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "поезія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Олесь Олександр"
-    ]
+    "added": 45667
   },
   {
     "title": "Підзамче",
+    "author": "Ольжич Олег",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "поезія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Ольжич Олег"
-    ]
+    "added": 45667
   },
   {
     "title": "Скотоферма",
+    "author": "Орвел Джордж",
     "publisher": "Клуб Сімейного Дозвілля",
     "year": "2007",
     "genre": "антиутопія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Орвел Джордж"
-    ]
+    "added": 45667
   },
   {
     "title": "Колгосп тварин",
+    "author": "Орвелл Джордж",
     "publisher": "Видавництво Жупанського",
     "year": "2010",
     "genre": "сатирична антиутопія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Орвелл Джордж"
-    ]
+    "added": 45667
   },
   {
     "title": "1984",
+    "author": "Орвелл Джордж",
     "publisher": "Клуб Сімейного Дозвілля",
     "year": "2014",
     "genre": "антиутопія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Орвелл Джордж"
-    ]
+    "added": 45667
   },
   {
     "title": "Гордість і упередження",
+    "author": "Остін Джейн",
     "publisher": "А-БА-БА-ГА-ЛА-МА-ГА",
     "year": "2013",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Остін Джейн"
-    ]
+    "added": 45667
   },
   {
     "title": "Емма",
+    "author": "Остін Джейн",
     "publisher": "А-БА-БА-ГА-ЛА-МА-ГА",
     "year": "2012",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Остін Джейн"
-    ]
+    "added": 45667
   },
   {
     "title": "Переконання",
+    "author": "Остін Джейн",
     "publisher": "А-БА-БА-ГА-ЛА-МА-ГА",
     "year": "2011",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Остін Джейн"
-    ]
+    "added": 45667
   },
   {
     "title": "Почуття і чутливість",
+    "author": "Остін Джейн",
     "publisher": "Клуб Сімейного Дозвілля",
     "year": "2012",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Остін Джейн"
-    ]
+    "added": 45667
   },
   {
     "title": "Старший боярин",
+    "author": "Осьмачка Тодось",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "поезія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Осьмачка Тодось"
-    ]
+    "added": 45667
   },
   {
     "title": "Пенталогія про Русалоньку із 7-В",
+    "author": "Павленко Марина",
     "publisher": "Видавництво Старого Лева",
     "year": "2016",
     "genre": "дитяча фантастика",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Павленко Марина"
-    ]
+    "added": 45667
   },
   {
     "title": "Золоторогий олень",
+    "author": "Павличко Дмитро",
     "publisher": "Дніпро",
     "year": "1980",
     "genre": "Поезія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Павличко Дмитро"
-    ]
+    "added": 45667
   },
   {
     "title": "Втеча звірівабо Новий бестіарій",
+    "author": "Пагутяк Галина",
     "publisher": "Веселка",
     "year": "2010",
     "genre": "Казка",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Пагутяк Галина"
-    ]
+    "added": 45667
   },
   {
     "title": "Лялечка і Мацько",
+    "author": "Пагутяк Галина",
     "publisher": "Веселка",
     "year": "2008",
     "genre": "Дитяча література",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Пагутяк Галина"
-    ]
+    "added": 45667
   },
   {
     "title": "Королівство",
+    "author": "Пагутяк Галина",
     "publisher": "Видавництво Старого Лева",
     "year": "2015",
     "genre": "дитяча проза",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Пагутяк Галина"
-    ]
+    "added": 45667
   },
   {
     "title": "Танець під музику часу",
+    "author": "Пауелл Ентоні",
     "publisher": "N/A",
     "year": 1951,
     "genre": "роман (серія)",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Пауелл Ентоні"
-    ]
+    "added": 45667
   },
   {
     "title": "Життя, інструкція з експлуатації",
+    "author": "Перек Жорж",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "постмодернізм",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Перек Жорж"
-    ]
+    "added": 45667
   },
   {
     "title": "Місто",
+    "author": "Підмогильний Валер'ян",
     "publisher": "Дніпро",
     "year": "1970",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Підмогильний Валер'ян"
-    ]
+    "added": 45667
   },
   {
     "title": "Чудові жінки",
+    "author": "Пім Барбара",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Пім Барбара"
-    ]
+    "added": 45667
   },
   {
     "title": "Шість персонажів у пошуках автора",
+    "author": "Піранделло Луїджі",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "драма",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Піранделло Луїджі"
-    ]
+    "added": 45667
   },
   {
     "title": "Під скляним ковпаком",
+    "author": "Плат Сильвія",
     "publisher": "Наш Формат",
     "year": "2017",
     "genre": "роман, жіночий психологічний роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Плат Сильвія"
-    ]
+    "added": 45667
   },
   {
     "title": "Три збірки",
+    "author": "Плужник Євген",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "поезія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Плужник Євген"
-    ]
+    "added": 45667
   },
   {
     "title": "У карнавалі історії",
+    "author": "Плющ Леонід",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "проза",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Плющ Леонід"
-    ]
+    "added": 45667
   },
   {
     "title": "Павлік Морозов",
+    "author": "Подерв'янський Лесь",
     "publisher": "Темпора",
     "year": "2005",
     "genre": "драматургія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Подерв'янський Лесь"
-    ]
+    "added": 45667
   },
   {
     "title": "Шедеври",
+    "author": "Позаяк Юрко",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "проза",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Позаяк Юрко"
-    ]
+    "added": 45667
   },
   {
     "title": "Хто зробить сніг? Куди зникло море? Проза",
+    "author": "Прохаськи Тарас і Мар’яна",
     "publisher": "Фоліо",
     "year": "2013",
     "genre": "Проза",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Прохаськи Тарас і Мар’яна"
-    ]
+    "added": 45667
   },
   {
     "title": "НепрОсті",
+    "author": "Прохасько Тарас",
     "publisher": "Основи",
     "year": "2010",
     "genre": "проза",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Прохасько Тарас"
-    ]
+    "added": 45667
   },
   {
     "title": "Темні початки",
+    "author": "Пуллман Філіп",
     "publisher": "Видавництво Старого Лева",
     "year": "2015",
     "genre": "фентезі",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Пуллман Філіп"
-    ]
+    "added": 45667
   },
   {
     "title": "Рафаелеві янголята",
+    "author": "Пчілка Олена",
     "publisher": "Веселка",
     "year": "1910",
     "genre": "Казка",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Пчілка Олена"
-    ]
+    "added": 45667
   },
   {
     "title": "Сосонка",
+    "author": "Пчілка Олена",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "Поезія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Пчілка Олена"
-    ]
+    "added": 45667
   },
   {
     "title": "Невидимка",
+    "author": "Ральф Еллісон",
     "publisher": "N/A",
     "year": "1952",
     "genre": "Роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Ральф Еллісон"
-    ]
+    "added": 45667
   },
   {
     "title": "На Західному фронті без змін",
+    "author": "Ремарк Еріх Марія",
     "publisher": "Клуб Сімейного Дозвілля",
     "year": "2010",
     "genre": "антивоєнний роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Ремарк Еріх Марія"
-    ]
+    "added": 45667
   },
   {
     "title": "Щоденник",
+    "author": "Ренар Жуль",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "щоденник",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Ренар Жуль"
-    ]
+    "added": 45667
   },
   {
     "title": "Атлант розправив плечі",
+    "author": "Ренд Айн",
     "publisher": "Наш Формат",
     "year": "2011",
     "genre": "філософський роман, драма",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Ренд Айн"
-    ]
+    "added": 45667
   },
   {
     "title": "Астерікс з Галлії",
+    "author": "Рене Ґосінні, Альбер Удерзо",
     "publisher": "N/A",
     "year": "1961",
     "genre": "Комікс, пригоди",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Рене Ґосінні",
-      "Альбер Удерзо"
-    ]
+    "added": 45667
   },
   {
     "title": "Під осінніми зорями",
+    "author": "Рильський Максим",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "поезія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Рильський Максим"
-    ]
+    "added": 45667
   },
   {
     "title": "Діва Обида",
+    "author": "Римарук Ігор",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "поезія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Римарук Ігор"
-    ]
+    "added": 45667
   },
   {
     "title": "Широке саргасове море",
+    "author": "Рис Джин",
     "publisher": "N/A",
     "year": "1999",
     "genre": "історичний роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Рис Джин"
-    ]
+    "added": 45667
   },
   {
     "title": "Нотатки Мальте Лявридса Бриґґе",
+    "author": "Рільке Райнер Марія",
     "publisher": "N/A",
     "year": "1910",
     "genre": "поезія / лірика",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Рільке Райнер Марія"
-    ]
+    "added": 45667
   },
   {
     "title": "Клариса",
+    "author": "Річардсон Семюел",
     "publisher": "N/A",
     "year": "1748",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Річардсон Семюел"
-    ]
+    "added": 45667
   },
   {
     "title": "Арсен",
+    "author": "Роздобудько Ірен",
     "publisher": "Фоліо",
     "year": "2010",
     "genre": "сучасна проза",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Роздобудько Ірен"
-    ]
+    "added": 45667
   },
   {
     "title": "Джовані Трапатоні",
+    "author": "Росич Олекса",
     "publisher": "Видавництво Старого Лева",
     "year": "2018",
     "genre": "дитяча проза",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Росич Олекса"
-    ]
+    "added": 45667
   },
   {
     "title": "Гаррі Поттер і в’язень Аскабану",
+    "author": "Роулінґ Джоан",
     "publisher": "А-БА-БА-ГА-ЛА-МА-ГА",
     "year": "2001",
     "genre": "фентезі",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Роулінґ Джоан"
-    ]
+    "added": 45667
   },
   {
     "title": "Гаррі Поттер і таємна кімната",
+    "author": "Роулінґ Джоан",
     "publisher": "А-БА-БА-ГА-ЛА-МА-ГА",
     "year": "2000",
     "genre": "фентезі",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Роулінґ Джоан"
-    ]
+    "added": 45667
   },
   {
     "title": "Гаррі Поттер і філософський камінь",
+    "author": "Роулінґ Джоан",
     "publisher": "А-БА-БА-ГА-ЛА-МА-ГА",
     "year": "2000",
     "genre": "фентезі",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Роулінґ Джоан"
-    ]
+    "added": 45667
   },
   {
     "title": "Міти метаморфоз, або Пошуки доброго світу",
+    "author": "Рубчак Богдан",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "проза",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Рубчак Богдан"
-    ]
+    "added": 45667
   },
   {
     "title": "Співомовки",
+    "author": "Руданський Степан",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "поезія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Руданський Степан"
-    ]
+    "added": 45667
   },
   {
     "title": "Ганнуся",
+    "author": "Рутківський Володимир",
     "publisher": "Веселка",
     "year": "1995",
     "genre": "Дитяча література",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Рутківський Володимир"
-    ]
+    "added": 45667
   },
   {
     "title": "Джури козака Швайки",
+    "author": "Рутківський Володимир",
     "publisher": "А-БА-БА-ГА-ЛА-МА-ГА",
     "year": "2014",
     "genre": "історична пригодницька література",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Рутківський Володимир"
-    ]
+    "added": 45667
   },
   {
     "title": "Сторожова застава",
+    "author": "Рутківський Володимир",
     "publisher": "А-БА-БА-ГА-ЛА-МА-ГА",
     "year": "2015",
     "genre": "історична фантастика",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Рутківський Володимир"
-    ]
+    "added": 45667
   },
   {
     "title": "Опівнічні діти",
+    "author": "Рушді Салман",
     "publisher": "N/A",
     "year": "1981",
     "genre": "магічний реалізм",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Рушді Салман"
-    ]
+    "added": 45667
   },
   {
     "title": "Діти півночі",
+    "author": "Рушді Салман",
     "publisher": "Фабула",
     "year": "2009",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Рушді Салман"
-    ]
+    "added": 45667
   },
   {
     "title": "Дилема українського Фауста: громадянське суспільство і розбудова держави",
+    "author": "Рябчук Микола",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "публіцистика",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Рябчук Микола"
-    ]
+    "added": 45667
   },
   {
     "title": "Bonjour, печале!",
+    "author": "Саган Франсуаза",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Саган Франсуаза"
-    ]
+    "added": 45667
   },
   {
     "title": "Кав’ярня на розі",
+    "author": "Сайко Оксана",
     "publisher": "Видавництво Старого Лева",
     "year": "2013",
     "genre": "сучасна проза",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Сайко Оксана"
-    ]
+    "added": 45667
   },
   {
     "title": "Новенька та інші історії",
+    "author": "Сайко Оксана",
     "publisher": "Видавництво Старого Лева",
     "year": "2016",
     "genre": "дитяча проза",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Сайко Оксана"
-    ]
+    "added": 45667
   },
   {
     "title": "Марія",
+    "author": "Самчук Улас",
     "publisher": "Дніпро",
     "year": "1971",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Самчук Улас"
-    ]
+    "added": 45667
   },
   {
     "title": "Чекаючи на Ґодо",
+    "author": "Самюель Бекет",
     "publisher": "N/A",
     "year": "1952",
     "genre": "Драма, абсурд",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Самюель Бекет"
-    ]
+    "added": 45667
   },
   {
     "title": "Мораважін",
+    "author": "Сандрар Блез",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Сандрар Блез"
-    ]
+    "added": 45667
   },
   {
     "title": "Тропізми",
+    "author": "Саррот Наталі",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Саррот Наталі"
-    ]
+    "added": 45667
   },
   {
     "title": "Блудні сини України",
+    "author": "Сверстюк Євген",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "публіцистика",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Сверстюк Євген"
-    ]
+    "added": 45667
   },
   {
     "title": "Медобір",
+    "author": "Свідзінський Володимир",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "поезія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Свідзінський Володимир"
-    ]
+    "added": 45667
   },
   {
     "title": "У мене тільки слово",
+    "author": "Світличний Іван",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "поезія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Світличний Іван"
-    ]
+    "added": 45667
   },
   {
     "title": "Подорожі Гуллівера",
+    "author": "Свіфт Джонатан",
     "publisher": "А-БА-БА-ГА-ЛА-МА-ГА",
     "year": "2011",
     "genre": "сатиричний роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Свіфт Джонатан"
-    ]
+    "added": 45667
   },
   {
     "title": "Ловець у житі",
+    "author": "Селінджер Джером Девід",
     "publisher": "Нора-Друк",
     "year": "2015",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Селінджер Джером Девід"
-    ]
+    "added": 45667
   },
   {
     "title": "Там, де водяться диковиська",
+    "author": "Сендак Моріс",
     "publisher": "Ранок",
     "year": "2018",
     "genre": "дитяча література, казка",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Сендак Моріс"
-    ]
+    "added": 45667
   },
   {
     "title": "Оповідання про Патріка Мелроуза",
+    "author": "Сент-Обін Едвард",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Сент-Обін Едвард"
-    ]
+    "added": 45667
   },
   {
     "title": "Друга стать",
+    "author": "Симона де Бовуар",
     "publisher": "Клуб Сімейного Дозвілля",
     "year": "2017",
     "genre": "Феміністична література",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Симона де Бовуар"
-    ]
+    "added": 45667
   },
   {
     "title": "Задивляюсь у твої зіниці",
+    "author": "Симоненко Василь",
     "publisher": "Молоде життя",
     "year": "1962",
     "genre": "лірика / вірш‑поезія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Симоненко Василь"
-    ]
+    "added": 45667
   },
   {
     "title": "Ти знаєш, що ти – людина",
+    "author": "Симоненко Василь",
     "publisher": "Молоде життя",
     "year": "1960",
     "genre": "лірика / вірш‑поезія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Симоненко Василь"
-    ]
+    "added": 45667
   },
   {
     "title": "Щедре дерево",
+    "author": "Сільверстейн Шел",
     "publisher": "Видавництво Старого Лева",
     "year": "2008",
     "genre": "дитяча література",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Сільверстейн Шел"
-    ]
+    "added": 45667
   },
   {
     "title": "Пітер Латиш",
+    "author": "Сіменон Жорж",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "детектив",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Сіменон Жорж"
-    ]
+    "added": 45667
   },
   {
     "title": "Сад божественних пісень",
+    "author": "Сковорода Григорій",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "Філософська поезія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Сковорода Григорій"
-    ]
+    "added": 45667
   },
   {
     "title": "Перлина в короні",
+    "author": "Скотт Пол",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Скотт Пол"
-    ]
+    "added": 45667
   },
   {
     "title": "Історія та культура",
+    "author": "Скуратівський Вадим",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "Наукова праця",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Скуратівський Вадим"
-    ]
+    "added": 45667
   },
   {
     "title": "Дерево росте у Брукліні",
+    "author": "Сміт Бетті",
     "publisher": "Видавництво Старого Лева",
     "year": "2012",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Сміт Бетті"
-    ]
+    "added": 45667
   },
   {
     "title": "Білі зуби",
+    "author": "Сміт Зеді",
     "publisher": "N/A",
     "year": "2000",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Сміт Зеді"
-    ]
+    "added": 45667
   },
   {
     "title": "Третя Рота",
+    "author": "Сосюра Володимир",
     "publisher": "Веселка",
     "year": "1948",
     "genre": "Поезія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Сосюра Володимир"
-    ]
+    "added": 45667
   },
   {
     "title": "Міс Джін Броуді в розквіті",
+    "author": "Спарк Мюріел",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Спарк Мюріел"
-    ]
+    "added": 45667
   },
   {
     "title": "Вибір Софі",
+    "author": "Стайрон Вільям",
     "publisher": "N/A",
     "year": "1979",
     "genre": "психологічна проза",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Стайрон Вільям"
-    ]
+    "added": 45667
   },
   {
     "title": "За двома зайцями",
+    "author": "Старицький Михайло",
     "publisher": "Дніпро",
     "year": "1883",
     "genre": "Драма",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Старицький Михайло"
-    ]
+    "added": 45667
   },
   {
     "title": "На схід від Едему",
+    "author": "Стейнбек Джон",
     "publisher": "Фоліо",
     "year": "2010",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Стейнбек Джон"
-    ]
+    "added": 45667
   },
   {
     "title": "Про мишей і людей",
+    "author": "Стейнбек Джон",
     "publisher": "Фоліо",
     "year": "2010",
     "genre": "новела",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Стейнбек Джон"
-    ]
+    "added": 45667
   },
   {
     "title": "Життя і думки Тристрама Шенді, джентльмена",
+    "author": "Стерн Лоренс",
     "publisher": "N/A",
     "year": "1760",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Стерн Лоренс"
-    ]
+    "added": 45667
   },
   {
     "title": "Моє слово",
+    "author": "Стефаник Василь",
     "publisher": "Молодь",
     "year": "1929",
     "genre": "Поезія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Стефаник Василь"
-    ]
+    "added": 45667
   },
   {
     "title": "Синя книжечка",
+    "author": "Стефаник Василь",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "Новели",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Стефаник Василь"
-    ]
+    "added": 45667
   },
   {
     "title": "Палімпсести",
+    "author": "Стус Василь",
     "publisher": "Веселка",
     "year": "1977",
     "genre": "Поезія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Стус Василь"
-    ]
+    "added": 45667
   },
   {
     "title": "Веселий цвинтар",
+    "author": "Стус Василь",
     "publisher": "Український письменник",
     "year": "1990‑і",
     "genre": "поезія / політична лірика",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Стус Василь"
-    ]
+    "added": 45667
   },
   {
     "title": "З таборового зошита",
+    "author": "Стус Василь",
     "publisher": "Український письменник",
     "year": "1980‑і",
     "genre": "поезія / есеїстика",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Стус Василь"
-    ]
+    "added": 45667
   },
   {
     "title": "Зелені яйця й шинка",
+    "author": "Сьюз Доктор",
     "publisher": "Ранок",
     "year": "2009",
     "genre": "дитяча література, віршована казка",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Сьюз Доктор"
-    ]
+    "added": 45667
   },
   {
     "title": "Лоракс",
+    "author": "Сьюз Доктор",
     "publisher": "Ранок",
     "year": "2008",
     "genre": "дитяча література, екологічна казка",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Сьюз Доктор"
-    ]
+    "added": 45667
   },
   {
     "title": "Клуб веселощів і удачі",
+    "author": "Тан Амі",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Тан Амі"
-    ]
+    "added": 45667
   },
   {
     "title": "Ярмарок марнославства",
+    "author": "Теккерей Вільям",
     "publisher": "N/A",
     "year": "1847",
     "genre": "соціально‑побутовий сатиричний роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Теккерей Вільям"
-    ]
+    "added": 45667
   },
   {
     "title": "Сонячні кларнети",
+    "author": "Тичина Павло",
     "publisher": "Молодь",
     "year": "1928",
     "genre": "Поезія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Тичина Павло"
-    ]
+    "added": 45667
   },
   {
     "title": "Те, що вони несли",
+    "author": "Тім О’Браєн",
     "publisher": "N/A",
     "year": "1990",
     "genre": "Військовий роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Тім О’Браєн"
-    ]
+    "added": 45667
   },
   {
     "title": "Вечірні крамниці вулиці Волоської",
+    "author": "Ткачук Галина",
     "publisher": "А-БА-БА-ГА-ЛА-МА-ГА",
     "year": "2009",
     "genre": "Проза",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Ткачук Галина"
-    ]
+    "added": 45667
   },
   {
     "title": "Володар перснів",
+    "author": "Толкін Дж. Р. Р.",
     "publisher": "А-БА-БА-ГА-ЛА-МА-ГА",
     "year": "2003",
     "genre": "фентезі",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Толкін Дж. Р. Р."
-    ]
+    "added": 45667
   },
   {
     "title": "Братство персня (Володар перснів)",
+    "author": "Толкін Джон Рональд Руел",
     "publisher": "КМ-Букс",
     "year": "2008",
     "genre": "фентезі",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Толкін Джон Рональд Руел"
-    ]
+    "added": 45667
   },
   {
     "title": "Гоббіт, або Туди і звідти",
+    "author": "Толкін Джон Рональд Руел",
     "publisher": "КМ-Букс",
     "year": "2006",
     "genre": "фентезі",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Толкін Джон Рональд Руел"
-    ]
+    "added": 45667
   },
   {
     "title": "Дві вежі (трилогія Володар перснів, ч.2)",
+    "author": "Толкін Джон Рональд Руел",
     "publisher": "КМ-Букс",
     "year": "2005",
     "genre": "фентезі",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Толкін Джон Рональд Руел"
-    ]
+    "added": 45667
   },
   {
     "title": "Повернення короля (трилогія Володар перснів, ч.3)",
+    "author": "Толкін Джон Рональд Руел",
     "publisher": "КМ-Букс",
     "year": "2005",
     "genre": "фентезі",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Толкін Джон Рональд Руел"
-    ]
+    "added": 45667
   },
   {
     "title": "Барчестерські вежі",
+    "author": "Троллоп Ентоні",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Троллоп Ентоні"
-    ]
+    "added": 45667
   },
   {
     "title": "Як ми тепер живемо",
+    "author": "Троллоп Ентоні",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Троллоп Ентоні"
-    ]
+    "added": 45667
   },
   {
     "title": "Змова бовдурів",
+    "author": "Тул Джон Кеннеді",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "роман, сатира",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Тул Джон Кеннеді"
-    ]
+    "added": 45667
   },
   {
     "title": "П'ятниця, або Тихоокеанський лімб",
+    "author": "Турньє Мішель",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Турньє Мішель"
-    ]
+    "added": 45667
   },
   {
     "title": "Климко",
+    "author": "Тютюнник Григір",
     "publisher": "Молодь",
     "year": "1963",
     "genre": "Повість",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Тютюнник Григір"
-    ]
+    "added": 45667
   },
   {
     "title": "Облога",
+    "author": "Тютюнник Григір",
     "publisher": "Молодь",
     "year": "1970",
     "genre": "Повість",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Тютюнник Григір"
-    ]
+    "added": 45667
   },
   {
     "title": "Три зозулі з поклоном",
+    "author": "Тютюнник Григір",
     "publisher": "Молодь",
     "year": "1966",
     "genre": "Новела",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Тютюнник Григір"
-    ]
+    "added": 45667
   },
   {
     "title": "Вир",
+    "author": "Тютюнник Григорій",
     "publisher": "Молодь",
     "year": "1960",
     "genre": "Новела",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Тютюнник Григорій"
-    ]
+    "added": 45667
   },
   {
     "title": "Бояриня",
+    "author": "Українка Леся",
     "publisher": "Віхола",
     "year": "2024",
     "genre": "історична драма‑поема",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Українка Леся"
-    ]
+    "added": 45667
   },
   {
     "title": "Кассандра",
+    "author": "Українка Леся",
     "publisher": "Віхола",
     "year": "2024",
     "genre": "драматична поема / драматична лірика",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Українка Леся"
-    ]
+    "added": 45667
   },
   {
     "title": "Contra spem spero!",
+    "author": "Українка Леся",
     "publisher": "Віхола",
     "year": "2024",
     "genre": "лірика / поезія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Українка Леся"
-    ]
+    "added": 45667
   },
   {
     "title": "Лісова пісня",
+    "author": "Українка Леся",
     "publisher": "Віхола",
     "year": "2024",
     "genre": "феєрія / драма‑поема",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Українка Леся"
-    ]
+    "added": 45667
   },
   {
     "title": "Сталінка",
+    "author": "Ульяненко Олесь",
     "publisher": "Нова Книга",
     "year": "2014",
     "genre": "Роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Ульяненко Олесь"
-    ]
+    "added": 45667
   },
   {
     "title": "Маленький незнайомець",
+    "author": "Уотерс Сара",
     "publisher": "N/A",
     "year": "2008",
     "genre": "трилер",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Уотерс Сара"
-    ]
+    "added": 45667
   },
   {
     "title": "Історія Тома Джонса, знайди",
+    "author": "Філдінґ Генрі",
     "publisher": "N/A",
     "year": "1749",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Філдінґ Генрі"
-    ]
+    "added": 45667
   },
   {
     "title": "Блакитна квітка",
+    "author": "Фіцджеральд Пенелопа",
     "publisher": "Дух і Літера",
     "year": "2009",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Фіцджеральд Пенелопа"
-    ]
+    "added": 45667
   },
   {
     "title": "Великий Ґетсбі",
+    "author": "Фіцжеральд Френсіс Скотт",
     "publisher": "Клуб Сімейного Дозвілля",
     "year": "2016",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Фіцжеральд Френсіс Скотт"
-    ]
+    "added": 45667
   },
   {
     "title": "Стовпи землі",
+    "author": "Фоллетт Кен",
     "publisher": "Клуб Сімейного Дозвілля",
     "year": "2010",
     "genre": "історичний роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Фоллетт Кен"
-    ]
+    "added": 45667
   },
   {
     "title": "Кінець параду",
+    "author": "Форд Медокс Форд",
     "publisher": "N/A",
     "year": "1924",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Форд Медокс Форд"
-    ]
+    "added": 45667
   },
   {
     "title": "Хороший солдат",
+    "author": "Форд Медокс Форд",
     "publisher": "N/A",
     "year": "1915",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Форд Медокс Форд"
-    ]
+    "added": 45667
   },
   {
     "title": "Говардс Енд",
+    "author": "Форстер Едвард Морган",
     "publisher": "N/A",
     "year": "1910",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Форстер Едвард Морган"
-    ]
+    "added": 45667
   },
   {
     "title": "Кімната з видом",
+    "author": "Форстер Едвард Морган",
     "publisher": "N/A",
     "year": "1908",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Форстер Едвард Морган"
-    ]
+    "added": 45667
   },
   {
     "title": "Поїздка до Індії",
+    "author": "Форстер Едвард Морган",
     "publisher": "Основи",
     "year": "2003",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Форстер Едвард Морган"
-    ]
+    "added": 45667
   },
   {
     "title": "Гастон",
+    "author": "Франкен Андре",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Франкен Андре"
-    ]
+    "added": 45667
   },
   {
     "title": "Коли ще звірі говорили",
+    "author": "Франко Іван",
     "publisher": "Дніпро",
     "year": "1890",
     "genre": "Казка",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Франко Іван"
-    ]
+    "added": 45667
   },
   {
     "title": "Лис Микита",
+    "author": "Франко Іван",
     "publisher": "Дніпро",
     "year": "1912",
     "genre": "Казка",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Франко Іван"
-    ]
+    "added": 45667
   },
   {
     "title": "Мойсей",
+    "author": "Франко Іван",
     "publisher": "Дніпро",
     "year": "1905",
     "genre": "Поема",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Франко Іван"
-    ]
+    "added": 45667
   },
   {
     "title": "Украдене щастя",
+    "author": "Франко Іван",
     "publisher": "Дніпро",
     "year": "2001",
     "genre": "психологічна повість / соціально‑побутова проза",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Франко Іван"
-    ]
+    "added": 45667
   },
   {
     "title": "Каменярі",
+    "author": "Франко Іван",
     "publisher": "Клуб Сімейного Дозвілля",
     "year": "2000‑ті",
     "genre": "епос / соціально‑історична проза",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Франко Іван"
-    ]
+    "added": 45667
   },
   {
     "title": "Захар Беркут",
+    "author": "Франко Іван",
     "publisher": "Наукова думка",
     "year": "2018",
     "genre": "історичний повість / історичний роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Франко Іван"
-    ]
+    "added": 45667
   },
   {
     "title": "Процес",
+    "author": "Франц Кафка",
     "publisher": "Видавництво Старого Лева",
     "year": "2013",
     "genre": "Філософський роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Франц Кафка"
-    ]
+    "added": 45667
   },
   {
     "title": "Три нариси з теорії сексуальності",
+    "author": "Фрейд Зигмунд",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "психологія, філософія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Фрейд Зигмунд"
-    ]
+    "added": 45667
   },
   {
     "title": "Слова і речі",
+    "author": "Фуко Мішель",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "філософія, соціологія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Фуко Мішель"
-    ]
+    "added": 45667
   },
   {
     "title": "Я (Романтика)",
+    "author": "Хвильовий Микола",
     "publisher": "Знання",
     "year": "1922",
     "genre": "Роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Хвильовий Микола"
-    ]
+    "added": 45667
   },
   {
     "title": "Аутсайдери",
+    "author": "Хінтон Сьюзан Елоїза",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "молодіжна література, роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Хінтон Сьюзан Елоїза"
-    ]
+    "added": 45667
   },
   {
     "title": "Бібліотека при басейні",
+    "author": "Холлінггерст Алан",
     "publisher": "N/A",
     "year": "1988",
     "genre": "збірка оповідань",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Холлінггерст Алан"
-    ]
+    "added": 45667
   },
   {
     "title": "Камінна душа",
+    "author": "Хоткевич Гнат",
     "publisher": "N/A",
     "year": "1918",
     "genre": "Роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Хоткевич Гнат"
-    ]
+    "added": 45667
   },
   {
     "title": "Сум'яття почуттів",
+    "author": "Цвейг Стефан",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "психологічний роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Цвейг Стефан"
-    ]
+    "added": 45667
   },
   {
     "title": "Сагайдачний",
+    "author": "Чайковський Андрій",
     "publisher": "Смолоскип",
     "year": "2013",
     "genre": "Історичний роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Чайковський Андрій"
-    ]
+    "added": 45667
   },
   {
     "title": "Глибокий сон",
+    "author": "Чандлер Реймонд",
     "publisher": "N/A",
     "year": "1939",
     "genre": "детектив",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Чандлер Реймонд"
-    ]
+    "added": 45667
   },
   {
     "title": "Немає орхідей для місс Блендіш",
+    "author": "Чейз Джеймс Гедлі",
     "publisher": "N/A",
     "year": "1942",
     "genre": "детектив",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Чейз Джеймс Гедлі"
-    ]
+    "added": 45667
   },
   {
     "title": "Історії Чарівного Лісу",
+    "author": "Читай Володимир",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "Дитяча література",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Читай Володимир"
-    ]
+    "added": 45667
   },
   {
     "title": "П'ятикнижжя",
+    "author": "Чубай Грицько",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "Поезія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Чубай Грицько"
-    ]
+    "added": 45667
   },
   {
     "title": "Лють і таємниця",
+    "author": "Шар Рене",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Шар Рене"
-    ]
+    "added": 45667
   },
   {
     "title": "Кобзар",
+    "author": "Шевченко Тарас",
     "publisher": "Дніпро",
     "year": "1840",
     "genre": "поезія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Шевченко Тарас"
-    ]
+    "added": 45667
   },
   {
     "title": "Кобзар (збірка)",
+    "author": "Шевченко Тарас",
     "publisher": "Київська друкарня",
     "year": "1840",
     "genre": "Поезія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Шевченко Тарас"
-    ]
+    "added": 45667
   },
   {
     "title": "Гайдамаки",
+    "author": "Шевченко Тарас",
     "publisher": "Наукова думка",
     "year": "2000‑ті",
     "genre": "історичний роман / поема",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Шевченко Тарас"
-    ]
+    "added": 45667
   },
   {
     "title": "Катерина",
+    "author": "Шевченко Тарас",
     "publisher": "N/A",
     "year": "1841",
     "genre": "поема",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Шевченко Тарас"
-    ]
+    "added": 45667
   },
   {
     "title": "На панщині пшеницю жала",
+    "author": "Шевченко Тарас",
     "publisher": "N/A",
     "year": "1845",
     "genre": "поезія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Шевченко Тарас"
-    ]
+    "added": 45667
   },
   {
     "title": "Дім на горі",
+    "author": "Шевчук Валерій",
     "publisher": "Молодь",
     "year": "1989",
     "genre": "Проза",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Шевчук Валерій"
-    ]
+    "added": 45667
   },
   {
     "title": "Панна квітів: Казки",
+    "author": "Шевчук Валерій",
     "publisher": "Смолоскип",
     "year": "2010",
     "genre": "Казка",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Шевчук Валерій"
-    ]
+    "added": 45667
   },
   {
     "title": "Франкенштейн",
+    "author": "Шеллі Мері",
     "publisher": "Книголав",
     "year": "2024",
     "genre": "готичний роман / рання наукова фантастика",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Шеллі Мері"
-    ]
+    "added": 45667
   },
   {
     "title": "Я",
+    "author": "Шерех-Шевельов Юрій",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "Літературознавство",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Шерех-Шевельов Юрій"
-    ]
+    "added": 45667
   },
   {
     "title": "Залишенець. Чорний ворон",
+    "author": "Шкляр Василь",
     "publisher": "Клуб Сімейного Дозвілля",
     "year": "2015",
     "genre": "історичний роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Шкляр Василь"
-    ]
+    "added": 45667
   },
   {
     "title": "Троща",
+    "author": "Шкляр Василь",
     "publisher": "Клуб Сімейного Дозвілля",
     "year": "2018",
     "genre": "історичний роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Шкляр Василь"
-    ]
+    "added": 45667
   },
   {
     "title": "Чорний ворон",
+    "author": "Шкляр Василь",
     "publisher": "Клуб Сімейного Дозвілля",
     "year": "2013",
     "genre": "історичний роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Шкляр Василь"
-    ]
+    "added": 45667
   },
   {
     "title": "Двері в день",
+    "author": "Шкурупій Ґео",
     "publisher": "Веселка",
     "year": "1960",
     "genre": "Поезія",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Шкурупій Ґео"
-    ]
+    "added": 45667
   },
   {
     "title": "Дракони, вперед!",
+    "author": "Штанко Катерина",
     "publisher": "А-БА-БА-ГА-ЛА-МА-ГА",
     "year": "2017",
     "genre": "дитяча фантастика",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Штанко Катерина"
-    ]
+    "added": 45667
   },
   {
     "title": "Філософський камінь",
+    "author": "Юрсенар Марґеріт",
     "publisher": "N/A",
     "year": "N/A",
     "genre": "історичний роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Юрсенар Марґеріт"
-    ]
+    "added": 45667
   },
   {
     "title": "Майстер корабля",
+    "author": "Яновський Юрій",
     "publisher": "Дніпро",
     "year": "1932",
     "genre": "Роман",
     "language": "Українська",
     "image": "bookicon.png",
-    "authors": [
-      "Яновський Юрій"
-    ]
+    "added": 45667
   }
 ]
