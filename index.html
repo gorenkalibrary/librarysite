@@ -232,26 +232,23 @@
   document.getElementById('languageSelect').value = params.get('language') || '';
   activeLetter = params.get('letter') || '';
 
-  const letterSpan = [...document.querySelectorAll('.alphabet span')].find(s => s.textContent === activeLetter);
+  if (activeLetter) {
+    const letterSpan = [...document.querySelectorAll('.alphabet span')].find(s => s.textContent === activeLetter);
+    if (letterSpan) {
+      filterByLetter(activeLetter, letterSpan);
 
-  if (activeLetter && letterSpan) {
-    // Підсвічуємо літеру
-    document.querySelectorAll('.alphabet span').forEach(s => s.classList.remove('active'));
-    letterSpan.classList.add('active');
-
-    // Показуємо список авторів на цю літеру
-    const allAuthors = books.flatMap(b => Array.isArray(b.authors) ? b.authors : [b.author]);
-    const authors = [...new Set(allAuthors.filter(a => a.toUpperCase().startsWith(activeLetter)))].sort((a, b) => a.localeCompare(b));
-
-    document.getElementById('bookList').innerHTML = '';
-    document.getElementById('pagination').innerHTML = '';
-    document.getElementById('authorList').innerHTML = '<h3>Автори на літеру "' + activeLetter + '":</h3>' +
-      authors.map(a => `<div onclick="showBooksByAuthor('${a}')" style="cursor:pointer; color:#2980b9">${a}</div>`).join('');
+      // Додати автоматичний вибір першого автора на цю літеру
+      const allAuthors = books.flatMap(b => Array.isArray(b.authors) ? b.authors : [b.author]);
+      const authors = [...new Set(allAuthors.filter(a => a.toUpperCase().startsWith(activeLetter)))].sort((a, b) => a.localeCompare(b));
+      if (authors.length > 0) {
+        showBooksByAuthor(authors[0]); // показати книги для першого автора
+      }
+    }
   } else {
-    // Якщо немає фільтра за літерою — застосовуємо інші фільтри
-    applyFilters();
+    applyFilters(); // якщо немає фільтру по літері
   }
 }
+
 
 
     document.getElementById('searchInput').addEventListener('input', applyFilters);
