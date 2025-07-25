@@ -181,26 +181,31 @@
     }
 
     function applyFilters() {
-      const term = document.getElementById('searchInput').value.toLowerCase();
-      const year = document.getElementById('yearSelect').value;
-      const genre = document.getElementById('genreSelect').value;
-      const language = document.getElementById('languageSelect').value;
+  const term = document.getElementById('searchInput').value.toLowerCase();
+  const year = document.getElementById('yearSelect').value;
+  const genre = document.getElementById('genreSelect').value;
+  const language = document.getElementById('languageSelect').value;
 
-      filteredBooks = books.filter(b => {
-        const authorText = Array.isArray(b.authors) ? b.authors.join(', ').toLowerCase() : b.author.toLowerCase();
-        return (
-          b.title.toLowerCase().includes(term) ||
-          authorText.includes(term) ||
-          b.publisher.toLowerCase().includes(term) &&
-          (!year || b.year == year) &&
-          (!genre || b.genre === genre) &&
-          (!language || b.language === language)
-        );
-      });
-      currentPage = 1;
-      renderBooks();
-      updateURLParams();
-    }
+  filteredBooks = books.filter(b => {
+    const authorText = Array.isArray(b.authors) ? b.authors.join(', ').toLowerCase() : b.author.toLowerCase();
+    
+    const matchesSearch = !term || (
+      b.title.toLowerCase().includes(term) ||
+      authorText.includes(term) ||
+      b.publisher.toLowerCase().includes(term)
+    );
+
+    const matchesYear = !year || b.year == year;
+    const matchesGenre = !genre || b.genre === genre;
+    const matchesLanguage = !language || b.language === language;
+
+    return matchesSearch && matchesYear && matchesGenre && matchesLanguage;
+  });
+
+  currentPage = 1;
+  renderBooks();
+  updateURLParams();
+}
 
     function renderBooks() {
       document.getElementById('authorList').innerHTML = '';
