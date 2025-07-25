@@ -18,7 +18,8 @@
     .pagination button { margin: 2px; padding: 4px 8px; cursor: pointer; }
     .pagination button.active { background-color: #2980b9; color: white; border: none; }
     .annotation { background: #eef; padding: 8px; margin-top: 5px; border-left: 4px solid #2980b9; border-radius: 4px; display: none; }
-    .badge-new { background-color: #e74c3c; color: white; padding: 2px 6px; border-radius: 4px; font-size: 0.75rem; margin-left: 6px; }
+    .badge-new { background-color: #27ae60; color: white; padding: 2px 6px; border-radius: 4px; font-size: 0.75rem; margin-left: 6px; }
+    .badge-genre { background-color: #3498db; color: white; padding: 2px 6px; border-radius: 4px; font-size: 0.75rem; margin-left: 6px; }
     @media (max-width: 600px) {
       .book { flex-direction: column; align-items: center; text-align: center; }
       .book img { width: 120px; }
@@ -73,7 +74,6 @@
       const res = await fetch('books.json');
       books = await res.json();
 
-      // Сортувати книги за датою надходження (якщо є поле added)
       books.sort((a, b) => {
         const dateA = new Date(a.added || '2000-01-01');
         const dateB = new Date(b.added || '2000-01-01');
@@ -175,8 +175,9 @@
         const annotationId = 'desc_' + Math.random().toString(36).substr(2, 9);
         const annotationLink = b.description ? `<a href="#" onclick="toggleAnnotation('${annotationId}'); return false;">Аннотація</a><br>` : '';
         const annotationBlock = b.description ? `<div id="${annotationId}" class="annotation">${b.description}</div>` : '';
-        const isNew = b.added && (new Date() - new Date(b.added)) < 1000 * 60 * 60 * 24 * 30; // останні 30 днів
+        const isNew = b.added && (new Date() - new Date(b.added)) < 1000 * 60 * 60 * 24 * 30;
         const newBadge = isNew ? '<span class="badge-new">Нове надходження</span>' : '';
+        const genreBadge = b.genre ? `<span class="badge-genre">${b.genre}</span>` : '';
 
         return `
         <div class="book">
@@ -185,7 +186,7 @@
             <strong>${b.title}</strong> ${newBadge}<br>
             Автор(и): ${authorDisplay}<br>
             Видавництво: ${b.publisher}, ${b.year}<br>
-            ${b.genre ? 'Жанр: ' + b.genre + '<br>' : ''}
+            ${genreBadge}<br>
             ${b.language ? 'Мова: ' + b.language + '<br>' : ''}
             ${annotationLink}
             ${annotationBlock}
