@@ -2,48 +2,52 @@
 <html lang="uk">
 <head>
   <meta charset="UTF-8">
-  <title>Excel → books.json конвертер</title>
+  <title>Конвертер Excel у JSON</title>
 </head>
 <body>
-  <h2>Завантаж <code>books.xlsx</code> для конвертації в books.json</h2>
-  <input type="file" id="fileInput" accept=".xlsx" />
-  <pre id="output" style="white-space: pre-wrap; background: #f4f4f4; padding: 10px;"></pre>
-  <button id="downloadBtn" style="display:none;">Завантажити books.json</button>
+  <h2>Завантаж Excel (books.xlsx)</h2>
+  <input type="file" id="upload" accept=".xlsx" />
+  <pre id="output" style="white-space: pre-wrap;"></pre>
+  <a id="downloadLink" style="display:none;" download="books.json">⬇️ Завантажити books.json</a>
 
-  <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+  <script src="https://cdn.sheetjs.com/xlsx-latest/package/dist/xlsx.full.min.js"></script>
   <script>
-    document.getElementById('fileInput').addEventListener('change', function (e) {
+    document.getElementById('upload').addEventListener('change', async (e) => {
       const file = e.target.files[0];
-      if (!file) return;
-
       const reader = new FileReader();
+
       reader.onload = function (e) {
         const data = new Uint8Array(e.target.result);
         const workbook = XLSX.read(data, { type: 'array' });
         const sheet = workbook.Sheets[workbook.SheetNames[0]];
-        const rawBooks = XLSX.utils.sheet_to_json(sheet);
+        let books = XLSX.utils.sheet_to_json(sheet);
 
-        const converted = rawBooks.map(book => {
-          const authorsRaw = book.author || book.authors || '';
-          const authors = authorsRaw.split(',').map(a => a.trim()).filter(Boolean);
-          const { author, ...rest } = book;
-          return { ...rest, authors };
+        const today = new Date().toISOString().split('T')[0];
+
+        books = books.map(book => {
+          // Поле "authors" — масив, якщо є кілька авторів через кому
+          if (book.authors && typeof book.authors === 'string') {
+            book.authors = book.authors.split(',').map(a => a.trim());
+          }
+
+          // Додаємо поле "added" лише якщо його нема
+          if (!book.added) {
+            book.added = today;
+          }
+
+          return book;
         });
 
-        const jsonString = JSON.stringify(converted, null, 2);
-        document.getElementById('output').textContent = jsonString;
-        const blob = new Blob([jsonString], { type: 'application/json' });
-        const url = URL.createObjectURL(blob);
+        const json = JSON.stringify(books, null, 2);
+        document.getElementById('output').textContent = json;
 
-        const btn = document.getElementById('downloadBtn');
-        btn.style.display = 'inline-block';
-        btn.onclick = () => {
-          const a = document.createElement('a');
-          a.href = url;
-          a.download = 'books.json';
-          a.click();
-        };
+        const blob = new Blob([json], { type: 'application/json' });
+        const url = URL.createObjectURL(blob);
+        const link = document.getElementById('downloadLink');
+        link.href = url;
+        link.style.display = 'inline';
       };
+
       reader.readAsArrayBuffer(file);
     });
   </script>

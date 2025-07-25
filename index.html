@@ -18,8 +18,7 @@
     .pagination button { margin: 2px; padding: 4px 8px; cursor: pointer; }
     .pagination button.active { background-color: #2980b9; color: white; border: none; }
     .annotation { background: #eef; padding: 8px; margin-top: 5px; border-left: 4px solid #2980b9; border-radius: 4px; display: none; }
-    .genre-badge { display: inline-block;   background-color: #d0ebff;   color: #1c7ed6;   padding: 2px 6px;   border-radius: 4px;   font-size: 0.85rem;   font-weight: bold;   margin: 2px 0; }
-
+    .badge-new { background-color: #e74c3c; color: white; padding: 2px 6px; border-radius: 4px; font-size: 0.75rem; margin-left: 6px; }
     @media (max-width: 600px) {
       .book { flex-direction: column; align-items: center; text-align: center; }
       .book img { width: 120px; }
@@ -73,6 +72,14 @@
     async function loadBooks() {
       const res = await fetch('books.json');
       books = await res.json();
+
+      // Сортувати книги за датою надходження (якщо є поле added)
+      books.sort((a, b) => {
+        const dateA = new Date(a.added || '2000-01-01');
+        const dateB = new Date(b.added || '2000-01-01');
+        return dateB - dateA;
+      });
+
       populateFilters();
       buildAlphabet();
       readURLParams();
@@ -141,14 +148,13 @@
       filteredBooks = books.filter(b => {
         const authorText = Array.isArray(b.authors) ? b.authors.join(', ').toLowerCase() : b.author.toLowerCase();
         return (
-  (b.title.toLowerCase().includes(term) ||
-   authorText.includes(term) ||
-   b.publisher.toLowerCase().includes(term)) &&
-  (!year || b.year == year) &&
-  (!genre || b.genre === genre) &&
-  (!language || b.language === language)
-);
-
+          (b.title.toLowerCase().includes(term) ||
+          authorText.includes(term) ||
+          b.publisher.toLowerCase().includes(term)) &&
+          (!year || b.year == year) &&
+          (!genre || b.genre === genre) &&
+          (!language || b.language === language)
+        );
       });
       currentPage = 1;
       renderBooks();
@@ -169,15 +175,17 @@
         const annotationId = 'desc_' + Math.random().toString(36).substr(2, 9);
         const annotationLink = b.description ? `<a href="#" onclick="toggleAnnotation('${annotationId}'); return false;">Аннотація</a><br>` : '';
         const annotationBlock = b.description ? `<div id="${annotationId}" class="annotation">${b.description}</div>` : '';
+        const isNew = b.added && (new Date() - new Date(b.added)) < 1000 * 60 * 60 * 24 * 30; // останні 30 днів
+        const newBadge = isNew ? '<span class="badge-new">Нове надходження</span>' : '';
 
         return `
         <div class="book">
           <img src="${b.image || 'https://via.placeholder.com/80x120?text=Книга'}" alt="${b.title}">
           <div>
-            <strong>${b.title}</strong><br>
+            <strong>${b.title}</strong> ${newBadge}<br>
             Автор(и): ${authorDisplay}<br>
             Видавництво: ${b.publisher}, ${b.year}<br>
-            ${b.genre ? `<div>Жанр: <span class="genre-badge">${b.genre}</span></div>` : ''}
+            ${b.genre ? 'Жанр: ' + b.genre + '<br>' : ''}
             ${b.language ? 'Мова: ' + b.language + '<br>' : ''}
             ${annotationLink}
             ${annotationBlock}
@@ -198,13 +206,12 @@
     }
 
     function toggleAnnotation(id) {
-  const el = document.getElementById(id);
-  if (el) {
-    const isHidden = window.getComputedStyle(el).display === 'none';
-    el.style.display = isHidden ? 'block' : 'none';
-  }
-}
-
+      const el = document.getElementById(id);
+      if (el) {
+        const isHidden = window.getComputedStyle(el).display === 'none';
+        el.style.display = isHidden ? 'block' : 'none';
+      }
+    }
 
     function updateURLParams() {
       const params = new URLSearchParams();
