@@ -139,13 +139,14 @@
       filteredBooks = books.filter(b => {
         const authorText = Array.isArray(b.authors) ? b.authors.join(', ').toLowerCase() : b.author.toLowerCase();
         return (
-          b.title.toLowerCase().includes(term) &&
-          authorText.includes(term) &&
-          b.publisher.toLowerCase().includes(term) &&
-          (!year || b.year == year) &&
-          (!genre || b.genre === genre) &&
-          (!language || b.language === language)
-        );
+  (b.title.toLowerCase().includes(term) ||
+   authorText.includes(term) ||
+   b.publisher.toLowerCase().includes(term)) &&
+  (!year || b.year == year) &&
+  (!genre || b.genre === genre) &&
+  (!language || b.language === language)
+);
+
       });
       currentPage = 1;
       renderBooks();
