@@ -71,20 +71,25 @@
     let activeLetter = '';
 
     async function loadBooks() {
-      const res = await fetch('books.json');
-      books = await res.json();
+  const res = await fetch('books.json');
+  books = await res.json();
 
-      books.sort((a, b) => {
-        const dateA = new Date(a.added || '2000-01-01');
-        const dateB = new Date(b.added || '2000-01-01');
-        return dateB - dateA;
-      });
+  books.sort((a, b) => {
+    const dateA = new Date(a.added || '2000-01-01');
+    const dateB = new Date(b.added || '2000-01-01');
+    return dateB - dateA;
+  });
 
-      populateFilters();
-      buildAlphabet();
-      readURLParams();
-      applyFilters();
-    }
+  populateFilters();
+  buildAlphabet();
+
+  // Чекаємо поки alphabet збудована, потім викликаємо URL-фільтри
+  setTimeout(() => {
+    readURLParams();
+    if (!activeLetter) applyFilters();
+  }, 0);
+}
+
 
     function populateFilters() {
       const years = [...new Set(books.map(b => b.year))].sort((a,b)=>b-a);
