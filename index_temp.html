@@ -33,6 +33,9 @@
     .filters-row select {
       padding: 4px 6px;
     }
+    .reset-container {
+      margin-top: 10px;
+    }
     .alphabet-row { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 0.5rem; }
     .alphabet span { cursor: pointer; margin: 0 4px; font-weight: bold; }
     .alphabet span.active { color: white; background-color: #2980b9; padding: 2px 6px; border-radius: 4px; }
@@ -46,7 +49,6 @@
     .badge-genre { background-color: #3498db; color: white; padding: 2px 6px; border-radius: 4px; font-size: 0.75rem; margin-left: 6px; display: inline-block; }
     .reset-link {
       display: inline-block;
-      margin: 10px 0;
       background-color: #ccc;
       color: #333;
       padding: 6px 12px;
@@ -88,8 +90,11 @@
       <select id="yearSelect" onchange="applyFilters()">
         <option value="">Усі роки</option>
       </select>
-    <div style="margin-top: 10px;"><a href="index.html" class="reset-link">Скинути всі фільтри</a></div>
-$1
+    </div>
+    <div class="reset-container">
+      <a href="index.html" class="reset-link">Скинути всі фільтри</a>
+    </div>
+  </div>
 
   <div class="alphabet-container">
     <div class="alphabet-header">Каталог авторів:</div>
