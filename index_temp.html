@@ -282,8 +282,8 @@ function resetFiltersAndSearch() {
             <strong>${b.title}</strong> ${newBadge}<br>
             Автор(и): ${authorDisplay}<br>
             Видавництво: ${b.publisher}, ${b.year}<br>
-            ${genreBadge}<br>
             ${b.language ? 'Мова: ' + b.language + '<br>' : ''}
+            ${genreBadge ? genreBadge + '<br>' : ''}
             ${annotationLink}
             ${annotationBlock}
           </div>
