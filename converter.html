@@ -33,4 +33,66 @@
   <h2>Завантажити Excel-файл</h2>
   <input type="file" id="inputFile" accept=".xlsx, .xls" />
   <button onclick="downloadJSON()">Завантажити books.json</button>
-  <pre id=
+  <pre id="output"></pre>
+
+  <script>
+    let jsonOutput = [];
+
+    function formatExcelDate(excelDate) {
+      if (typeof excelDate === 'number') {
+        const date = new Date((excelDate - 25569) * 86400 * 1000);
+        const year = date.getFullYear();
+        const month = (date.getMonth() + 1).toString().padStart(2, '0');
+        const day = date.getDate().toString().padStart(2, '0');
+        return `${year}-${month}-${day}`;
+      }
+      if (typeof excelDate === 'string') {
+        return excelDate;
+      }
+      return '';
+    }
+
+    document.getElementById('inputFile').addEventListener('change', function (e) {
+      const reader = new FileReader();
+      reader.onload = function (e) {
+        const data = new Uint8Array(e.target.result);
+        const workbook = XLSX.read(data, { type: 'array' });
+        const sheetName = workbook.SheetNames[0];
+        const worksheet = workbook.Sheets[sheetName];
+        const json = XLSX.utils.sheet_to_json(worksheet);
+
+        jsonOutput = json.map(row => {
+          return {
+            title: row["title"] || "",
+            author: row["author"] 
+              ? row["author"].split(',').map(a => a.trim()).filter(Boolean)
+              : [],
+            publisher: row["publisher"] || "",
+            year: row["year"] || "",
+            genre: row["genre"] 
+              ? row["genre"].split(',').map(g => g.trim()).filter(Boolean)
+              : [],
+            language: row["language"] || "",
+            description: row["description"] || "",
+            image: row["image"] || "",
+            added: formatExcelDate(row["added"])
+          };
+        });
+
+        document.getElementById('output').textContent = JSON.stringify(jsonOutput, null, 2);
+      };
+      reader.readAsArrayBuffer(e.target.files[0]);
+    });
+
+    function downloadJSON() {
+      const blob = new Blob([JSON.stringify(jsonOutput, null, 2)], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'books.json';
+      a.click();
+      URL.revokeObjectURL(url);
+    }
+  </script>
+</body>
+</html>
