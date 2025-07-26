@@ -1,97 +1,36 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Конвертер Excel → JSON</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
   <style>
     body {
-      font-family: sans-serif;
-      background-color: #f7f7f7;
-      padding: 2rem;
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background: #f5f5f5;
+    }
+    h2 {
+      margin-bottom: 1rem;
     }
     input, button {
-      margin-top: 1rem;
-      padding: 0.5rem 1rem;
-      font-size: 1rem;
+      padding: 8px;
+      font-size: 16px;
     }
     pre {
-      margin-top: 2rem;
       background: #fff;
+      border: 1px solid #ccc;
       padding: 1rem;
-      border: 1px solid #ddd;
-      max-height: 500px;
+      max-height: 400px;
       overflow: auto;
+      white-space: pre-wrap;
+      word-break: break-word;
     }
   </style>
 </head>
 <body>
-
   <h2>Завантажити Excel-файл</h2>
-  <input type="file" id="inputFile" accept=".xlsx" />
-  <br />
+  <input type="file" id="inputFile" accept=".xlsx, .xls" />
   <button onclick="downloadJSON()">Завантажити books.json</button>
-
-  <pre id="output"></pre>
-
-  <script>
-    let jsonOutput = [];
-
-    function formatExcelDate(excelDate) {
-      if (typeof excelDate === 'number') {
-        const date = new Date((excelDate - 25569) * 86400 * 1000);
-        const year = date.getFullYear();
-        const month = (date.getMonth() + 1).toString().padStart(2, '0');
-        const day = date.getDate().toString().padStart(2, '0');
-        return `${year}-${month}-${day}`;
-      }
-      if (typeof excelDate === 'string') {
-        return excelDate;
-      }
-      return "";
-    }
-
-    document.getElementById('inputFile').addEventListener('change', function (e) {
-      const reader = new FileReader();
-      reader.onload = function (e) {
-        const data = new Uint8Array(e.target.result);
-        const workbook = XLSX.read(data, { type: 'array' });
-        const sheetName = workbook.SheetNames[0];
-        const worksheet = workbook.Sheets[sheetName];
-        const json = XLSX.utils.sheet_to_json(worksheet);
-
-        jsonOutput = json.map(row => {
-          const authorArray = row["author"]
-            ? row["author"].split(',').map(a => a.trim()).filter(Boolean)
-            : [];
-
-          return {
-            title: row["title"] || "",
-            author: authorArray,
-            publisher: row["publisher"] || "",
-            year: row["year"] || "",
-            language: row["language"] || "",
-            genre: row["genre"] ? row["genre"].split(',').map(g => g.trim()) : [],
-            image: row["image"] || "",
-            description: row["description"] || "",
-            added: formatExcelDate(row["added"])
-          };
-        });
-
-        document.getElementById('output').textContent = JSON.stringify(jsonOutput, null, 2);
-      };
-      reader.readAsArrayBuffer(e.target.files[0]);
-    });
-
-    function downloadJSON() {
-      const blob = new Blob([JSON.stringify(jsonOutput, null, 2)], { type: 'application/json' });
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement('a');
-      a.href = url;
-      a.download = 'books.json';
-      a.click();
-    }
-  </script>
-</body>
-</html>
+  <pre id=
