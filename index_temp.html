@@ -46,7 +46,7 @@
     .badge-genre { background-color: #3498db; color: white; padding: 2px 6px; border-radius: 4px; font-size: 0.75rem; margin-left: 6px; display: inline-block; }
     .reset-link {
       display: inline-block;
-      margin-top: 10px;
+      margin: 10px 0;
       background-color: #ccc;
       color: #333;
       padding: 6px 12px;
@@ -88,22 +88,24 @@
       <select id="yearSelect" onchange="applyFilters()">
         <option value="">Усі роки</option>
       </select>
-    $1<a href="index.html" class="reset-link">Скинути всі фільтри</a>
+    </div>
+  </div>
 
-<div class="alphabet-container">
+  <a href="index.html" class="reset-link">Скинути всі фільтри</a>
+
+  <div class="alphabet-container">
     <div class="alphabet-header">Каталог авторів:</div>
     <div class="alphabet" id="alphabet">
       <div class="alphabet-row" id="ukrRow"></div>
       <div class="alphabet-row" id="engRow"></div>
     </div>
-    <a href="index.html" class="reset-link">Скинути всі фільтри</a>
   </div>
 
   <div class="author-list" id="authorList"></div>
   <div class="book-list" id="bookList"></div>
   <div class="pagination" id="pagination"></div>
 
-<script>
+  <script>
     let books = [];
     let currentPage = 1;
     const booksPerPage = 10;
