@@ -103,8 +103,185 @@
   <div class="book-list" id="bookList"></div>
   <div class="pagination" id="pagination"></div>
 
-  <script>
-    // JavaScript залишається без змін
+<script>
+    let books = [];
+    let currentPage = 1;
+    const booksPerPage = 10;
+    let filteredBooks = [];
+    let activeLetter = '';
+
+    async function loadBooks() {
+      const res = await fetch('books.json');
+      books = await res.json();
+
+      books.sort((a, b) => {
+        const dateA = new Date(a.added || '2000-01-01');
+        const dateB = new Date(b.added || '2000-01-01');
+        return dateB - dateA;
+      });
+
+      populateFilters();
+      buildAlphabet();
+
+      setTimeout(() => {
+        readURLParams();
+        if (!activeLetter) applyFilters();
+      }, 0);
+    }
+
+    function populateFilters() {
+      const years = [...new Set(books.map(b => b.year))].sort((a,b)=>b-a);
+      const genres = [...new Set(books.flatMap(b => Array.isArray(b.genre) ? b.genre : [b.genre])  .filter(Boolean))];
+      const languages = [...new Set(books.map(b => b.language).filter(Boolean))].sort();
+
+      const yearSelect = document.getElementById('yearSelect');
+      years.forEach(y => yearSelect.innerHTML += `<option value="${y}">${y}</option>`);
+
+      const genreSelect = document.getElementById('genreSelect');
+      genres.forEach(g => genreSelect.innerHTML += `<option value="${g}">${g}</option>`);
+
+      const languageSelect = document.getElementById('languageSelect');
+      languages.forEach(l => languageSelect.innerHTML += `<option value="${l}">${l}</option>`);
+    }
+
+    function buildAlphabet() {
+      const ukr = "АБВГҐДЕЄЖЗИІЇЙКЛМНОПРСТУФХЦЧШЩЬЮЯ";
+      const eng = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+      const ukrRow = document.getElementById('ukrRow');
+      const engRow = document.getElementById('engRow');
+      [...ukr].forEach(letter => {
+        const span = document.createElement('span');
+        span.textContent = letter;
+        span.onclick = () => filterByLetter(letter, span);
+        ukrRow.appendChild(span);
+      });
+      [...eng].forEach(letter => {
+        const span = document.createElement('span');
+        span.textContent = letter;
+        span.onclick = () => filterByLetter(letter, span);
+        engRow.appendChild(span);
+      });
+    }
+
+    function filterByLetter(letter, span) {
+      activeLetter = letter;
+      document.querySelectorAll('.alphabet span').forEach(s => s.classList.remove('active'));
+      span.classList.add('active');
+      const allAuthors = books.flatMap(b => Array.isArray(b.authors) ? b.authors : [b.author]);
+      const authors = [...new Set(allAuthors.filter(a => a.toUpperCase().startsWith(letter)))].sort((a, b) =>  a.localeCompare(b, 'uk', { sensitivity: 'base' }));
+      document.getElementById('bookList').innerHTML = '';
+      document.getElementById('pagination').innerHTML = '';
+      document.getElementById('authorList').innerHTML = '<h3>Автори на літеру "' + letter + '":</h3>' +
+        authors.map(a => `<div onclick="showBooksByAuthor('${a}')" style="cursor:pointer; color:#2980b9">${a}</div>`).join('');
+      updateURLParams();
+    }
+
+    function showBooksByAuthor(author) {
+      filteredBooks = books.filter(b => (Array.isArray(b.authors) ? b.authors.includes(author) : b.author === author));
+      currentPage = 1;
+      renderBooks();
+    }
+
+    function applyFilters() {
+      const term = document.getElementById('searchInput').value.toLowerCase();
+      const year = document.getElementById('yearSelect').value;
+      const genre = document.getElementById('genreSelect').value;
+      const language = document.getElementById('languageSelect').value;
+
+      filteredBooks = books.filter(b => {
+        const authorText = Array.isArray(b.authors) ? b.authors.join(', ').toLowerCase() : b.author.toLowerCase();
+        return (
+          (b.title.toLowerCase().includes(term) ||
+          authorText.includes(term) ||
+          b.publisher.toLowerCase().includes(term)) &&
+          (!year || b.year == year) &&
+          (!genre || (Array.isArray(b.genre) ? b.genre.includes(genre) : b.genre === genre)) &&
+          (!language || b.language === language)
+        );
+      });
+      currentPage = 1;
+      renderBooks();
+      updateURLParams();
+    }
+
+    function renderBooks() {
+      document.getElementById('authorList').innerHTML = '';
+      const bookList = document.getElementById('bookList');
+      const pagination = document.getElementById('pagination');
+      const start = (currentPage - 1) * booksPerPage;
+      const end = start + booksPerPage;
+      const paginatedBooks = filteredBooks.slice(start, end);
+
+      bookList.innerHTML = paginatedBooks.map(b => {
+        const authorDisplay = Array.isArray(b.authors) ? b.authors.join(', ') : b.author;
+        const annotationId = 'desc_' + Math.random().toString(36).substr(2, 9);
+        const annotationLink = b.description ? `<a href="#" onclick="toggleAnnotation('${annotationId}'); return false;">Аннотація</a><br>` : '';
+        const annotationBlock = b.description ? `<div id="${annotationId}" class="annotation">${b.description}</div>` : '';
+        const isNew = b.added && (new Date() - new Date(b.added)) < 1000 * 60 * 60 * 24 * 30;
+        const newBadge = isNew ? '<span class="badge-new">Нове надходження</span>' : '';
+        const genreBadge = b.genre ? (Array.isArray(b.genre)      ? b.genre.map(g => `<span class="badge-genre">${g}</span>`).join(' ')       : `<span class="badge-genre">${b.genre}</span>`)   : '';
+
+
+        return `
+        <div class="book">
+          <img src="${b.image || 'https://via.placeholder.com/80x120?text=Книга'}" alt="${b.title}">
+          <div>
+            <strong>${b.title}</strong> ${newBadge}<br>
+            Автор(и): ${authorDisplay}<br>
+            Видавництво: ${b.publisher}, ${b.year}<br>
+            ${genreBadge}<br>
+            ${b.language ? 'Мова: ' + b.language + '<br>' : ''}
+            ${annotationLink}
+            ${annotationBlock}
+          </div>
+        </div>
+        `;
+      }).join('');
+
+      const totalPages = Math.ceil(filteredBooks.length / booksPerPage);
+      pagination.innerHTML = '';
+      for (let i = 1; i <= totalPages; i++) {
+        const btn = document.createElement('button');
+        btn.textContent = i;
+        btn.className = i === currentPage ? 'active' : '';
+        btn.onclick = () => { currentPage = i; renderBooks(); };
+        pagination.appendChild(btn);
+      }
+    }
+
+    function toggleAnnotation(id) {
+      const el = document.getElementById(id);
+      if (el) {
+        const isHidden = window.getComputedStyle(el).display === 'none';
+        el.style.display = isHidden ? 'block' : 'none';
+      }
+    }
+
+    function updateURLParams() {
+      const params = new URLSearchParams();
+      params.set('search', document.getElementById('searchInput').value);
+      params.set('year', document.getElementById('yearSelect').value);
+      params.set('genre', document.getElementById('genreSelect').value);
+      params.set('language', document.getElementById('languageSelect').value);
+      params.set('letter', activeLetter);
+      history.replaceState(null, '', '?' + params.toString());
+    }
+
+    function readURLParams() {
+      const params = new URLSearchParams(window.location.search);
+      document.getElementById('searchInput').value = params.get('search') || '';
+      document.getElementById('yearSelect').value = params.get('year') || '';
+      document.getElementById('genreSelect').value = params.get('genre') || '';
+      document.getElementById('languageSelect').value = params.get('language') || '';
+      activeLetter = params.get('letter') || '';
+      if (activeLetter) {
+        const letterSpan = [...document.querySelectorAll('.alphabet span')].find(s => s.textContent === activeLetter);
+        if (letterSpan) filterByLetter(activeLetter, letterSpan);
+      }
+    }
+
+    document.getElementById('searchInput').addEventListener('input', applyFilters);
+    loadBooks();
   </script>
 </body>
 </html>
