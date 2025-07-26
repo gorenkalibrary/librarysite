@@ -40,18 +40,23 @@
         const json = XLSX.utils.sheet_to_json(worksheet);
 
         jsonOutput = json.map(row => {
-          return {
-            title: row["title"] || "",
-            author: row["authors"] ? row["authors"].split(',').map(a => a.trim()).filter(Boolean) : [],
-            publisher: row["publisher"] || "",
-            year: row["year"] || "",
-            language: row["language"] || "",
-            genre: row["genre"] ? row["genre"].split(',').map(g => g.trim()) : [],
-            image: row["image"] || "",
-            description: row["description"] || "",
-            added: formatExcelDate(row["added"])
-          };
-        });
+  const authorsArray = row["authors"] 
+    ? row["authors"].split(',').map(a => a.trim()).filter(Boolean) 
+    : [];
+
+  return {
+    title: row["title"] || "",
+    author: authorsArray,
+    publisher: row["publisher"] || "",
+    year: row["year"] || "",
+    language: row["language"] || "",
+    genre: row["genre"] ? row["genre"].split(',').map(g => g.trim()) : [],
+    image: row["image"] || "",
+    description: row["description"] || "",
+    added: formatExcelDate(row["added"])
+  };
+});
+
 
         document.getElementById('output').textContent = JSON.stringify(jsonOutput, null, 2);
       };
