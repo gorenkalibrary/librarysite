@@ -3,6 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <div id="siteHeader" style="display:none; margin-bottom: 1rem;">
+  <img id="headerImage" src="" alt="Site Header" style="width:100%; height:auto; border-radius:6px;">
+  </div>
+
   <title>Бібліотечний каталог</title>
   <style>
     body { font-family: Arial, sans-serif; background: #f2f2f2; padding: 1rem; }
@@ -41,37 +46,37 @@
     .alphabet span.active { color: white; background-color: #2980b9; padding: 2px 6px; border-radius: 4px; }
     .book-list, .author-list, .pagination { margin-top: 1rem; }
     .book { background: #fff; padding: 1rem; margin-bottom: 0.5rem; border-radius: 5px; display: flex; gap: 1rem; flex-wrap: wrap; }
-    .book img { width: 80px; height: auto; object-fit: cover; }
+    .book img {  width: 80px;  height: auto;  object-fit: contain;  background: white;  border: 1px solid #ccc; padding: 2px;}
+
     .pagination button { margin: 2px; padding: 4px 8px; cursor: pointer; }
     .pagination button.active { background-color: #2980b9; color: white; border: none; }
     .annotation { background: #eef; padding: 8px; margin-top: 5px; border-left: 4px solid #2980b9; border-radius: 4px; display: none; }
-    .badge-new { background-color: #2ecc71; color: white; padding: 2px 6px; border-radius: 4px; font-size: 0.75rem; margin-left: 6px; display: inline-block; }
-    .badge-genre { background-color: #3498db; color: white; padding: 2px 6px; border-radius: 4px; font-size: 0.75rem; margin-left: 6px; display: inline-block; text-decoration: none; }
+    .badge-new { background-color: #2ecc71; color: white; padding: 2px 6px; border-radius: 4px; font-size: 0.75rem; margin-left: 6px; display: inline-block; text-decoration: none; }
+    .badge-new:hover {  background-color: #27ae60; text-decoration: none;}
+    .badge-genre { background-color: #3498db; color: white; padding: 2px 6px; border-radius: 4px; font-size: 0.75rem; margin: 0 4px 4px 0; display: inline-block; text-decoration: none; }
     .badge-genre:hover {  background-color: #2d85c7;  text-decoration: none; }
-    .reset-link {
-      display: inline-block;
-      background-color: #ccc;
-      color: #333;
-      padding: 6px 12px;
-      border-radius: 4px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    .reset-link:hover {
-      background-color: #bbb;
-    }
+    .reset-link {  display: inline-block;  background-color: #f39c12;  color: white;  padding: 6px 12px;  border-radius: 4px;  text-decoration: none;  font-weight: bold;}
+    .reset-link:hover {  background-color: #e67e22; }
+    .author-link {  text-decoration: none;   color: inherit;   font-weight: normal;}
+    .author-link:hover {  text-decoration: underline dotted;  color: #2980b9;}
+
+
     @media (max-width: 600px) {
       .book { flex-direction: column; align-items: center; text-align: center; }
       .book img { width: 120px; }
       .filters-row { flex-direction: column; align-items: flex-start; }
     }
+
+    #siteHeader img {    max-width: 100%;   height: auto;   border-radius: 8px;   display: block; }
+    @media (max-width: 600px) {   #siteHeader img {    border-radius: 0;  }}
+
   </style>
 </head>
 <body>
   <h1>Бібліотечний каталог</h1>
 
   <div class="search-bar">
-    <input type="text" id="searchInput" placeholder="Пошук книг за автором чи назвою..." style="width: 100%; padding: 8px;">
+    <input type="text" id="searchInput" placeholder="Пошук книг за назвою чи автором..." style="width: 100%; padding: 8px;">
   </div>
 
   <div class="filters-container">
@@ -253,12 +258,12 @@ function resetFiltersAndSearch() {
       const paginatedBooks = filteredBooks.slice(start, end);
 
       bookList.innerHTML = paginatedBooks.map(b => {
-        const authorDisplay = Array.isArray(b.authors) ? b.authors.join(', ') : b.author;
+        const authorDisplay = Array.isArray(b.authors)   ? b.authors.map(a => `<a href="#" class="author-link" onclick="filterByAuthor('${a}'); return false;">${a}</a>`).join(', ')   : `<a href="#" class="author-link" onclick="filterByAuthor('${b.author}'); return false;">${b.author}</a>`;
         const annotationId = 'desc_' + Math.random().toString(36).substr(2, 9);
         const annotationLink = b.description ? `<a href="#" onclick="toggleAnnotation('${annotationId}'); return false;">Читати анотацію...</a><br>` : '';
         const annotationBlock = b.description ? `<div id="${annotationId}" class="annotation">${b.description}</div>` : '';
         const isNew = b.added && (new Date() - new Date(b.added)) < 1000 * 60 * 60 * 24 * 30;
-        const newBadge = isNew ? '<span class="badge-new">Нове надходження</span>' : '';
+        const newBadge = isNew ? '<a href="#" class="badge-new" onclick="filterByNew(); return false;">Нове надходження</a>' : '';
         const genreBadge = b.genre ? (   Array.isArray(b.genre)    ? b.genre.map(g => `<a href="#" class="badge-genre" onclick="filterByGenre('${g}'); return false;">${g}</a>`).join(' ')
     : `<a href="#" class="badge-genre" onclick="filterByGenre('${b.genre}'); return false;">${b.genre}</a>`) : '';
 
@@ -272,8 +277,8 @@ function resetFiltersAndSearch() {
             <strong>${b.title}</strong> ${newBadge}<br>
             Автор(и): ${authorDisplay}<br>
             Видавництво: ${b.publisher}, ${b.year}<br>
-            ${genreBadge}<br>
             ${b.language ? 'Мова: ' + b.language + '<br>' : ''}
+            ${genreBadge ? genreBadge + '<br>' : ''}
             ${annotationLink}
             ${annotationBlock}
           </div>
@@ -291,6 +296,22 @@ function resetFiltersAndSearch() {
         pagination.appendChild(btn);
       }
     }
+
+
+function filterByNew() {
+  filteredBooks = books.filter(b => b.added && (new Date() - new Date(b.added)) < 1000 * 60 * 60 * 24 * 30);
+  document.getElementById('searchInput').value = '';
+  document.getElementById('genreSelect').value = '';
+  document.getElementById('languageSelect').value = '';
+  document.getElementById('yearSelect').value = '';
+  document.querySelectorAll('.alphabet span').forEach(s => s.classList.remove('active'));
+  document.getElementById('authorList').innerHTML = '';
+  activeLetter = '';
+  currentPage = 1;
+  renderBooks();
+  updateURLParams();
+}
+
 
     function toggleAnnotation(id) {
       const el = document.getElementById(id);
@@ -325,6 +346,41 @@ function resetFiltersAndSearch() {
 
     document.getElementById('searchInput').addEventListener('input', resetFiltersAndSearch);
     loadBooks();
+
+
+// Перевірка чи існує зображення хедера
+function checkAndLoadHeader() {
+  const headerPath = 'header.jpg'; // змінити при необхідності
+  const img = new Image();
+  img.onload = () => {
+    document.getElementById('headerImage').src = headerPath;
+    document.getElementById('siteHeader').style.display = 'block';
+  };
+  img.onerror = () => {
+    // Якщо зображення не знайдено — нічого не робимо
+  };
+  img.src = headerPath;
+}
+
+checkAndLoadHeader();
+
+function filterByAuthor(author) {
+  filteredBooks = books.filter(b =>
+    Array.isArray(b.authors) ? b.authors.includes(author) : b.author === author
+  );
+  currentPage = 1;
+  document.getElementById('searchInput').value = ''; // скидаємо пошук
+  document.getElementById('yearSelect').value = '';
+  document.getElementById('genreSelect').value = '';
+  document.getElementById('languageSelect').value = '';
+  document.querySelectorAll('.alphabet span').forEach(s => s.classList.remove('active'));
+  activeLetter = '';
+  renderBooks();
+  updateURLParams();
+}
+
+
+
 
   </script>
 </body>
