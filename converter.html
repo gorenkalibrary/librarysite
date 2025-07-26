@@ -1,16 +1,38 @@
-
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Конвертер Excel → JSON</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #f7f7f7;
+      padding: 2rem;
+    }
+    input, button {
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      font-size: 1rem;
+    }
+    pre {
+      margin-top: 2rem;
+      background: #fff;
+      padding: 1rem;
+      border: 1px solid #ddd;
+      max-height: 500px;
+      overflow: auto;
+    }
+  </style>
 </head>
 <body>
+
   <h2>Завантажити Excel-файл</h2>
   <input type="file" id="inputFile" accept=".xlsx" />
+  <br />
   <button onclick="downloadJSON()">Завантажити books.json</button>
+
   <pre id="output"></pre>
 
   <script>
@@ -25,7 +47,7 @@
         return `${year}-${month}-${day}`;
       }
       if (typeof excelDate === 'string') {
-        return excelDate; // already in correct format
+        return excelDate;
       }
       return "";
     }
@@ -40,23 +62,22 @@
         const json = XLSX.utils.sheet_to_json(worksheet);
 
         jsonOutput = json.map(row => {
-  const authorsArray = row["authors"] 
-    ? row["authors"].split(',').map(a => a.trim()).filter(Boolean) 
-    : [];
+          const authorArray = row["author"]
+            ? row["author"].split(',').map(a => a.trim()).filter(Boolean)
+            : [];
 
-  return {
-    title: row["title"] || "",
-    author: authorsArray,
-    publisher: row["publisher"] || "",
-    year: row["year"] || "",
-    language: row["language"] || "",
-    genre: row["genre"] ? row["genre"].split(',').map(g => g.trim()) : [],
-    image: row["image"] || "",
-    description: row["description"] || "",
-    added: formatExcelDate(row["added"])
-  };
-});
-
+          return {
+            title: row["title"] || "",
+            author: authorArray,
+            publisher: row["publisher"] || "",
+            year: row["year"] || "",
+            language: row["language"] || "",
+            genre: row["genre"] ? row["genre"].split(',').map(g => g.trim()) : [],
+            image: row["image"] || "",
+            description: row["description"] || "",
+            added: formatExcelDate(row["added"])
+          };
+        });
 
         document.getElementById('output').textContent = JSON.stringify(jsonOutput, null, 2);
       };
