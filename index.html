@@ -71,7 +71,7 @@
   <h1>Бібліотечний каталог</h1>
 
   <div class="search-bar">
-    <input type="text" id="searchInput" placeholder="Пошук книг за назвою чи автором... Перед пошуком скиньте всі фільтри." style="width: 100%; padding: 8px;">
+    <input type="text" id="searchInput" placeholder="Пошук книг за автором чи назвою..." style="width: 100%; padding: 8px;">
   </div>
 
   <div class="filters-container">
@@ -115,6 +115,30 @@
     const booksPerPage = 10;
     let filteredBooks = [];
     let activeLetter = '';
+
+function resetFiltersAndSearch() {
+  // Скидаємо значення фільтрів
+  document.getElementById('yearSelect').value = '';
+  document.getElementById('genreSelect').value = '';
+  document.getElementById('languageSelect').value = '';
+  activeLetter = '';
+
+  const term = document.getElementById('searchInput').value.toLowerCase();
+  filteredBooks = books.filter(b => {
+    const authorText = Array.isArray(b.authors) ? b.authors.join(', ').toLowerCase() : b.author.toLowerCase();
+    return (
+      b.title.toLowerCase().includes(term) ||
+      authorText.includes(term) ||
+      b.publisher.toLowerCase().includes(term)
+    );
+  });
+
+  document.querySelectorAll('.alphabet span').forEach(s => s.classList.remove('active'));
+  document.getElementById('authorList').innerHTML = '';
+  currentPage = 1;
+  renderBooks();
+  updateURLParams();
+}
 
     async function loadBooks() {
       const res = await fetch('books.json');
@@ -189,26 +213,32 @@
     }
 
     function applyFilters() {
-      const term = document.getElementById('searchInput').value.toLowerCase();
-      const year = document.getElementById('yearSelect').value;
-      const genre = document.getElementById('genreSelect').value;
-      const language = document.getElementById('languageSelect').value;
+  const term = document.getElementById('searchInput').value.toLowerCase();
+  const selectedYear = document.getElementById('yearSelect').value;
+  const selectedGenre = document.getElementById('genreSelect').value;
+  const selectedLanguage = document.getElementById('languageSelect').value;
 
-      filteredBooks = books.filter(b => {
-        const authorText = Array.isArray(b.authors) ? b.authors.join(', ').toLowerCase() : b.author.toLowerCase();
-        return (
-          (b.title.toLowerCase().includes(term) ||
-          authorText.includes(term) ||
-          b.publisher.toLowerCase().includes(term)) &&
-          (!year || b.year == year) &&
-          (!genre || (Array.isArray(b.genre) ? b.genre.includes(genre) : b.genre === genre)) &&
-          (!language || b.language === language)
-        );
-      });
-      currentPage = 1;
-      renderBooks();
-      updateURLParams();
-    }
+  filteredBooks = books.filter(b => {
+    const matchesSearch =
+      b.title.toLowerCase().includes(term) ||
+      (Array.isArray(b.authors) ? b.authors.join(', ').toLowerCase() : b.author.toLowerCase()).includes(term) ||
+      b.publisher.toLowerCase().includes(term);
+
+    const matchesYear = !selectedYear || b.year == selectedYear;
+    const matchesLanguage = !selectedLanguage || b.language == selectedLanguage;
+    const matchesGenre = !selectedGenre || (
+      Array.isArray(b.genre) ? b.genre.includes(selectedGenre) : b.genre === selectedGenre
+    );
+
+    return matchesSearch && matchesYear && matchesLanguage && matchesGenre;
+  });
+
+  currentPage = 1;
+  renderBooks();
+  updateURLParams();
+}
+
+
     function filterByGenre(genre) {
       document.getElementById('genreSelect').value = genre;
       applyFilters();
@@ -293,7 +323,7 @@
       }
     }
 
-    document.getElementById('searchInput').addEventListener('input', applyFilters);
+    document.getElementById('searchInput').addEventListener('input', resetFiltersAndSearch);
     loadBooks();
 
   </script>
