@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="uk">
 <head>
@@ -42,7 +43,7 @@
           return {
             title: row["title"] || "",
             author: row["author"] || "",
-            authors: row["authors"] ? row["authors"].split(',').map(a => a.trim()) : undefined,
+            authors: row["authors"] ? row["authors"].split(',').map(a => a.trim()).filter(Boolean) : [],
             publisher: row["publisher"] || "",
             year: row["year"] || "",
             language: row["language"] || "",
