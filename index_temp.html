@@ -208,6 +208,10 @@
       renderBooks();
       updateURLParams();
     }
+    function filterByGenre(genre) {
+      document.getElementById('genreSelect').value = genre;
+      applyFilters();
+    }
 
     function renderBooks() {
       document.getElementById('authorList').innerHTML = '';
@@ -220,11 +224,12 @@
       bookList.innerHTML = paginatedBooks.map(b => {
         const authorDisplay = Array.isArray(b.authors) ? b.authors.join(', ') : b.author;
         const annotationId = 'desc_' + Math.random().toString(36).substr(2, 9);
-        const annotationLink = b.description ? `<a href="#" onclick="toggleAnnotation('${annotationId}'); return false;">Аннотація</a><br>` : '';
+        const annotationLink = b.description ? `<a href="#" onclick="toggleAnnotation('${annotationId}'); return false;">Читати анотацію...</a><br>` : '';
         const annotationBlock = b.description ? `<div id="${annotationId}" class="annotation">${b.description}</div>` : '';
         const isNew = b.added && (new Date() - new Date(b.added)) < 1000 * 60 * 60 * 24 * 30;
         const newBadge = isNew ? '<span class="badge-new">Нове надходження</span>' : '';
-        const genreBadge = b.genre ? (Array.isArray(b.genre)      ? b.genre.map(g => `<span class="badge-genre">${g}</span>`).join(' ')       : `<span class="badge-genre">${b.genre}</span>`)   : '';
+        const genreBadge = b.genre ? (  Array.isArray(b.genre)    ? b.genre.map(g => `<a href="#" class="badge-genre" onclick="filterByGenre('${g}'); return false;">${g}</a>`).join(' ')     : `<a href="#" class="badge-genre" onclick="filterByGenre('${b.genre}'); return false;">${b.genre}</a>`) : '';
+
 
 
         return `
