@@ -116,6 +116,30 @@
     let filteredBooks = [];
     let activeLetter = '';
 
+function resetFiltersAndSearch() {
+  // Скидаємо значення фільтрів
+  document.getElementById('yearSelect').value = '';
+  document.getElementById('genreSelect').value = '';
+  document.getElementById('languageSelect').value = '';
+  activeLetter = '';
+
+  const term = document.getElementById('searchInput').value.toLowerCase();
+  filteredBooks = books.filter(b => {
+    const authorText = Array.isArray(b.authors) ? b.authors.join(', ').toLowerCase() : b.author.toLowerCase();
+    return (
+      b.title.toLowerCase().includes(term) ||
+      authorText.includes(term) ||
+      b.publisher.toLowerCase().includes(term)
+    );
+  });
+
+  document.querySelectorAll('.alphabet span').forEach(s => s.classList.remove('active'));
+  document.getElementById('authorList').innerHTML = '';
+  currentPage = 1;
+  renderBooks();
+  updateURLParams();
+}
+
     async function loadBooks() {
       const res = await fetch('books.json');
       books = await res.json();
@@ -294,7 +318,7 @@
       }
     }
 
-    document.getElementById('searchInput').addEventListener('input', applyFilters);
+    document.getElementById('searchInput').addEventListener('input', resetFiltersAndSearch);
     loadBooks();
 
   </script>
