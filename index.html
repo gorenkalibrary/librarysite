@@ -136,7 +136,7 @@
 
     function populateFilters() {
       const years = [...new Set(books.map(b => b.year))].sort((a,b)=>b-a);
-      const genres = [...new Set(books.flatMap(b => Array.isArray(b.genre) ? b.genre : [b.genre])  .filter(Boolean))];
+      const genres = [...new Set(books.flatMap(b => Array.isArray(b.genre) ? b.genre : [b.genre]).filter(Boolean))].sort((a, b) => a.localeCompare(b));
       const languages = [...new Set(books.map(b => b.language).filter(Boolean))].sort();
 
       const yearSelect = document.getElementById('yearSelect');
@@ -220,7 +220,7 @@
       bookList.innerHTML = paginatedBooks.map(b => {
         const authorDisplay = Array.isArray(b.authors) ? b.authors.join(', ') : b.author;
         const annotationId = 'desc_' + Math.random().toString(36).substr(2, 9);
-        const annotationLink = b.description ? `<a href="#" onclick="toggleAnnotation('${annotationId}'); return false;">Аннотація</a><br>` : '';
+        const annotationLink = b.description ? `<a href="#" onclick="toggleAnnotation('${annotationId}'); return false;">Читати анотацію...</a><br>` : '';
         const annotationBlock = b.description ? `<div id="${annotationId}" class="annotation">${b.description}</div>` : '';
         const isNew = b.added && (new Date() - new Date(b.added)) < 1000 * 60 * 60 * 24 * 30;
         const newBadge = isNew ? '<span class="badge-new">Нове надходження</span>' : '';
@@ -287,6 +287,7 @@
 
     document.getElementById('searchInput').addEventListener('input', applyFilters);
     loadBooks();
+
   </script>
 </body>
 </html>
