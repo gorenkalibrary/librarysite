@@ -46,7 +46,8 @@
     .pagination button.active { background-color: #2980b9; color: white; border: none; }
     .annotation { background: #eef; padding: 8px; margin-top: 5px; border-left: 4px solid #2980b9; border-radius: 4px; display: none; }
     .badge-new { background-color: #2ecc71; color: white; padding: 2px 6px; border-radius: 4px; font-size: 0.75rem; margin-left: 6px; display: inline-block; }
-    .badge-genre { background-color: #3498db; color: white; padding: 2px 6px; border-radius: 4px; font-size: 0.75rem; margin-left: 6px; display: inline-block; }
+    .badge-genre { background-color: #3498db; color: white; padding: 2px 6px; border-radius: 4px; font-size: 0.75rem; margin-left: 6px; display: inline-block; text-decoration: none; }
+    .badge-genre:hover {  background-color: #2d85c7;  text-decoration: none; }
     .reset-link {
       display: inline-block;
       background-color: #ccc;
@@ -70,7 +71,7 @@
   <h1>Бібліотечний каталог</h1>
 
   <div class="search-bar">
-    <input type="text" id="searchInput" placeholder="Пошук книг (автор, назва, видавництво)..." style="width: 100%; padding: 8px;">
+    <input type="text" id="searchInput" placeholder="Пошук книг за назвою чи автором... Перед пошуком скиньте всі фільтри." style="width: 100%; padding: 8px;">
   </div>
 
   <div class="filters-container">
@@ -208,6 +209,10 @@
       renderBooks();
       updateURLParams();
     }
+    function filterByGenre(genre) {
+      document.getElementById('genreSelect').value = genre;
+      applyFilters();
+    }
 
     function renderBooks() {
       document.getElementById('authorList').innerHTML = '';
@@ -224,7 +229,10 @@
         const annotationBlock = b.description ? `<div id="${annotationId}" class="annotation">${b.description}</div>` : '';
         const isNew = b.added && (new Date() - new Date(b.added)) < 1000 * 60 * 60 * 24 * 30;
         const newBadge = isNew ? '<span class="badge-new">Нове надходження</span>' : '';
-        const genreBadge = b.genre ? (Array.isArray(b.genre)      ? b.genre.map(g => `<span class="badge-genre">${g}</span>`).join(' ')       : `<span class="badge-genre">${b.genre}</span>`)   : '';
+        const genreBadge = b.genre ? (   Array.isArray(b.genre)    ? b.genre.map(g => `<a href="#" class="badge-genre" onclick="filterByGenre('${g}'); return false;">${g}</a>`).join(' ')
+    : `<a href="#" class="badge-genre" onclick="filterByGenre('${b.genre}'); return false;">${b.genre}</a>`) : '';
+
+
 
 
         return `
