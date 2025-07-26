@@ -214,25 +214,30 @@ function resetFiltersAndSearch() {
 
     function applyFilters() {
   const term = document.getElementById('searchInput').value.toLowerCase();
-
-  // Скидаємо всі фільтри
-  document.getElementById('yearSelect').value = '';
-  document.getElementById('genreSelect').value = '';
-  document.getElementById('languageSelect').value = '';
+  const selectedYear = document.getElementById('yearSelect').value;
+  const selectedGenre = document.getElementById('genreSelect').value;
+  const selectedLanguage = document.getElementById('languageSelect').value;
 
   filteredBooks = books.filter(b => {
-    const authorText = Array.isArray(b.authors) ? b.authors.join(', ').toLowerCase() : b.author.toLowerCase();
-    return (
+    const matchesSearch =
       b.title.toLowerCase().includes(term) ||
-      authorText.includes(term) ||
-      b.publisher.toLowerCase().includes(term)
+      (Array.isArray(b.authors) ? b.authors.join(', ').toLowerCase() : b.author.toLowerCase()).includes(term) ||
+      b.publisher.toLowerCase().includes(term);
+
+    const matchesYear = !selectedYear || b.year == selectedYear;
+    const matchesLanguage = !selectedLanguage || b.language == selectedLanguage;
+    const matchesGenre = !selectedGenre || (
+      Array.isArray(b.genre) ? b.genre.includes(selectedGenre) : b.genre === selectedGenre
     );
+
+    return matchesSearch && matchesYear && matchesLanguage && matchesGenre;
   });
 
   currentPage = 1;
   renderBooks();
   updateURLParams();
 }
+
 
     function filterByGenre(genre) {
       document.getElementById('genreSelect').value = genre;
