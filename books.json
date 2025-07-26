@@ -822,7 +822,7 @@
     "year": "1925",
     "language": "Українська",
     "genre": [
-      "П'єса"
+      "П’єса"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -1192,7 +1192,7 @@
     "year": "2019",
     "language": "Українська",
     "genre": [
-      "Пригодницька література"
+      "Пригоди"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -2856,7 +2856,7 @@
     "year": "1952",
     "language": "Українська",
     "genre": [
-      "Релігійна література"
+      "Релігія"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5215,7 +5215,7 @@
     "year": "2017",
     "language": "Українська",
     "genre": [
-      "Фемінизм"
+      "Фемінізм"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5282,7 +5282,8 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "Філософська Поезія"
+      "Поезія",
+      "Філософія"
     ],
     "image": "bookicon.png",
     "description": "",
