@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Конвертер Excel → JSON</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 </head>
@@ -41,22 +41,17 @@
         jsonOutput = json.map(row => {
           return {
             title: row["title"] || "",
-            author: row["author"]
-              ? row["author"].split(',').map(a => a.trim()).filter(Boolean)
-              : [],
+            author: row["author"] || "", // просто рядок
             publisher: row["publisher"] || "",
             year: row["year"] || "",
             language: row["language"] || "",
-            genre: row["genre"]
-              ? row["genre"].split(',').map(g => g.trim()).filter(Boolean)
-              : [],
+            genre: row["genre"] ? row["genre"].split(',').map(g => g.trim()) : [], // genre — масив
             image: row["image"] || "",
             description: row["description"] || "",
             added: formatExcelDate(row["added"])
           };
         });
 
-        // Показуємо JSON на екрані
         document.getElementById('output').textContent = JSON.stringify(jsonOutput, null, 2);
       };
       reader.readAsArrayBuffer(e.target.files[0]);
