@@ -3,6 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <div id="siteHeader" style="display:none; margin-bottom: 1rem;">
+  <img id="headerImage" src="" alt="Site Header" style="width:100%; height:auto; border-radius:6px;">
+  </div>
+
   <title>Бібліотечний каталог</title>
   <style>
     body { font-family: Arial, sans-serif; background: #f2f2f2; padding: 1rem; }
@@ -66,6 +71,10 @@
       .book img { width: 120px; }
       .filters-row { flex-direction: column; align-items: flex-start; }
     }
+
+    #siteHeader img {    max-width: 100%;   height: auto;   border-radius: 8px;   display: block; }
+    @media (max-width: 600px) {   #siteHeader img {    border-radius: 0;  }}
+
   </style>
 </head>
 <body>
@@ -326,6 +335,24 @@ function resetFiltersAndSearch() {
 
     document.getElementById('searchInput').addEventListener('input', resetFiltersAndSearch);
     loadBooks();
+
+
+// Перевірка чи існує зображення хедера
+function checkAndLoadHeader() {
+  const headerPath = 'header.jpg'; // змінити при необхідності
+  const img = new Image();
+  img.onload = () => {
+    document.getElementById('headerImage').src = headerPath;
+    document.getElementById('siteHeader').style.display = 'block';
+  };
+  img.onerror = () => {
+    // Якщо зображення не знайдено — нічого не робимо
+  };
+  img.src = headerPath;
+}
+
+checkAndLoadHeader();
+
 
   </script>
 </body>
