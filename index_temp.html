@@ -57,6 +57,9 @@
     .badge-genre:hover {  background-color: #2d85c7;  text-decoration: none; }
     .reset-link {  display: inline-block;  background-color: #f39c12;  color: white;  padding: 6px 12px;  border-radius: 4px;  text-decoration: none;  font-weight: bold;}
     .reset-link:hover {  background-color: #e67e22; }
+    .author-link {  text-decoration: none;   color: inherit;   font-weight: normal;}
+    .author-link:hover {  text-decoration: underline dotted;  color: #2980b9;}
+
 
     @media (max-width: 600px) {
       .book { flex-direction: column; align-items: center; text-align: center; }
@@ -255,7 +258,7 @@ function resetFiltersAndSearch() {
       const paginatedBooks = filteredBooks.slice(start, end);
 
       bookList.innerHTML = paginatedBooks.map(b => {
-        const authorDisplay = Array.isArray(b.authors) ? b.authors.join(', ') : b.author;
+        const authorDisplay = Array.isArray(b.authors)   ? b.authors.map(a => `<a href="#" class="author-link" onclick="filterByAuthor('${a}'); return false;">${a}</a>`).join(', ')   : `<a href="#" class="author-link" onclick="filterByAuthor('${b.author}'); return false;">${b.author}</a>`;
         const annotationId = 'desc_' + Math.random().toString(36).substr(2, 9);
         const annotationLink = b.description ? `<a href="#" onclick="toggleAnnotation('${annotationId}'); return false;">Читати анотацію...</a><br>` : '';
         const annotationBlock = b.description ? `<div id="${annotationId}" class="annotation">${b.description}</div>` : '';
@@ -360,6 +363,23 @@ function checkAndLoadHeader() {
 }
 
 checkAndLoadHeader();
+
+function filterByAuthor(author) {
+  filteredBooks = books.filter(b =>
+    Array.isArray(b.authors) ? b.authors.includes(author) : b.author === author
+  );
+  currentPage = 1;
+  document.getElementById('searchInput').value = ''; // скидаємо пошук
+  document.getElementById('yearSelect').value = '';
+  document.getElementById('genreSelect').value = '';
+  document.getElementById('languageSelect').value = '';
+  document.querySelectorAll('.alphabet span').forEach(s => s.classList.remove('active'));
+  activeLetter = '';
+  renderBooks();
+  updateURLParams();
+}
+
+
 
 
   </script>
