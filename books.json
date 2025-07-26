@@ -300,7 +300,7 @@
     "year": "1951",
     "language": "Українська",
     "genre": [
-      "Філософі",
+      "Філософія",
       "Політика"
     ],
     "image": "bookicon.png",
@@ -1220,7 +1220,7 @@
     "language": "Українська",
     "genre": [
       "Роман",
-      "Модерн"
+      "Модернізм"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -1234,7 +1234,7 @@
     "language": "Українська",
     "genre": [
       "Роман",
-      "Модерн"
+      "Модернізм"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -1896,7 +1896,7 @@
     "language": "Українська",
     "genre": [
       "Роман",
-      "Модерн"
+      "Модернізм"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -2402,7 +2402,7 @@
     "language": "Українська",
     "genre": [
       "Проза",
-      "Модерн",
+      "Модернізм",
       "Фемінізм"
     ],
     "image": "bookicon.png",
@@ -3245,7 +3245,7 @@
     "language": "Українська",
     "genre": [
       "Повість",
-      "модернізм"
+      "Модернізм"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4778,7 +4778,7 @@
     "language": "Українська",
     "genre": [
       "Комікс",
-      "пригоди"
+      "Пригоди"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -4858,7 +4858,7 @@
     "language": "Українська",
     "genre": [
       "Проза",
-      "Модерн"
+      "Модернізм"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5083,7 +5083,7 @@
     "language": "Українська",
     "genre": [
       "Драма",
-      "абсурд"
+      "Абсурд"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5215,7 +5215,7 @@
     "year": "2017",
     "language": "Українська",
     "genre": [
-      "Феміністична література"
+      "Фемінизм"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5413,7 +5413,7 @@
     "year": "2010",
     "language": "Українська",
     "genre": [
-      "новела"
+      "Новела"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5452,7 +5452,7 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "Новели"
+      "Новела"
     ],
     "image": "bookicon.png",
     "description": "",
@@ -5810,7 +5810,9 @@
     "year": "2024",
     "language": "Українська",
     "genre": [
-      "феєрія / Драма‑поема"
+      "Драма",
+      "Поема",
+      "Феєрія"
     ],
     "image": "bookicon.png",
     "description": "",
