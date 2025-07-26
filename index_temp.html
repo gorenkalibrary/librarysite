@@ -41,7 +41,8 @@
     .alphabet span.active { color: white; background-color: #2980b9; padding: 2px 6px; border-radius: 4px; }
     .book-list, .author-list, .pagination { margin-top: 1rem; }
     .book { background: #fff; padding: 1rem; margin-bottom: 0.5rem; border-radius: 5px; display: flex; gap: 1rem; flex-wrap: wrap; }
-    .book img { width: 80px; height: auto; object-fit: cover; }
+    .book img {  width: 80px;  height: auto;  object-fit: contain;  background: white;  border: 1px solid #ccc; padding: 2px;}
+
     .pagination button { margin: 2px; padding: 4px 8px; cursor: pointer; }
     .pagination button.active { background-color: #2980b9; color: white; border: none; }
     .annotation { background: #eef; padding: 8px; margin-top: 5px; border-left: 4px solid #2980b9; border-radius: 4px; display: none; }
@@ -71,7 +72,7 @@
   <h1>Бібліотечний каталог</h1>
 
   <div class="search-bar">
-    <input type="text" id="searchInput" placeholder="Пошук книг (автор, назва, видавництво)..." style="width: 100%; padding: 8px;">
+    <input type="text" id="searchInput" placeholder="Пошук книг за назвою чи автором..." style="width: 100%; padding: 8px;">
   </div>
 
   <div class="filters-container">
