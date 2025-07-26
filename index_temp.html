@@ -268,7 +268,7 @@ function resetFiltersAndSearch() {
         const annotationLink = b.description ? `<a href="#" onclick="toggleAnnotation('${annotationId}'); return false;">Читати анотацію...</a><br>` : '';
         const annotationBlock = b.description ? `<div id="${annotationId}" class="annotation">${b.description}</div>` : '';
         const isNew = b.added && (new Date() - new Date(b.added)) < 1000 * 60 * 60 * 24 * 30;
-        const newBadge = isNew ? '<span class="badge-new">Нове надходження</span>' : '';
+        const newBadge = isNew ? '<a href="#" class="badge-new" onclick="filterByNew(); return false;">Нове надходження</a>' : '';
         const genreBadge = b.genre ? (   Array.isArray(b.genre)    ? b.genre.map(g => `<a href="#" class="badge-genre" onclick="filterByGenre('${g}'); return false;">${g}</a>`).join(' ')
     : `<a href="#" class="badge-genre" onclick="filterByGenre('${b.genre}'); return false;">${b.genre}</a>`) : '';
 
@@ -301,6 +301,22 @@ function resetFiltersAndSearch() {
         pagination.appendChild(btn);
       }
     }
+
+
+function filterByNew() {
+  filteredBooks = books.filter(b => b.added && (new Date() - new Date(b.added)) < 1000 * 60 * 60 * 24 * 30);
+  document.getElementById('searchInput').value = '';
+  document.getElementById('genreSelect').value = '';
+  document.getElementById('languageSelect').value = '';
+  document.getElementById('yearSelect').value = '';
+  document.querySelectorAll('.alphabet span').forEach(s => s.classList.remove('active'));
+  document.getElementById('authorList').innerHTML = '';
+  activeLetter = '';
+  currentPage = 1;
+  renderBooks();
+  updateURLParams();
+}
+
 
     function toggleAnnotation(id) {
       const el = document.getElementById(id);
