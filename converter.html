@@ -42,8 +42,7 @@
         jsonOutput = json.map(row => {
           return {
             title: row["title"] || "",
-            author: row["author"] || "",
-            authors: row["author"] ? row["author"].split(',').map(a => a.trim()).filter(Boolean) : [],
+            author: row["authors"] ? row["authors"].split(',').map(a => a.trim()).filter(Boolean) : [],
             publisher: row["publisher"] || "",
             year: row["year"] || "",
             language: row["language"] || "",
