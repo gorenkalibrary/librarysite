@@ -47,6 +47,10 @@
   </style>
 </head>
 <body>
+<div id="siteHeader" style="display:none; margin-bottom: 1rem;">
+  <img id="headerImage" src="" alt="Site Header" style="width:100%; height:auto; border-radius:6px;">
+</div>
+
   <h1>Бібліотечний каталог</h1>
 
   <div class="search-bar">
@@ -220,6 +224,22 @@
 
     document.getElementById('searchInput').addEventListener('input', resetFiltersAndSearch);
     loadBooks();
+    checkAndLoadHeader();
+
+
+function checkAndLoadHeader() {
+  const headerPath = 'header.jpg'; // шлях до зображення хедера
+  const img = new Image();
+  img.onload = () => {
+    document.getElementById('headerImage').src = headerPath;
+    document.getElementById('siteHeader').style.display = 'block';
+  };
+  img.onerror = () => {
+    // якщо зображення не знайдене — нічого не робимо
+  };
+  img.src = headerPath;
+}
+
   </script>
 </body>
 </html>
