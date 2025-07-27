@@ -155,17 +155,31 @@
     }
 
     function resetFiltersAndSearch() {
-      const term = document.getElementById('searchInput').value.toLowerCase();
-      filteredBooks = books.filter(b => {
-        const authorText = b.author.join(', ').toLowerCase();
-        return (
-          b.title.toLowerCase().includes(term) ||
-          authorText.includes(term) ||
-          b.publisher.toLowerCase().includes(term)
-        );
-      });
-      renderBooks();
-    }
+  document.getElementById('yearSelect').value = '';
+  document.getElementById('genreSelect').value = '';
+  document.getElementById('languageSelect').value = '';
+  activeLetter = '';
+
+  const term = document.getElementById('searchInput').value.toLowerCase();
+  filteredBooks = books.filter(b => {
+    const authorText = Array.isArray(b.author) ? b.author.join(', ').toLowerCase() : b.author.toLowerCase();
+    return (
+      b.title.toLowerCase().includes(term) ||
+      authorText.includes(term) ||
+      b.publisher.toLowerCase().includes(term)
+    );
+  });
+
+  document.querySelectorAll('.alphabet span').forEach(s => s.classList.remove('active'));
+
+  // 💡 ОЧИЩАЄМО СПИСОК АВТОРІВ, якщо раніше обирали букву
+  document.getElementById('authorList').innerHTML = '';
+
+  currentPage = 1;
+  renderBooks();
+  updateURLParams();
+}
+
 
     function applyFilters() {
       const term = document.getElementById('searchInput').value.toLowerCase();
