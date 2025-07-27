@@ -131,6 +131,8 @@
     async function loadBooks() {
       const res = await fetch('books.json');
       books = await res.json();
+      books.sort((a, b) => new Date(b.added) - new Date(a.added));
+
       books.forEach(b => {
         if (!Array.isArray(b.genre)) b.genre = b.genre ? b.genre.split(',').map(g => g.trim()) : [];
         if (!Array.isArray(b.author)) b.author = b.author ? b.author.split(',').map(a => a.trim()) : [];
