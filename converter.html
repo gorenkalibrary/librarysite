@@ -3,20 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <title>Excel → JSON конвертер для бібліотеки</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; background: #f9f9f9; }
+    h2 { color: #2c3e50; }
+    .controls { margin-bottom: 1rem; display: flex; gap: 10px; align-items: center; }
+    button { padding: 6px 12px; background: #2980b9; color: white; border: none; border-radius: 4px; cursor: pointer; }
+    button:hover { background: #3498db; }
+    #output { white-space: pre-wrap; background: #f4f4f4; padding: 10px; margin-top: 1rem; border: 1px solid #ccc; border-radius: 4px; }
+    #downloadLink { display:none; margin-top: 1rem; text-decoration: none; color: #2980b9; font-weight: bold; }
+  </style>
 </head>
 <body>
   <h2>Завантажте Excel-файл</h2>
-  <input type="file" id="fileInput" accept=".xlsx, .xls">
-  <button onclick="generateJSON()">Створити JSON</button>
-  <pre id="output" style="white-space: pre-wrap; background: #f4f4f4; padding: 10px; margin-top: 1rem;"></pre>
-  <a id="downloadLink" style="display:none;" download="books.json">⬇️ Завантажити books.json</a>
+  <div class="controls">
+    <input type="file" id="fileInput" accept=".xlsx, .xls">
+    <button onclick="generateJSON()">Створити JSON</button>
+    <input type="file" id="jsonInput" accept=".json" onchange="loadExistingJSON()">
+  </div>
+  <pre id="output"></pre>
+  <a id="downloadLink" download="books.json">⬇️ Завантажити books.json</a>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
   <script>
     let jsonData = [];
 
     function parseCellArray(value) {
       return value ? value.split(',').map(v => v.trim()).filter(Boolean) : [];
+    }
+
+    function formatExcelDate(excelDate) {
+      const date = new Date(Math.round((excelDate - 25569) * 86400 * 1000));
+      return date.toISOString().split('T')[0];
     }
 
     function generateJSON() {
@@ -33,30 +50,55 @@
         const sheet = workbook.Sheets[workbook.SheetNames[0]];
         const rows = XLSX.utils.sheet_to_json(sheet, { defval: '' });
 
-        jsonData = rows.map(row => ({
-          title: row.title || '',
-          author: parseCellArray(row.author),
-          publisher: row.publisher || '',
-          year: row.year?.toString() || '',
-          language: row.language || '',
-          genre: parseCellArray(row.genre),
-          image: row.image || '',
-          description: row.description || '',
-          added: row.added || ''
-        }));
+        jsonData = rows.map(row => {
+          const addedRaw = row.added;
+          let added = '';
+          if (typeof addedRaw === 'number') {
+            added = formatExcelDate(addedRaw);
+          } else if (typeof addedRaw === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(addedRaw)) {
+            added = addedRaw;
+          }
+          return {
+            title: row.title || '',
+            author: parseCellArray(row.author),
+            publisher: row.publisher || '',
+            year: row.year?.toString() || '',
+            language: row.language || '',
+            genre: parseCellArray(row.genre),
+            image: row.image || '',
+            description: row.description || '',
+            added: added
+          };
+        });
 
-        const jsonString = JSON.stringify(jsonData, null, 2);
-        document.getElementById('output').textContent = jsonString;
-
-        const blob = new Blob([jsonString], { type: 'application/json' });
-        const url = URL.createObjectURL(blob);
-        const downloadLink = document.getElementById('downloadLink');
-        downloadLink.href = url;
-        downloadLink.style.display = 'inline-block';
-        downloadLink.textContent = '⬇️ Завантажити books.json';
+        displayJSON();
       };
 
       reader.readAsArrayBuffer(fileInput.files[0]);
+    }
+
+    function loadExistingJSON() {
+      const jsonInput = document.getElementById('jsonInput');
+      const reader = new FileReader();
+      reader.onload = function(e) {
+        try {
+          jsonData = JSON.parse(e.target.result);
+          displayJSON();
+        } catch (err) {
+          alert('Помилка при завантаженні JSON-файлу');
+        }
+      };
+      reader.readAsText(jsonInput.files[0]);
+    }
+
+    function displayJSON() {
+      const jsonString = JSON.stringify(jsonData, null, 2);
+      document.getElementById('output').textContent = jsonString;
+      const blob = new Blob([jsonString], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const downloadLink = document.getElementById('downloadLink');
+      downloadLink.href = url;
+      downloadLink.style.display = 'inline-block';
     }
   </script>
 </body>
