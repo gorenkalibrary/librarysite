@@ -2,58 +2,62 @@
 <html lang="uk">
 <head>
   <meta charset="UTF-8">
-  <title>Конвертер Excel → JSON (для бібліотеки)</title>
+  <title>Excel → JSON конвертер для бібліотеки</title>
 </head>
 <body>
-  <h1>Завантаження Excel-файлу каталогу</h1>
-  <input type="file" id="excelFile" accept=".xlsx, .xls">
-  <pre id="output" style="white-space: pre-wrap; background:#f4f4f4; padding:1rem; border-radius:6px;"></pre>
-  <button id="downloadBtn" style="display:none;">⬇️ Завантажити books.json</button>
+  <h2>Завантажте Excel-файл</h2>
+  <input type="file" id="fileInput" accept=".xlsx, .xls">
+  <button onclick="generateJSON()">Створити JSON</button>
+  <pre id="output" style="white-space: pre-wrap; background: #f4f4f4; padding: 10px; margin-top: 1rem;"></pre>
+  <a id="downloadLink" style="display:none;" download="books.json">⬇️ Завантажити books.json</a>
 
-  <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
   <script>
-    document.getElementById('excelFile').addEventListener('change', function (e) {
-      const file = e.target.files[0];
-      if (!file) return;
+    let jsonData = [];
+
+    function parseCellArray(value) {
+      return value ? value.split(',').map(v => v.trim()).filter(Boolean) : [];
+    }
+
+    function generateJSON() {
+      const fileInput = document.getElementById('fileInput');
+      if (!fileInput.files.length) {
+        alert('Будь ласка, виберіть Excel-файл.');
+        return;
+      }
 
       const reader = new FileReader();
-      reader.onload = function (e) {
+      reader.onload = function(e) {
         const data = new Uint8Array(e.target.result);
         const workbook = XLSX.read(data, { type: 'array' });
-        const sheetName = workbook.SheetNames[0];
-        const sheet = workbook.Sheets[sheetName];
-        const rows = XLSX.utils.sheet_to_json(sheet);
+        const sheet = workbook.Sheets[workbook.SheetNames[0]];
+        const rows = XLSX.utils.sheet_to_json(sheet, { defval: '' });
 
-        const result = rows.map(row => ({
-          title: row.title?.trim() || '',
-          author: typeof row.author === 'string'
-            ? row.author.split(',').map(a => a.trim()).filter(Boolean)
-            : [],
-          publisher: row.publisher?.trim() || '',
-          year: row.year?.toString().trim() || '',
-          language: row.language?.trim() || '',
-          genre: typeof row.genre === 'string'
-            ? row.genre.split(',').map(g => g.trim()).filter(Boolean)
-            : [],
-          image: row.image?.trim() || 'bookicon.png',
-          description: row.description?.trim() || '',
-          added: row.added?.trim() || ''
+        jsonData = rows.map(row => ({
+          title: row.title || '',
+          author: parseCellArray(row.author),
+          publisher: row.publisher || '',
+          year: row.year?.toString() || '',
+          language: row.language || '',
+          genre: parseCellArray(row.genre),
+          image: row.image || '',
+          description: row.description || '',
+          added: row.added || ''
         }));
 
-        const jsonStr = JSON.stringify(result, null, 2);
-        document.getElementById('output').textContent = jsonStr;
+        const jsonString = JSON.stringify(jsonData, null, 2);
+        document.getElementById('output').textContent = jsonString;
 
-        const blob = new Blob([jsonStr], { type: 'application/json' });
+        const blob = new Blob([jsonString], { type: 'application/json' });
         const url = URL.createObjectURL(blob);
-        const downloadBtn = document.getElementById('downloadBtn');
-        downloadBtn.href = url;
-        downloadBtn.download = 'books.json';
-        downloadBtn.style.display = 'inline-block';
-        downloadBtn.onclick = () => setTimeout(() => URL.revokeObjectURL(url), 1000);
+        const downloadLink = document.getElementById('downloadLink');
+        downloadLink.href = url;
+        downloadLink.style.display = 'inline-block';
+        downloadLink.textContent = '⬇️ Завантажити books.json';
       };
 
-      reader.readAsArrayBuffer(file);
-    });
+      reader.readAsArrayBuffer(fileInput.files[0]);
+    }
   </script>
 </body>
 </html>
