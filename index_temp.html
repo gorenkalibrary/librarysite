@@ -47,6 +47,11 @@
   </style>
 </head>
 <body>
+
+<div id="siteHeader" style="display:none; margin-bottom: 1rem;">
+  <img id="headerImage" src="" alt="Site Header" style="width:100%; height:auto; border-radius:6px;">
+</div>
+
   <h1>Бібліотечний каталог</h1>
 
   <div class="search-bar">
@@ -188,38 +193,49 @@
       renderBooks();
     }
 
-    function resetFiltersAndSearch() {
-      const term = document.getElementById('searchInput').value.toLowerCase();
-      filteredBooks = books.filter(b => {
-        const authorText = b.author.join(', ').toLowerCase();
-        return (
-          b.title.toLowerCase().includes(term) ||
-          authorText.includes(term) ||
-          b.publisher.toLowerCase().includes(term)
-        );
-      });
-      currentPage = 1;
-      updateURLParams();
-      renderBooks();
-    }
+   
+
+ function resetFiltersAndSearch() {
+  activeLetter = '';
+  currentPage = 1;
+  document.getElementById('authorList').innerHTML = '';
+  document.querySelectorAll('.alphabet span').forEach(s => s.classList.remove('active'));
+
+  const term = document.getElementById('searchInput').value.toLowerCase();
+  filteredBooks = books.filter(b => {
+    const authorText = b.author.join(', ').toLowerCase();
+    return (
+      b.title.toLowerCase().includes(term) ||
+      authorText.includes(term) ||
+      b.publisher.toLowerCase().includes(term)
+    );
+  });
+  renderBooks();
+}
+
 
     function applyFilters() {
-      const term = document.getElementById('searchInput').value.toLowerCase();
-      const y = document.getElementById('yearSelect').value;
-      const g = document.getElementById('genreSelect').value;
-      const l = document.getElementById('languageSelect').value;
-      filteredBooks = books.filter(b => {
-        const authorText = b.author.join(', ').toLowerCase();
-        const matchSearch = b.title.toLowerCase().includes(term) || authorText.includes(term) || b.publisher.toLowerCase().includes(term);
-        const matchYear = !y || b.year == y;
-        const matchLang = !l || b.language == l;
-        const matchGenre = !g || b.genre.includes(g);
-        return matchSearch && matchYear && matchLang && matchGenre;
-      });
-      currentPage = 1;
-      updateURLParams();
-      renderBooks();
-    }
+  activeLetter = '';
+  currentPage = 1;
+  document.getElementById('authorList').innerHTML = '';
+  document.querySelectorAll('.alphabet span').forEach(s => s.classList.remove('active'));
+
+  const term = document.getElementById('searchInput').value.toLowerCase();
+  const y = document.getElementById('yearSelect').value;
+  const g = document.getElementById('genreSelect').value;
+  const l = document.getElementById('languageSelect').value;
+
+  filteredBooks = books.filter(b => {
+    const authorText = b.author.join(', ').toLowerCase();
+    const matchSearch = b.title.toLowerCase().includes(term) || authorText.includes(term) || b.publisher.toLowerCase().includes(term);
+    const matchYear = !y || b.year == y;
+    const matchLang = !l || b.language == l;
+    const matchGenre = !g || b.genre.includes(g);
+    return matchSearch && matchYear && matchLang && matchGenre;
+  });
+  renderBooks();
+}
+
 
     function renderBooks() {
       const bookList = document.getElementById('bookList');
@@ -272,6 +288,22 @@
 
     document.getElementById('searchInput').addEventListener('input', resetFiltersAndSearch);
     loadBooks();
+    checkAndLoadHeader();
+
+
+function checkAndLoadHeader() {
+  const headerPath = 'header.jpg';
+  const img = new Image();
+  img.onload = () => {
+    document.getElementById('headerImage').src = headerPath;
+    document.getElementById('siteHeader').style.display = 'block';
+  };
+  img.onerror = () => {};
+  img.src = headerPath;
+}
+
+
+
   </script>
 </body>
 </html>
