@@ -259,6 +259,8 @@
       `<span class="badge-genre" onclick="applyGenre('${g}')">${g}</span>`
     ).join(' ');
     const isNew = b.added && (new Date() - new Date(b.added)) < 1000 * 60 * 60 * 24 * 30;
+    const newBadge = isNew ? `<a href="#" class="badge-new" onclick="filterNewBooks(); return false;">Нове надходження</a>` : '';
+
     const annotationId = `annotation-${startIndex + index}`;
     const hasAnnotation = b.description && b.description.trim() !== '';
     const showAnnotationLink = hasAnnotation
@@ -269,7 +271,7 @@
       : '';
     return `<div class="book">
       <img src="${b.image || 'https://via.placeholder.com/80x120?text=Книга'}" alt="${b.title}">
-      <div><strong>${b.title}</strong> ${isNew ? '<span class="badge-new">Нове надходження</span>' : ''}<br>
+      <div><strong>${b.title}</strong> ${newBadge}<br>
       Автор(и): ${authors}<br>
       Видавництво: ${b.publisher}, ${b.year}<br>
       Мова: ${b.language}<br>
@@ -291,6 +293,21 @@
     };
     pagination.appendChild(btn);
   }
+}
+
+function filterNewBooks() {
+  const now = new Date();
+  filteredBooks = books.filter(b => b.added && (now - new Date(b.added)) < 1000 * 60 * 60 * 24 * 30);
+  currentPage = 1;
+  document.getElementById('searchInput').value = '';
+  document.getElementById('yearSelect').value = '';
+  document.getElementById('genreSelect').value = '';
+  document.getElementById('languageSelect').value = '';
+  activeLetter = '';
+  document.getElementById('authorList').innerHTML = '';
+  document.querySelectorAll('.alphabet span').forEach(s => s.classList.remove('active'));
+  updateURLParams();
+  renderBooks();
 }
 
 
