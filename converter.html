@@ -7,22 +7,22 @@
   <style>
     body { font-family: Arial, sans-serif; padding: 20px; background: #f9f9f9; }
     h2 { color: #2c3e50; }
-    .controls { margin-bottom: 1rem; display: flex; gap: 10px; align-items: center; }
-    button { padding: 6px 12px; background: #2980b9; color: white; border: none; border-radius: 4px; cursor: pointer; }
-    button:hover { background: #3498db; }
+    .controls { margin-bottom: 1rem; display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+    button, label { padding: 6px 12px; background: #2980b9; color: white; border: none; border-radius: 4px; cursor: pointer; }
+    button:hover, label:hover { background: #3498db; }
+    input[type="file"] { display: none; }
     #output { white-space: pre-wrap; background: #f4f4f4; padding: 10px; margin-top: 1rem; border: 1px solid #ccc; border-radius: 4px; }
-    #downloadLink { display:none; margin-top: 1rem; text-decoration: none; color: #2980b9; font-weight: bold; }
+    #downloadLink { display:none; text-decoration: none; color: #2980b9; font-weight: bold; }
   </style>
 </head>
 <body>
   <h2>Завантажте Excel-файл</h2>
   <div class="controls">
+    <label for="fileInput">📁 Обрати Excel-файл</label>
     <input type="file" id="fileInput" accept=".xlsx, .xls">
-    <button onclick="generateJSON()">Створити JSON</button>
-    <input type="file" id="jsonInput" accept=".json" onchange="loadExistingJSON()">
+    <a id="downloadLink" download="books.json">⬇️ Завантажити books.json</a>
   </div>
   <pre id="output"></pre>
-  <a id="downloadLink" download="books.json">⬇️ Завантажити books.json</a>
 
   <script>
     let jsonData = [];
@@ -36,13 +36,7 @@
       return date.toISOString().split('T')[0];
     }
 
-    function generateJSON() {
-      const fileInput = document.getElementById('fileInput');
-      if (!fileInput.files.length) {
-        alert('Будь ласка, виберіть Excel-файл.');
-        return;
-      }
-
+    function generateJSONFromFile(file) {
       const reader = new FileReader();
       reader.onload = function(e) {
         const data = new Uint8Array(e.target.result);
@@ -73,22 +67,7 @@
 
         displayJSON();
       };
-
-      reader.readAsArrayBuffer(fileInput.files[0]);
-    }
-
-    function loadExistingJSON() {
-      const jsonInput = document.getElementById('jsonInput');
-      const reader = new FileReader();
-      reader.onload = function(e) {
-        try {
-          jsonData = JSON.parse(e.target.result);
-          displayJSON();
-        } catch (err) {
-          alert('Помилка при завантаженні JSON-файлу');
-        }
-      };
-      reader.readAsText(jsonInput.files[0]);
+      reader.readAsArrayBuffer(file);
     }
 
     function displayJSON() {
@@ -100,6 +79,12 @@
       downloadLink.href = url;
       downloadLink.style.display = 'inline-block';
     }
+
+    document.getElementById('fileInput').addEventListener('change', function() {
+      if (this.files.length) {
+        generateJSONFromFile(this.files[0]);
+      }
+    });
   </script>
 </body>
 </html>
