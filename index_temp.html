@@ -159,20 +159,23 @@
     }
 
     function resetFiltersAndSearch() {
-  document.getElementById('yearSelect').value = '';
-  document.getElementById('genreSelect').value = '';
-  document.getElementById('languageSelect').value = '';
   activeLetter = '';
+  currentPage = 1;
+  document.getElementById('authorList').innerHTML = '';
+  document.querySelectorAll('.alphabet span').forEach(s => s.classList.remove('active'));
 
   const term = document.getElementById('searchInput').value.toLowerCase();
   filteredBooks = books.filter(b => {
-    const authorText = Array.isArray(b.author) ? b.author.join(', ').toLowerCase() : b.author.toLowerCase();
+    const authorText = b.author.join(', ').toLowerCase();
     return (
       b.title.toLowerCase().includes(term) ||
       authorText.includes(term) ||
       b.publisher.toLowerCase().includes(term)
     );
   });
+  renderBooks();
+}
+
 
   document.querySelectorAll('.alphabet span').forEach(s => s.classList.remove('active'));
 
@@ -186,20 +189,51 @@
 
 
     function applyFilters() {
-      const term = document.getElementById('searchInput').value.toLowerCase();
-      const y = document.getElementById('yearSelect').value;
-      const g = document.getElementById('genreSelect').value;
-      const l = document.getElementById('languageSelect').value;
-      filteredBooks = books.filter(b => {
-        const authorText = b.author.join(', ').toLowerCase();
-        const matchSearch = b.title.toLowerCase().includes(term) || authorText.includes(term) || b.publisher.toLowerCase().includes(term);
-        const matchYear = !y || b.year == y;
-        const matchLang = !l || b.language == l;
-        const matchGenre = !g || b.genre.includes(g);
-        return matchSearch && matchYear && matchLang && matchGenre;
-      });
-      renderBooks();
-    }
+  activeLetter = '';
+  currentPage = 1;
+  document.getElementById('authorList').innerHTML = '';
+  document.querySelectorAll('.alphabet span').forEach(s => s.classList.remove('active'));
+
+  const term = document.getElementById('searchInput').value.toLowerCase();
+  const y = document.getElementById('yearSelect').value;
+  const g = document.getElementById('genreSelect').value;
+  const l = document.getElementById('languageSelect').value;
+
+  filteredBooks = books.filter(b => {
+    const authorText = b.author.join(', ').toLowerCase();
+    const matchSearch = b.title.toLowerCase().includes(term) || authorText.includes(term) || b.publisher.toLowerCase().includes(term);
+    const matchYear = !y || b.year == y;
+    const matchLang = !l || b.language == l;
+    const matchGenre = !g || b.genre.includes(g);
+    return matchSearch && matchYear && matchLang && matchGenre;
+  });
+  renderBooks();
+}
+
+
+function updateURLParams() {
+  const params = new URLSearchParams();
+  params.set('search', document.getElementById('searchInput').value);
+  params.set('year', document.getElementById('yearSelect').value);
+  params.set('genre', document.getElementById('genreSelect').value);
+  params.set('language', document.getElementById('languageSelect').value);
+  params.set('letter', activeLetter);
+  history.replaceState(null, '', '?' + params.toString());
+}
+
+function readURLParams() {
+  const params = new URLSearchParams(window.location.search);
+  document.getElementById('searchInput').value = params.get('search') || '';
+  document.getElementById('yearSelect').value = params.get('year') || '';
+  document.getElementById('genreSelect').value = params.get('genre') || '';
+  document.getElementById('languageSelect').value = params.get('language') || '';
+  activeLetter = params.get('letter') || '';
+  if (activeLetter) {
+    const letterSpan = [...document.querySelectorAll('.alphabet span')].find(s => s.textContent === activeLetter);
+    if (letterSpan) filterByLetter(activeLetter, letterSpan);
+  }
+}
+
 
     function renderBooks() {
       const bookList = document.getElementById('bookList');
