@@ -47,6 +47,11 @@
   </style>
 </head>
 <body>
+
+<div id="siteHeader" style="display:none; margin-bottom: 1rem;">
+  <img id="headerImage" src="" alt="Site Header" style="width:100%; height:auto; border-radius:6px;">
+</div>
+
   <h1>Бібліотечний каталог</h1>
 
   <div class="search-bar">
@@ -155,17 +160,31 @@
     }
 
     function resetFiltersAndSearch() {
-      const term = document.getElementById('searchInput').value.toLowerCase();
-      filteredBooks = books.filter(b => {
-        const authorText = b.author.join(', ').toLowerCase();
-        return (
-          b.title.toLowerCase().includes(term) ||
-          authorText.includes(term) ||
-          b.publisher.toLowerCase().includes(term)
-        );
-      });
-      renderBooks();
-    }
+  document.getElementById('yearSelect').value = '';
+  document.getElementById('genreSelect').value = '';
+  document.getElementById('languageSelect').value = '';
+  activeLetter = '';
+
+  const term = document.getElementById('searchInput').value.toLowerCase();
+  filteredBooks = books.filter(b => {
+    const authorText = Array.isArray(b.author) ? b.author.join(', ').toLowerCase() : b.author.toLowerCase();
+    return (
+      b.title.toLowerCase().includes(term) ||
+      authorText.includes(term) ||
+      b.publisher.toLowerCase().includes(term)
+    );
+  });
+
+  document.querySelectorAll('.alphabet span').forEach(s => s.classList.remove('active'));
+
+  // 💡 ОЧИЩАЄМО СПИСОК АВТОРІВ, якщо раніше обирали букву
+  document.getElementById('authorList').innerHTML = '';
+
+  currentPage = 1;
+  renderBooks();
+  updateURLParams();
+}
+
 
     function applyFilters() {
       const term = document.getElementById('searchInput').value.toLowerCase();
@@ -230,6 +249,24 @@
 
     document.getElementById('searchInput').addEventListener('input', resetFiltersAndSearch);
     loadBooks();
+    checkAndLoadHeader();
+
+
+
+function checkAndLoadHeader() {
+  const headerPath = 'header.jpg'; // шлях до зображення хедера
+  const img = new Image();
+  img.onload = () => {
+    document.getElementById('headerImage').src = headerPath;
+    document.getElementById('siteHeader').style.display = 'block';
+  };
+  img.onerror = () => {
+    // якщо зображення не знайдене — нічого не робимо
+  };
+  img.src = headerPath;
+}
+
+
   </script>
 </body>
 </html>
