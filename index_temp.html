@@ -9,270 +9,203 @@
     h1 { color: #2c3e50; }
     .search-bar { margin-bottom: 1rem; }
     .filters-container, .alphabet-container {
-      border: 1px solid #ccc; border-radius: 6px; padding: 1rem;
-      background-color: #f9f9f9; margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      padding: 1rem;
+      background-color: #f9f9f9;
+      margin-bottom: 1rem;
     }
     .filters-container { background-color: #e8f4fc; }
     .alphabet-container { background-color: #f6e8fc; }
     .filters-header, .alphabet-header {
-      font-weight: bold; margin-bottom: 0.5rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
     }
     .filters-row {
-      display: flex; flex-wrap: wrap; gap: 10px; align-items: center;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
     }
     .filters-row label { font-weight: bold; }
     .filters-row select { padding: 4px 6px; }
     .reset-container { margin-top: 10px; }
     .alphabet-row { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 0.5rem; }
-    .alphabet span {
-      cursor: pointer; margin: 0 4px; font-weight: bold;
-    }
-    .alphabet span.active {
-      color: white; background-color: #2980b9; padding: 2px 6px; border-radius: 4px;
-    }
+    .alphabet span { cursor: pointer; margin: 0 4px; font-weight: bold; }
+    .alphabet span.active { color: white; background-color: #2980b9; padding: 2px 6px; border-radius: 4px; }
     .book-list, .author-list, .pagination { margin-top: 1rem; }
-    .book {
-      background: #fff; padding: 1rem; margin-bottom: 0.5rem;
-      border-radius: 5px; display: flex; gap: 1rem; flex-wrap: wrap;
-    }
-    .book img {
-      width: 80px; height: auto; object-fit: contain;
-      background: white; border: 1px solid #ccc; padding: 2px;
-    }
-    .pagination button {
-      margin: 2px; padding: 4px 8px; cursor: pointer;
-    }
-    .pagination button.active {
-      background-color: #2980b9; color: white; border: none;
-    }
-    .annotation {
-      background: #eef; padding: 8px; margin-top: 5px;
-      border-left: 4px solid #2980b9; border-radius: 4px; display: none;
-    }
-    .badge-new {
-      background-color: #2ecc71; color: white; padding: 2px 6px;
-      border-radius: 4px; font-size: 0.75rem; margin-left: 6px;
-      display: inline-block; text-decoration: none;
-    }
-    .badge-new:hover { background-color: #27ae60; text-decoration: none; }
-    .badge-genre {
-      background-color: #3498db; color: white; padding: 2px 6px;
-      border-radius: 4px; font-size: 0.75rem; margin: 0 4px 4px 0;
-      display: inline-block; text-decoration: none;
-    }
-    .badge-genre:hover { background-color: #2d85c7; text-decoration: none; }
-    .reset-link {
-      display: inline-block; background-color: #f39c12;
-      color: white; padding: 6px 12px; border-radius: 4px;
-      text-decoration: none; font-weight: bold;
-    }
-    .reset-link:hover { background-color: #e67e22; }
-    .author-link {
-      text-decoration: none; color: inherit; font-weight: normal;
-    }
-    .author-link:hover {
-      text-decoration: underline dotted; color: #2980b9;
-    }
-    @media (max-width: 600px) {
-      .book { flex-direction: column; align-items: center; text-align: center; }
-      .book img { width: 120px; }
-      .filters-row { flex-direction: column; align-items: flex-start; }
-    }
+    .book { background: #fff; padding: 1rem; margin-bottom: 0.5rem; border-radius: 5px; display: flex; gap: 1rem; flex-wrap: wrap; }
+    .book img { width: 80px; height: auto; object-fit: contain; background: white; border: 1px solid #ccc; padding: 2px; }
+    .pagination button { margin: 2px; padding: 4px 8px; cursor: pointer; }
+    .pagination button.active { background-color: #2980b9; color: white; border: none; }
+    .annotation { background: #eef; padding: 8px; margin-top: 5px; border-left: 4px solid #2980b9; border-radius: 4px; display: none; }
+    .badge-new { background-color: #2ecc71; color: white; padding: 2px 6px; border-radius: 4px; font-size: 0.75rem; margin-left: 6px; display: inline-block; text-decoration: none; }
+    .badge-genre { background-color: #3498db; color: white; padding: 2px 6px; border-radius: 4px; font-size: 0.75rem; margin: 0 4px 4px 0; display: inline-block; text-decoration: none; }
+    .reset-link { background-color: #f39c12; color: white; padding: 6px 12px; border-radius: 4px; text-decoration: none; font-weight: bold; }
+    .author-link { text-decoration: none; color: inherit; font-weight: normal; }
+    .author-link:hover { text-decoration: underline dotted; color: #2980b9; }
   </style>
 </head>
 <body>
-<h1>Бібліотечний каталог</h1>
-<div class="search-bar">
-  <input type="text" id="searchInput" placeholder="Пошук книг за назвою чи автором..." style="width: 100%; padding: 8px;">
-</div>
-<div class="filters-container">
-  <div class="filters-header">Фільтри по книгам:</div>
-  <div class="filters-row">
-    <label for="genreSelect">Жанр:</label>
-    <select id="genreSelect" onchange="applyFilters()">
-      <option value="">Усі жанри</option>
-    </select>
-    <label for="languageSelect">Мова:</label>
-    <select id="languageSelect" onchange="applyFilters()">
-      <option value="">Усі мови</option>
-    </select>
-    <label for="yearSelect">Рік:</label>
-    <select id="yearSelect" onchange="applyFilters()">
-      <option value="">Усі роки</option>
-    </select>
+  <h1>Бібліотечний каталог</h1>
+
+  <div class="search-bar">
+    <input type="text" id="searchInput" placeholder="Пошук книг за назвою чи автором..." style="width: 100%; padding: 8px;">
   </div>
-  <div class="reset-container">
-    <a href="index.html" class="reset-link">Скинути всі фільтри</a>
+
+  <div class="filters-container">
+    <div class="filters-header">Фільтри по книгам:</div>
+    <div class="filters-row">
+      <label for="genreSelect">Жанр:</label>
+      <select id="genreSelect" onchange="applyFilters()">
+        <option value="">Усі жанри</option>
+      </select>
+      <label for="languageSelect">Мова:</label>
+      <select id="languageSelect" onchange="applyFilters()">
+        <option value="">Усі мови</option>
+      </select>
+      <label for="yearSelect">Рік:</label>
+      <select id="yearSelect" onchange="applyFilters()">
+        <option value="">Усі роки</option>
+      </select>
+    </div>
+    <div class="reset-container">
+      <a href="index.html" class="reset-link">Скинути всі фільтри</a>
+    </div>
   </div>
-</div>
-<div class="alphabet-container">
-  <div class="alphabet-header">Каталог авторів:</div>
-  <div class="alphabet" id="alphabet">
-    <div class="alphabet-row" id="ukrRow"></div>
-    <div class="alphabet-row" id="engRow"></div>
+
+  <div class="alphabet-container">
+    <div class="alphabet-header">Каталог авторів:</div>
+    <div class="alphabet" id="alphabet">
+      <div class="alphabet-row" id="ukrRow"></div>
+      <div class="alphabet-row" id="engRow"></div>
+    </div>
   </div>
-</div>
-<div class="author-list" id="authorList"></div>
-<div class="book-list" id="bookList"></div>
-<div class="pagination" id="pagination"></div>
-<script>
-let books = [], filteredBooks = [], currentPage = 1, booksPerPage = 10, activeLetter = '';
 
-function loadBooks() {
-  fetch('books.json').then(r => r.json()).then(data => {
-    books = data.map(b => ({
-      ...b,
-      authors: Array.isArray(b.author) ? b.author : (typeof b.author === 'string' ? b.author.split(',').map(a => a.trim()) : [])
-    }));
-    books.sort((a, b) => new Date(b.added || '2000-01-01') - new Date(a.added || '2000-01-01'));
-    populateFilters();
-    buildAlphabet();
-    setTimeout(() => {
-      readURLParams();
-      if (!activeLetter) applyFilters();
-    }, 0);
-  });
-}
+  <div class="author-list" id="authorList"></div>
+  <div class="book-list" id="bookList"></div>
+  <div class="pagination" id="pagination"></div>
 
-function buildAlphabet() {
-  const ukr = 'АБВГҐДЕЄЖЗИІЇЙКЛМНОПРСТУФХЦЧШЩЬЮЯ';
-  const eng = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-  for (const [row, chars] of [["ukrRow", ukr], ["engRow", eng]]) {
-    const container = document.getElementById(row);
-    [...chars].forEach(letter => {
-      const span = document.createElement('span');
-      span.textContent = letter;
-      span.onclick = () => filterByLetter(letter, span);
-      container.appendChild(span);
-    });
-  }
-}
+  <script>
+    let books = [];
+    let filteredBooks = [];
+    let currentPage = 1;
+    const booksPerPage = 10;
+    let activeLetter = '';
 
-function filterByLetter(letter, span) {
-  activeLetter = letter;
-  document.querySelectorAll('.alphabet span').forEach(s => s.classList.remove('active'));
-  span.classList.add('active');
-  const allAuthors = books.flatMap(b => b.authors);
-  const authors = [...new Set(allAuthors.filter(a => a.toUpperCase().startsWith(letter)))].sort((a, b) => a.localeCompare(b, 'uk', {sensitivity:'base'}));
-  document.getElementById('bookList').innerHTML = '';
-  document.getElementById('pagination').innerHTML = '';
-  document.getElementById('authorList').innerHTML = `<h3>Автори на літеру "${letter}":</h3>` +
-    authors.map(a => `<div onclick="showBooksByAuthor('${a}')" style="cursor:pointer; color:#2980b9">${a}</div>`).join('');
-  updateURLParams();
-}
+    async function loadBooks() {
+      const res = await fetch('books.json');
+      books = await res.json();
+      books.forEach(b => {
+        if (!Array.isArray(b.genre)) b.genre = b.genre ? b.genre.split(',').map(g => g.trim()) : [];
+        if (!Array.isArray(b.author)) b.author = b.author ? b.author.split(',').map(a => a.trim()) : [];
+      });
+      populateFilters();
+      buildAlphabet();
+      resetFiltersAndSearch();
+    }
 
-function showBooksByAuthor(author) {
-  filteredBooks = books.filter(b => b.authors.includes(author));
-  currentPage = 1;
-  renderBooks();
-  updateURLParams();
-}
+    function populateFilters() {
+      const years = [...new Set(books.map(b => b.year))].sort((a, b) => b - a);
+      const genres = [...new Set(books.flatMap(b => b.genre))].sort();
+      const languages = [...new Set(books.map(b => b.language))].sort();
+      const ySel = document.getElementById('yearSelect');
+      const gSel = document.getElementById('genreSelect');
+      const lSel = document.getElementById('languageSelect');
+      years.forEach(y => ySel.innerHTML += `<option value="${y}">${y}</option>`);
+      genres.forEach(g => gSel.innerHTML += `<option value="${g}">${g}</option>`);
+      languages.forEach(l => lSel.innerHTML += `<option value="${l}">${l}</option>`);
+    }
 
-function applyFilters() {
-  const term = document.getElementById('searchInput').value.toLowerCase();
-  const y = document.getElementById('yearSelect').value;
-  const g = document.getElementById('genreSelect').value;
-  const l = document.getElementById('languageSelect').value;
-  filteredBooks = books.filter(b => {
-    const matchesSearch = b.title.toLowerCase().includes(term) ||
-      b.authors.some(a => a.toLowerCase().includes(term)) ||
-      b.publisher.toLowerCase().includes(term);
-    const matchesYear = !y || b.year == y;
-    const matchesLang = !l || b.language == l;
-    const matchesGenre = !g || (Array.isArray(b.genre) ? b.genre.includes(g) : b.genre === g);
-    return matchesSearch && matchesYear && matchesLang && matchesGenre;
-  });
-  currentPage = 1;
-  renderBooks();
-  updateURLParams();
-}
+    function buildAlphabet() {
+      const ukr = "АБВГҐДЕЄЖЗИІЇЙКЛМНОПРСТУФХЦЧШЩЬЮЯ";
+      const eng = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+      const ukrRow = document.getElementById('ukrRow');
+      const engRow = document.getElementById('engRow');
+      [...ukr].forEach(l => {
+        const s = document.createElement('span');
+        s.textContent = l;
+        s.onclick = () => filterByLetter(l, s);
+        ukrRow.appendChild(s);
+      });
+      [...eng].forEach(l => {
+        const s = document.createElement('span');
+        s.textContent = l;
+        s.onclick = () => filterByLetter(l, s);
+        engRow.appendChild(s);
+      });
+    }
 
-function renderBooks() {
-  const list = document.getElementById('bookList');
-  const pag = document.getElementById('pagination');
-  const start = (currentPage - 1) * booksPerPage;
-  const paginated = filteredBooks.slice(start, start + booksPerPage);
-  list.innerHTML = paginated.map(b => {
-    const authors = b.authors.map(a => `<a href="#" class="author-link" onclick="filterByAuthor('${a}'); return false;">${a}</a>`).join(', ');
-    const annotationId = 'desc_' + Math.random().toString(36).substr(2, 9);
-    const annotation = b.description ? `<a href="#" onclick="toggleAnnotation('${annotationId}'); return false;">Читати анотацію...</a><br><div id="${annotationId}" class="annotation">${b.description}</div>` : '';
-    const isNew = b.added && (new Date() - new Date(b.added)) < 1000 * 60 * 60 * 24 * 30;
-    const genres = Array.isArray(b.genre) ? b.genre.map(g => `<a href="#" class="badge-genre" onclick="filterByGenre('${g}'); return false;">${g}</a>`).join(' ') : '';
-    const newBadge = isNew ? '<a href="#" class="badge-new" onclick="filterByNew(); return false;">Нове надходження</a>' : '';
-    return `<div class="book"><img src="${b.image || 'https://via.placeholder.com/80x120?text=Книга'}"><div><strong>${b.title}</strong> ${newBadge}<br>Автор(и): ${authors}<br>Видавництво: ${b.publisher}, ${b.year}<br>${b.language ? 'Мова: ' + b.language + '<br>' : ''}${genres ? genres + '<br>' : ''}${annotation}</div></div>`;
-  }).join('');
-  pag.innerHTML = '';
-  for (let i = 1; i <= Math.ceil(filteredBooks.length / booksPerPage); i++) {
-    const btn = document.createElement('button');
-    btn.textContent = i;
-    if (i === currentPage) btn.classList.add('active');
-    btn.onclick = () => { currentPage = i; renderBooks(); };
-    pag.appendChild(btn);
-  }
-}
+    function filterByLetter(letter, span) {
+      activeLetter = letter;
+      document.querySelectorAll('.alphabet span').forEach(s => s.classList.remove('active'));
+      span.classList.add('active');
+      const authors = [...new Set(books.flatMap(b => b.author))]
+        .filter(a => a.toUpperCase().startsWith(letter))
+        .sort((a, b) => a.localeCompare(b, 'uk', { sensitivity: 'base' }));
+      document.getElementById('authorList').innerHTML = '<h3>Автори на літеру "' + letter + '":</h3>' +
+        authors.map(a => `<div onclick="filterByAuthor('${a}')" style="cursor:pointer; color:#2980b9">${a}</div>`).join('');
+      document.getElementById('bookList').innerHTML = '';
+      document.getElementById('pagination').innerHTML = '';
+    }
 
-function toggleAnnotation(id) {
-  const el = document.getElementById(id);
-  el.style.display = el.style.display === 'none' ? 'block' : 'none';
-}
+    function filterByAuthor(author) {
+      filteredBooks = books.filter(b => b.author.includes(author));
+      renderBooks();
+    }
 
-function filterByAuthor(author) {
-  filteredBooks = books.filter(b => b.authors.includes(author));
-  currentPage = 1;
-  document.getElementById('searchInput').value = '';
-  document.getElementById('yearSelect').value = '';
-  document.getElementById('genreSelect').value = '';
-  document.getElementById('languageSelect').value = '';
-  document.querySelectorAll('.alphabet span').forEach(s => s.classList.remove('active'));
-  activeLetter = '';
-  renderBooks();
-  updateURLParams();
-}
+    function resetFiltersAndSearch() {
+      const term = document.getElementById('searchInput').value.toLowerCase();
+      filteredBooks = books.filter(b => {
+        const authorText = b.author.join(', ').toLowerCase();
+        return (
+          b.title.toLowerCase().includes(term) ||
+          authorText.includes(term) ||
+          b.publisher.toLowerCase().includes(term)
+        );
+      });
+      renderBooks();
+    }
 
-function filterByGenre(g) {
-  document.getElementById('genreSelect').value = g;
-  applyFilters();
-}
+    function applyFilters() {
+      const term = document.getElementById('searchInput').value.toLowerCase();
+      const y = document.getElementById('yearSelect').value;
+      const g = document.getElementById('genreSelect').value;
+      const l = document.getElementById('languageSelect').value;
+      filteredBooks = books.filter(b => {
+        const authorText = b.author.join(', ').toLowerCase();
+        const matchSearch = b.title.toLowerCase().includes(term) || authorText.includes(term) || b.publisher.toLowerCase().includes(term);
+        const matchYear = !y || b.year == y;
+        const matchLang = !l || b.language == l;
+        const matchGenre = !g || b.genre.includes(g);
+        return matchSearch && matchYear && matchLang && matchGenre;
+      });
+      renderBooks();
+    }
 
-function filterByNew() {
-  filteredBooks = books.filter(b => b.added && (new Date() - new Date(b.added)) < 1000 * 60 * 60 * 24 * 30);
-  document.getElementById('searchInput').value = '';
-  document.getElementById('genreSelect').value = '';
-  document.getElementById('languageSelect').value = '';
-  document.getElementById('yearSelect').value = '';
-  document.querySelectorAll('.alphabet span').forEach(s => s.classList.remove('active'));
-  document.getElementById('authorList').innerHTML = '';
-  activeLetter = '';
-  currentPage = 1;
-  renderBooks();
-  updateURLParams();
-}
+    function renderBooks() {
+      const bookList = document.getElementById('bookList');
+      bookList.innerHTML = filteredBooks.map(b => {
+        const authors = b.author.map(a => `<a href="#" class="author-link" onclick="filterByAuthor('${a}'); return false;">${a}</a>`).join(', ');
+        const genres = b.genre.map(g => `<a href="#" class="badge-genre" onclick="applyGenre('${g}'); return false;">${g}</a>`).join(' ');
+        const isNew = b.added && (new Date() - new Date(b.added)) < 1000 * 60 * 60 * 24 * 30;
+        return `<div class="book">
+          <img src="${b.image || 'https://via.placeholder.com/80x120?text=Книга'}" alt="${b.title}">
+          <div><strong>${b.title}</strong> ${isNew ? '<span class="badge-new">Нове</span>' : ''}<br>
+          Автор(и): ${authors}<br>
+          Видавництво: ${b.publisher}, ${b.year}<br>
+          Мова: ${b.language}<br>
+          ${genres}</div></div>`;
+      }).join('');
+    }
 
-function updateURLParams() {
-  const params = new URLSearchParams();
-  params.set('search', document.getElementById('searchInput').value);
-  params.set('year', document.getElementById('yearSelect').value);
-  params.set('genre', document.getElementById('genreSelect').value);
-  params.set('language', document.getElementById('languageSelect').value);
-  params.set('letter', activeLetter);
-  history.replaceState(null, '', '?' + params.toString());
-}
+    function applyGenre(genre) {
+      document.getElementById('genreSelect').value = genre;
+      applyFilters();
+    }
 
-function readURLParams() {
-  const params = new URLSearchParams(window.location.search);
-  document.getElementById('searchInput').value = params.get('search') || '';
-  document.getElementById('yearSelect').value = params.get('year') || '';
-  document.getElementById('genreSelect').value = params.get('genre') || '';
-  document.getElementById('languageSelect').value = params.get('language') || '';
-  activeLetter = params.get('letter') || '';
-  if (activeLetter) {
-    const letterSpan = [...document.querySelectorAll('.alphabet span')].find(s => s.textContent === activeLetter);
-    if (letterSpan) filterByLetter(activeLetter, letterSpan);
-  }
-}
-
-document.getElementById('searchInput').addEventListener('input', applyFilters);
-loadBooks();
-</script>
+    document.getElementById('searchInput').addEventListener('input', resetFiltersAndSearch);
+    loadBooks();
+  </script>
 </body>
 </html>
