@@ -243,43 +243,57 @@
 }
 
 
+
     function renderBooks() {
-      const bookList = document.getElementById('bookList');
-      const pagination = document.getElementById('pagination');
-      const startIndex = (currentPage - 1) * booksPerPage;
-      const endIndex = startIndex + booksPerPage;
-      const pageBooks = filteredBooks.slice(startIndex, endIndex);
+  const bookList = document.getElementById('bookList');
+  const pagination = document.getElementById('pagination');
+  const startIndex = (currentPage - 1) * booksPerPage;
+  const endIndex = startIndex + booksPerPage;
+  const pageBooks = filteredBooks.slice(startIndex, endIndex);
 
-      bookList.innerHTML = pageBooks.map(b => {
-        const authors = b.author.map(a =>
-          `<a href="#" class="author-link" onclick="filterByAuthor('${a}'); return false;">${a}</a>`
-        ).join(', ');
-        const genres = b.genre.map(g =>
-          `<span class="badge-genre" onclick="applyGenre('${g}')">${g}</span>`
-        ).join(' ');
-        const isNew = b.added && (new Date() - new Date(b.added)) < 1000 * 60 * 60 * 24 * 30;
-        return `<div class="book">
-          <img src="${b.image || 'https://via.placeholder.com/80x120?text=Книга'}" alt="${b.title}">
-          <div><strong>${b.title}</strong> ${isNew ? '<span class="badge-new">Нове</span>' : ''}<br>
-          Автор(и): ${authors}<br>
-          Видавництво: ${b.publisher}, ${b.year}<br>
-          Мова: ${b.language}<br>
-          ${genres}</div></div>`;
-      }).join('');
+  bookList.innerHTML = pageBooks.map((b, index) => {
+    const authors = b.author.map(a =>
+      `<a href="#" class="author-link" onclick="filterByAuthor('${a}'); return false;">${a}</a>`
+    ).join(', ');
+    const genres = b.genre.map(g =>
+      `<span class="badge-genre" onclick="applyGenre('${g}')">${g}</span>`
+    ).join(' ');
+    const isNew = b.added && (new Date() - new Date(b.added)) < 1000 * 60 * 60 * 24 * 30;
+    const annotationId = `annotation-${startIndex + index}`;
+    const hasAnnotation = b.description && b.description.trim() !== '';
+    const showAnnotationLink = hasAnnotation
+      ? `<div><a href="#" onclick="toggleAnnotation('${annotationId}'); return false;">Показати анотацію</a></div>` 
+      : '';
+    const annotationBlock = hasAnnotation
+      ? `<div id="${annotationId}" class="annotation">${b.description}</div>`
+      : '';
+    return `<div class="book">
+      <img src="${b.image || 'https://via.placeholder.com/80x120?text=Книга'}" alt="${b.title}">
+      <div><strong>${b.title}</strong> ${isNew ? '<span class="badge-new">Нове</span>' : ''}<br>
+      Автор(и): ${authors}<br>
+      Видавництво: ${b.publisher}, ${b.year}<br>
+      Мова: ${b.language}<br>
+      ${genres}
+      ${showAnnotationLink}
+      ${annotationBlock}
+      </div></div>`;
+  }).join('');
 
-      const totalPages = Math.ceil(filteredBooks.length / booksPerPage);
-      pagination.innerHTML = '';
-      for (let i = 1; i <= totalPages; i++) {
-        const btn = document.createElement('button');
-        btn.textContent = i;
-        btn.className = i === currentPage ? 'active' : '';
-        btn.onclick = () => {
-          currentPage = i;
-          renderBooks();
-        };
-        pagination.appendChild(btn);
-      }
-    }
+  const totalPages = Math.ceil(filteredBooks.length / booksPerPage);
+  pagination.innerHTML = '';
+  for (let i = 1; i <= totalPages; i++) {
+    const btn = document.createElement('button');
+    btn.textContent = i;
+    btn.className = i === currentPage ? 'active' : '';
+    btn.onclick = () => {
+      currentPage = i;
+      renderBooks();
+    };
+    pagination.appendChild(btn);
+  }
+}
+
+
 
     function applyGenre(genre) {
       document.getElementById('searchInput').value = '';
@@ -306,6 +320,14 @@ function checkAndLoadHeader() {
   };
   img.onerror = () => {};
   img.src = headerPath;
+}
+
+
+function toggleAnnotation(id) {
+  const el = document.getElementById(id);
+  if (el) {
+    el.style.display = el.style.display === 'none' || el.style.display === '' ? 'block' : 'none';
+  }
 }
 
 
