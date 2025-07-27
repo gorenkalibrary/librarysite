@@ -262,14 +262,14 @@
     const annotationId = `annotation-${startIndex + index}`;
     const hasAnnotation = b.description && b.description.trim() !== '';
     const showAnnotationLink = hasAnnotation
-      ? `<div><a href="#" onclick="toggleAnnotation('${annotationId}'); return false;">Показати анотацію</a></div>` 
+      ? `<div><a href="#" onclick="toggleAnnotation('${annotationId}'); return false;">Читати анотацію...</a></div>` 
       : '';
     const annotationBlock = hasAnnotation
       ? `<div id="${annotationId}" class="annotation">${b.description}</div>`
       : '';
     return `<div class="book">
       <img src="${b.image || 'https://via.placeholder.com/80x120?text=Книга'}" alt="${b.title}">
-      <div><strong>${b.title}</strong> ${isNew ? '<span class="badge-new">Нове</span>' : ''}<br>
+      <div><strong>${b.title}</strong> ${isNew ? '<span class="badge-new">Нове надходження</span>' : ''}<br>
       Автор(и): ${authors}<br>
       Видавництво: ${b.publisher}, ${b.year}<br>
       Мова: ${b.language}<br>
