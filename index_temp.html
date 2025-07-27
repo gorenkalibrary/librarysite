@@ -47,10 +47,6 @@
   </style>
 </head>
 <body>
-<div id="siteHeader" style="display:none; margin-bottom: 1rem;">
-  <img id="headerImage" src="" alt="Site Header" style="width:100%; height:auto; border-radius:6px;">
-</div>
-
   <h1>Бібліотечний каталог</h1>
 
   <div class="search-bar">
@@ -159,97 +155,73 @@
     }
 
     function resetFiltersAndSearch() {
-  activeLetter = '';
-  currentPage = 1;
-  document.getElementById('authorList').innerHTML = '';
-  document.querySelectorAll('.alphabet span').forEach(s => s.classList.remove('active'));
-
-  const term = document.getElementById('searchInput').value.toLowerCase();
-  filteredBooks = books.filter(b => {
-    const authorText = b.author.join(', ').toLowerCase();
-    return (
-      b.title.toLowerCase().includes(term) ||
-      authorText.includes(term) ||
-      b.publisher.toLowerCase().includes(term)
-    );
-  });
-  renderBooks();
-}
-
-
-  document.querySelectorAll('.alphabet span').forEach(s => s.classList.remove('active'));
-
-  // 💡 ОЧИЩАЄМО СПИСОК АВТОРІВ, якщо раніше обирали букву
-  document.getElementById('authorList').innerHTML = '';
-
-  currentPage = 1;
-  renderBooks();
-  updateURLParams();
-}
-
+      const term = document.getElementById('searchInput').value.toLowerCase();
+      filteredBooks = books.filter(b => {
+        const authorText = b.author.join(', ').toLowerCase();
+        return (
+          b.title.toLowerCase().includes(term) ||
+          authorText.includes(term) ||
+          b.publisher.toLowerCase().includes(term)
+        );
+      });
+      renderBooks();
+    }
 
     function applyFilters() {
-  activeLetter = '';
-  currentPage = 1;
-  document.getElementById('authorList').innerHTML = '';
-  document.querySelectorAll('.alphabet span').forEach(s => s.classList.remove('active'));
+      const term = document.getElementById('searchInput').value.toLowerCase();
+      const y = document.getElementById('yearSelect').value;
+      const g = document.getElementById('genreSelect').value;
+      const l = document.getElementById('languageSelect').value;
+      filteredBooks = books.filter(b => {
+        const authorText = b.author.join(', ').toLowerCase();
+        const matchSearch = b.title.toLowerCase().includes(term) || authorText.includes(term) || b.publisher.toLowerCase().includes(term);
+        const matchYear = !y || b.year == y;
+        const matchLang = !l || b.language == l;
+        const matchGenre = !g || b.genre.includes(g);
+        return matchSearch && matchYear && matchLang && matchGenre;
+      });
+      renderBooks();
+    }
 
-  const term = document.getElementById('searchInput').value.toLowerCase();
-  const y = document.getElementById('yearSelect').value;
-  const g = document.getElementById('genreSelect').value;
-  const l = document.getElementById('languageSelect').value;
+    function renderBooks() {
+  const bookList = document.getElementById('bookList');
+  const pagination = document.getElementById('pagination');
+  const startIndex = (currentPage - 1) * booksPerPage;
+  const endIndex = startIndex + booksPerPage;
+  const pageBooks = filteredBooks.slice(startIndex, endIndex);
 
-  filteredBooks = books.filter(b => {
-    const authorText = b.author.join(', ').toLowerCase();
-    const matchSearch = b.title.toLowerCase().includes(term) || authorText.includes(term) || b.publisher.toLowerCase().includes(term);
-    const matchYear = !y || b.year == y;
-    const matchLang = !l || b.language == l;
-    const matchGenre = !g || b.genre.includes(g);
-    return matchSearch && matchYear && matchLang && matchGenre;
-  });
-  renderBooks();
-}
+  bookList.innerHTML = pageBooks.map(b => {
+    const authors = b.author.map(a =>
+      `<a href="#" class="author-link" onclick="filterByAuthor('${a}'); return false;">${a}</a>`
+    ).join(', ');
+    const genres = b.genre.map(g =>
+      `<a href="#" class="badge-genre" onclick="applyGenre('${g}'); return false;">${g}</a>`
+    ).join(' ');
+    const isNew = b.added && (new Date() - new Date(b.added)) < 1000 * 60 * 60 * 24 * 30;
+    return `<div class="book">
+      <img src="${b.image || 'https://via.placeholder.com/80x120?text=Книга'}" alt="${b.title}">
+      <div><strong>${b.title}</strong> ${isNew ? '<span class="badge-new">Нове</span>' : ''}<br>
+      Автор(и): ${authors}<br>
+      Видавництво: ${b.publisher}, ${b.year}<br>
+      Мова: ${b.language}<br>
+      ${genres}</div></div>`;
+  }).join('');
 
-
-function updateURLParams() {
-  const params = new URLSearchParams();
-  params.set('search', document.getElementById('searchInput').value);
-  params.set('year', document.getElementById('yearSelect').value);
-  params.set('genre', document.getElementById('genreSelect').value);
-  params.set('language', document.getElementById('languageSelect').value);
-  params.set('letter', activeLetter);
-  history.replaceState(null, '', '?' + params.toString());
-}
-
-function readURLParams() {
-  const params = new URLSearchParams(window.location.search);
-  document.getElementById('searchInput').value = params.get('search') || '';
-  document.getElementById('yearSelect').value = params.get('year') || '';
-  document.getElementById('genreSelect').value = params.get('genre') || '';
-  document.getElementById('languageSelect').value = params.get('language') || '';
-  activeLetter = params.get('letter') || '';
-  if (activeLetter) {
-    const letterSpan = [...document.querySelectorAll('.alphabet span')].find(s => s.textContent === activeLetter);
-    if (letterSpan) filterByLetter(activeLetter, letterSpan);
+  // Пагінація
+  const totalPages = Math.ceil(filteredBooks.length / booksPerPage);
+  pagination.innerHTML = '';
+  for (let i = 1; i <= totalPages; i++) {
+    const btn = document.createElement('button');
+    btn.textContent = i;
+    btn.className = i === currentPage ? 'active' : '';
+    btn.onclick = () => {
+      currentPage = i;
+      renderBooks();
+    };
+    pagination.appendChild(btn);
   }
 }
 
-
-    function renderBooks() {
-      const bookList = document.getElementById('bookList');
-      bookList.innerHTML = filteredBooks.map(b => {
-        const authors = b.author.map(a => `<a href="#" class="author-link" onclick="filterByAuthor('${a}'); return false;">${a}</a>`).join(', ');
-        const genres = b.genre.map(g => `<a href="#" class="badge-genre" onclick="applyGenre('${g}'); return false;">${g}</a>`).join(' ');
-        const isNew = b.added && (new Date() - new Date(b.added)) < 1000 * 60 * 60 * 24 * 30;
-        return `<div class="book">
-          <img src="${b.image || 'https://via.placeholder.com/80x120?text=Книга'}" alt="${b.title}">
-          <div><strong>${b.title}</strong> ${isNew ? '<span class="badge-new">Нове</span>' : ''}<br>
-          Автор(и): ${authors}<br>
-          Видавництво: ${b.publisher}, ${b.year}<br>
-          Мова: ${b.language}<br>
-          ${genres}</div></div>`;
-      }).join('');
-    }
 
     function applyGenre(genre) {
       document.getElementById('genreSelect').value = genre;
@@ -258,22 +230,6 @@ function readURLParams() {
 
     document.getElementById('searchInput').addEventListener('input', resetFiltersAndSearch);
     loadBooks();
-    checkAndLoadHeader();
-
-
-function checkAndLoadHeader() {
-  const headerPath = 'header.jpg'; // шлях до зображення хедера
-  const img = new Image();
-  img.onload = () => {
-    document.getElementById('headerImage').src = headerPath;
-    document.getElementById('siteHeader').style.display = 'block';
-  };
-  img.onerror = () => {
-    // якщо зображення не знайдене — нічого не робимо
-  };
-  img.src = headerPath;
-}
-
   </script>
 </body>
 </html>
