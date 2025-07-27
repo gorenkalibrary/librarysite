@@ -1,7 +1,7 @@
 [
   {
     "title": "І не лишилось жодного",
-    "author": "Крісті Агата",
+    "author": "Крісті Агата, Тестовий автор",
     "publisher": "А-БА-БА-ГА-ЛА-МА-ГА",
     "year": "2019",
     "language": "Українська",
@@ -10,13 +10,13 @@
       "Класика",
       "Пригоди"
     ],
-    "image": "bookicon.png",
+    "image": "agatanoneleft.jpg",
     "description": "Агату Крісті знають у всьому світі як королеву детективу. Продано близько мільярда примірників її творів англійською мовою, ще один мільярд — у перекладі 100 іноземними мовами. Вона — найпопулярніший автор усіх часів. За кількістю перевидань її книжки поступаються лише Біблії та творам Шекспіра.\r\n\r\nРоман «І не лишилось жодного» було екранізовано безліч разів, зокрема відомим є двосерійний фільм «Десять негренят».\r\n\r\nДесятеро незнайомців опинилися на далекому Солдатському острові: усі отримали дивне запрошення приїхати сюди, до розкішного будинку. Однак поки вони не розуміють, хто і для чого їх викликав… Згодом починається жахіття: хтось жорстоко й вигадливо вбиває гостей, а зі столу, на якому стояло рівно десять порцелянових статуеток, перед кожним убивством зникає одна… Як ця моторошна історія пов’язана із дитячою лічилкою? І, головне, хто наступний?",
-    "added": "2025-07-25"
+    "added": 45863
   },
   {
     "title": "Путівник по Галактиці для космотуристів",
-    "author": "Адамс Дуґлас",
+    "author": "Адамс Дуґлас, Тестовий автор",
     "publisher": "Клуб Сімейного Дозвілля",
     "year": "2011",
     "language": "Українська",
@@ -26,7 +26,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-07-25"
+    "added": 45863
   },
   {
     "title": "Путівник Галактикою (ч. 1-5)",
@@ -39,7 +39,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-07-24"
+    "added": 45862
   },
   {
     "title": "Небезпечні мандри",
@@ -53,7 +53,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Джерело",
@@ -66,7 +66,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Вінні-Пух",
@@ -79,7 +79,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Брик-лейн",
@@ -92,7 +92,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Казки Емми Андієвської",
@@ -105,7 +105,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Роман про людське призначення",
@@ -119,7 +119,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Умови людського існування",
@@ -132,7 +132,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "М’яке та пухнасте",
@@ -145,7 +145,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Фелікс Австрія",
@@ -159,7 +159,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Московіада",
@@ -172,7 +172,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Дванадцять обручів",
@@ -185,7 +185,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Перверзія",
@@ -198,7 +198,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Червоний намет",
@@ -212,7 +212,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Щоденник Анни Франк",
@@ -225,7 +225,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-07-10"
+    "added": 45848
   },
   {
     "title": "Великий Мольн",
@@ -238,7 +238,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Сибірські новели",
@@ -247,11 +247,11 @@
     "year": "2012",
     "language": "Українська",
     "genre": [
-      "новели"
+      "Новела"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Зелена Євангелія",
@@ -264,7 +264,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Маленький принц",
@@ -278,7 +278,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Орельєн",
@@ -291,7 +291,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Витоки тоталітаризму",
@@ -300,11 +300,12 @@
     "year": "1951",
     "language": "Українська",
     "genre": [
-      "політична філософія"
+      "Філософія",
+      "Політика"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Бісова душа, або Заклятий скарб",
@@ -318,7 +319,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Театр і його двійник",
@@ -331,7 +332,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Сад Гетсиманський",
@@ -345,11 +346,11 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Карби",
-    "author": "Бажан Микола",
+    "author": "Бажан Микола, Тестовий автор",
     "publisher": "Радянський письменник",
     "year": "1960",
     "language": "Українська",
@@ -358,7 +359,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Володіти",
@@ -367,11 +368,12 @@
     "year": "1988",
     "language": "Українська",
     "genre": [
-      "психологічний роман"
+      "Роман",
+      "Психологія"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Земля благословенна",
@@ -385,7 +387,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Автокатастрофа",
@@ -398,7 +400,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Жовтий князь",
@@ -411,7 +413,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Регенерація",
@@ -425,7 +427,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Відчуття закінчення",
@@ -438,7 +440,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Нульовий ступінь письма",
@@ -451,7 +453,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Неймовірні пригоди Остапа і Даринки, Канікули Остапа і Даринки",
@@ -464,7 +466,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Спадщина",
@@ -477,7 +479,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Втрачена честь Катаріни Блум",
@@ -490,7 +492,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Повість старих дружин",
@@ -503,7 +505,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Механічний апельсин",
@@ -517,7 +519,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Мій друг Юрко Циркуль",
@@ -530,7 +532,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Під сонцем Сатани",
@@ -543,7 +545,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Диво калинове",
@@ -556,7 +558,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Готель Централь",
@@ -569,7 +571,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Шпага Славка Беркути",
@@ -583,7 +585,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Звук павутинки",
@@ -596,7 +598,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Шумовиння днів",
@@ -609,7 +611,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Вигадки",
@@ -618,11 +620,12 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "коротка Проза / есеї"
+      "Проза",
+      "Есе"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Смерть серця",
@@ -635,7 +638,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Марсіанські хроніки",
@@ -648,7 +651,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "451° за Фаренгейтом",
@@ -662,7 +665,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Надя",
@@ -671,11 +674,11 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "сюрреалізм"
+      "Сюрреалізм"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Кар'єра гангстера Артуро Уї, якого могло й не бути",
@@ -688,7 +691,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Буремний перевал",
@@ -702,7 +705,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Джейн Ейр",
@@ -717,7 +720,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Віллет",
@@ -730,7 +733,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Павутиння Шарлотти",
@@ -744,7 +747,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Татарська пустеля",
@@ -758,11 +761,11 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Модифікація",
-    "author": "Бютор Мішель",
+    "author": "Бютор Мішель, Тестовий автор",
     "publisher": "N/A",
     "year": "N/A",
     "language": "Українська",
@@ -771,7 +774,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Приблуда Проза",
@@ -784,7 +787,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Війна світів",
@@ -797,7 +800,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Мовчання моря",
@@ -810,7 +813,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Кумедія з Костем",
@@ -819,11 +822,11 @@
     "year": "1925",
     "language": "Українська",
     "genre": [
-      "П'єса"
+      "П’єса"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Федько-халамидник",
@@ -836,7 +839,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Записки кирпатого Мефістофеля",
@@ -845,11 +848,11 @@
     "year": "1957",
     "language": "Українська",
     "genre": [
-      "Роман-психологізм"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Весняні ігри в осінніх садах",
@@ -862,7 +865,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Мальва Ланцюгова",
@@ -875,7 +878,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Танго смерті",
@@ -889,7 +892,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Мисливські усмішки",
@@ -903,7 +906,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Ніч (Ніч.Світанок.День.)",
@@ -917,7 +920,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Де росте червона папороть",
@@ -930,7 +933,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Метелики на шпильках",
@@ -943,7 +946,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Сестри Річинські",
@@ -956,7 +959,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Шум і лють",
@@ -969,7 +972,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "На срібнім березі",
@@ -978,11 +981,11 @@
     "year": "2003",
     "language": "Українська",
     "genre": [
-      "Поезія / лірика"
+      "Поезія"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Первінка",
@@ -991,11 +994,11 @@
     "year": "2001",
     "language": "Українська",
     "genre": [
-      "Поезія / лірика"
+      "Поезія"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Сотворення світу",
@@ -1004,11 +1007,11 @@
     "year": "2005",
     "language": "Українська",
     "genre": [
-      "Поезія / лірика"
+      "Поезія"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Сіроманець",
@@ -1021,7 +1024,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Сто поезій (збірка)",
@@ -1034,7 +1037,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Первінка",
@@ -1047,7 +1050,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Пристрасть",
@@ -1060,7 +1063,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Апельсини – не єдиний фрукт",
@@ -1074,7 +1077,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "До маяка",
@@ -1087,7 +1090,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Занепад і падіння",
@@ -1100,7 +1103,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Сенсація",
@@ -1113,7 +1116,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Інститутка",
@@ -1126,7 +1129,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Барва пурпурова",
@@ -1140,7 +1143,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Бойня номер п'ять, або Хрестовий похід дітей",
@@ -1154,7 +1157,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Без кори",
@@ -1167,7 +1170,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Прибулець з країни Нямликів",
@@ -1180,7 +1183,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Таємне товариство боягузів",
@@ -1189,11 +1192,11 @@
     "year": "2019",
     "language": "Українська",
     "genre": [
-      "Пригодницька література"
+      "Пригоди"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Кодекс Вустерів",
@@ -1207,7 +1210,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "На маяк",
@@ -1217,11 +1220,11 @@
     "language": "Українська",
     "genre": [
       "Роман",
-      "Модерн"
+      "Модернізм"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Пані Деллоуей",
@@ -1231,11 +1234,11 @@
     "language": "Українська",
     "genre": [
       "Роман",
-      "Модерн"
+      "Модернізм"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Хвилі",
@@ -1248,7 +1251,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Орландо",
@@ -1261,7 +1264,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Пригоди тричі славного розбійника Пинті",
@@ -1274,7 +1277,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Розбійник Пинтя у Заклятому місті",
@@ -1287,7 +1290,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Який чудесний світ новий!",
@@ -1301,7 +1304,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Страх і відраза в Лас-Вегасі",
@@ -1311,11 +1314,11 @@
     "language": "Українська",
     "genre": [
       "Журналістика",
-      "гумор"
+      "Гумор"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Мер Кестербріджа",
@@ -1328,7 +1331,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Джуд непомітний",
@@ -1341,7 +1344,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Тесс з роду д'Ебервіллів",
@@ -1354,7 +1357,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Циганські романсеро",
@@ -1367,7 +1370,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "І сонце сходить",
@@ -1380,7 +1383,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Старий і море",
@@ -1393,7 +1396,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Діти трепети",
@@ -1406,7 +1409,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Дюна",
@@ -1419,7 +1422,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Сіддхартха",
@@ -1433,7 +1436,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Алкоголі. Вірші 1898 — 1913 років",
@@ -1446,7 +1449,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Нова Граб-стріт",
@@ -1459,7 +1462,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Приватні мемуари і сповідь виправданого грішника",
@@ -1472,7 +1475,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Таємний сад",
@@ -1486,7 +1489,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Лінія краси",
@@ -1499,7 +1502,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Летюче віконце (збірка)",
@@ -1512,7 +1515,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Сага про Форсайтів",
@@ -1525,7 +1528,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Вітер у вербах",
@@ -1538,7 +1541,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Зелена квітка тиші",
@@ -1551,7 +1554,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Не такий",
@@ -1564,7 +1567,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Федько у пошуках Чупакабри",
@@ -1577,7 +1580,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Федько, прибулець з Інтернету; Федько у віртуальному місті",
@@ -1590,7 +1593,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Кохання",
@@ -1603,7 +1606,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Брайтон-рок",
@@ -1617,7 +1620,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Кінець роману",
@@ -1630,7 +1633,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Олень-Август",
@@ -1643,7 +1646,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Лелеченя",
@@ -1656,7 +1659,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Старий бруд",
@@ -1669,7 +1672,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Кохання під час холери",
@@ -1682,7 +1685,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Сто років самотності",
@@ -1693,9 +1696,9 @@
     "genre": [
       "Роман"
     ],
-    "image": "bookicon.png",
+    "image": "100rokivsamotnosti.jpg",
     "description": "",
-    "added": "2025-07-12"
+    "added": 45850
   },
   {
     "title": "Незатишна ферма",
@@ -1708,7 +1711,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Мемуари гейші",
@@ -1722,7 +1725,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Володар мух",
@@ -1736,7 +1739,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Берег Сіртів",
@@ -1749,7 +1752,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Суть справи",
@@ -1762,7 +1765,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Чарлі і шоколадна фабрика",
@@ -1776,7 +1779,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Квіти для Елджернона",
@@ -1790,7 +1793,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Король Буків або Таємниця Смарагдової книги",
@@ -1803,7 +1806,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Серія книжок про Чудове Чудовисько",
@@ -1816,7 +1819,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Молль Флендерс",
@@ -1829,7 +1832,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Робінзон Крузо",
@@ -1842,7 +1845,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Блейк та Мортімер",
@@ -1856,7 +1859,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Портрет митця замолоду",
@@ -1870,7 +1873,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Френні і Зуї",
@@ -1883,7 +1886,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Улісс",
@@ -1893,11 +1896,11 @@
     "language": "Українська",
     "genre": [
       "Роман",
-      "Модерн"
+      "Модернізм"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Світ за Гарпом",
@@ -1910,7 +1913,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Грона гніву",
@@ -1923,7 +1926,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Гра престолів (Цикл \"Пісня льоду і полум’я\")",
@@ -1936,7 +1939,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Спогади і роздуми на фінішній прямій",
@@ -1949,7 +1952,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Девід Копперфільд",
@@ -1963,7 +1966,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Домбі і син",
@@ -1976,7 +1979,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "На коні й під конем",
@@ -1989,7 +1992,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Зачарована Десна",
@@ -2003,7 +2006,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Доктор Серафікус",
@@ -2017,7 +2020,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Мангаттан-проект",
@@ -2031,7 +2034,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Проростень (збірка)",
@@ -2044,7 +2047,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Балади буднів",
@@ -2057,7 +2060,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Школярка з передмістя",
@@ -2070,7 +2073,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Ребекка",
@@ -2085,7 +2088,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Захоплення Лол Стайн",
@@ -2098,7 +2101,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Ключ від Королівства",
@@ -2111,7 +2114,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Голомоза співачка",
@@ -2124,7 +2127,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Ім’я рози",
@@ -2138,7 +2141,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Даніель Деронда",
@@ -2151,7 +2154,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Міддлмарч",
@@ -2164,7 +2167,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Град скорботи",
@@ -2177,7 +2180,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Щасливчик Джим",
@@ -2190,7 +2193,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Синій лотос",
@@ -2203,7 +2206,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "По кому подзвін",
@@ -2216,7 +2219,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Прощавай, зброє",
@@ -2230,7 +2233,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Оповідь служниці",
@@ -2244,7 +2247,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Депеш Мод",
@@ -2257,7 +2260,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Месопотамія",
@@ -2270,7 +2273,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Ворошиловград",
@@ -2283,7 +2286,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Слова",
@@ -2296,7 +2299,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Буття і ніщо",
@@ -2309,7 +2312,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Богородиця квітів",
@@ -2322,7 +2325,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Євангеліє від ластівки",
@@ -2335,7 +2338,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Фальшивомонетники",
@@ -2348,7 +2351,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Вершник на даху",
@@ -2362,7 +2365,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Сліпота",
@@ -2376,7 +2379,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Музей покинутих секретів",
@@ -2389,7 +2392,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Польові дослідження з українського сексу",
@@ -2399,12 +2402,12 @@
     "language": "Українська",
     "genre": [
       "Проза",
-      "Модерн",
+      "Модернізм",
       "Фемінізм"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Шевченко, Sex and Sickness",
@@ -2417,7 +2420,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Диво",
@@ -2430,7 +2433,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Дума про дитинство",
@@ -2443,7 +2446,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Камена",
@@ -2456,7 +2459,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Їхні очі бачили Бога",
@@ -2469,7 +2472,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Мальви",
@@ -2483,7 +2486,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Воццек & воццекургія",
@@ -2496,7 +2499,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Молитва за Оуена Міні",
@@ -2509,20 +2512,20 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Залишок дня",
     "author": "Кадзуо Ісіґуро",
     "publisher": "N/A",
     "year": "1989",
-    "language": "Українська",
+    "language": "Англійська",
     "genre": [
       "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Не відпускай мене",
@@ -2536,7 +2539,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Подорож ученого доктора Леонардо і його майбутньої коханки прекрасної Альчести у Слобожанську Швайцарію",
@@ -2549,7 +2552,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Генерал мертвої армії",
@@ -2562,7 +2565,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Вертеп маленького хлопчика",
@@ -2575,7 +2578,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Пробуджена муза. Невольнича муза (як один цілісний твір)",
@@ -2588,7 +2591,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Сторонній",
@@ -2602,7 +2605,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "З холодним серцем",
@@ -2616,20 +2619,20 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Гра Ендера",
     "author": "Кард Орсон Скотт",
     "publisher": "КМ-Букс",
     "year": "2013",
-    "language": "Українська",
+    "language": "Німецька",
     "genre": [
       "Наукова фантастика"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Безталанна",
@@ -2642,7 +2645,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Перетворення",
@@ -2655,7 +2658,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Листи з осіннього саду",
@@ -2668,7 +2671,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Конотопська відьма",
@@ -2682,7 +2685,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Маруся",
@@ -2696,7 +2699,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Зазі в метро",
@@ -2710,7 +2713,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "З перших рук",
@@ -2723,7 +2726,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Аліса в Країні чудес",
@@ -2737,7 +2740,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "У дорозі",
@@ -2746,12 +2749,11 @@
     "year": "2008",
     "language": "Українська",
     "genre": [
-      "бит-література",
-      "роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "В дорозі",
@@ -2760,12 +2762,11 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "роман",
-      "біт-література"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Місяць у колисці",
@@ -2778,7 +2779,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Тільки двічі живемо…",
@@ -2791,7 +2792,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Над зозулиним гніздом",
@@ -2804,7 +2805,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Протистояння",
@@ -2813,12 +2814,12 @@
     "year": "2011",
     "language": "Українська",
     "genre": [
-      "трилер",
+      "Трилер",
       "Фантастика"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Біблія отруйного лісу",
@@ -2832,7 +2833,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Бабин Яр. Голосами",
@@ -2841,11 +2842,12 @@
     "year": "2016",
     "language": "Українська",
     "genre": [
-      "документальна Проза"
+      "Проза",
+      "Документалістика"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Просто християнство",
@@ -2854,11 +2856,11 @@
     "year": "1952",
     "language": "Українська",
     "genre": [
-      "Релігійна література"
+      "Релігія"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Печальні тропіки",
@@ -2871,7 +2873,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Атласний черевичок",
@@ -2884,7 +2886,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Valse mélancolique",
@@ -2897,7 +2899,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Алхімік",
@@ -2908,11 +2910,11 @@
     "genre": [
       "Роман",
       "Філософія",
-      "пригоди"
+      "Пригоди"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Красуня господаря",
@@ -2925,7 +2927,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Дефіляда в Москві",
@@ -2938,7 +2940,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Таємниця козацького скарбу",
@@ -2952,7 +2954,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Таємниця козацького човна",
@@ -2966,7 +2968,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Мисливці за привидами",
@@ -2980,7 +2982,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Вусики виноградної лози",
@@ -2993,7 +2995,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Жінка в білому",
@@ -3007,7 +3009,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Повне зібрання Шерлока Голмса",
@@ -3020,7 +3022,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Собака Баскервілів",
@@ -3033,7 +3035,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Лорд Джім",
@@ -3046,7 +3048,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Серце пітьми",
@@ -3059,7 +3061,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Чмелик",
@@ -3072,7 +3074,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Нечиста сила, Хуха-Моховинка, Потерчата",
@@ -3085,7 +3087,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Еней і життя інших",
@@ -3098,7 +3100,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Записки українського самашедшого",
@@ -3111,7 +3113,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Маруся Чурай",
@@ -3121,11 +3123,11 @@
     "language": "Українська",
     "genre": [
       "Роман",
-      "Історія / лірико‑епічна Проза"
+      "Історія"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Бузиновий цар",
@@ -3138,7 +3140,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Над берегами вічної ріки",
@@ -3151,7 +3153,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Берестечко",
@@ -3160,11 +3162,13 @@
     "year": "1992",
     "language": "Українська",
     "genre": [
-      "історична Драма‑Повість"
+      "Повість",
+      "Драма",
+      "Історія"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Енеїда",
@@ -3173,12 +3177,12 @@
     "year": "2007",
     "language": "Українська",
     "genre": [
-      "епос",
-      "сатира"
+      "Епос",
+      "Сатира"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Наталка Полтавка",
@@ -3187,11 +3191,12 @@
     "year": "2008",
     "language": "Українська",
     "genre": [
-      "соціально‑побутова П’єса / Драма"
+      "П’єса",
+      "Драма"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Книга споминів",
@@ -3200,11 +3205,11 @@
     "year": "2008",
     "language": "Українська",
     "genre": [
-      "мемуари"
+      "Мемуари"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Харитя",
@@ -3217,7 +3222,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Ялинка",
@@ -3230,7 +3235,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Тіні забутих предків",
@@ -3240,11 +3245,11 @@
     "language": "Українська",
     "genre": [
       "Повість",
-      "модернізм"
+      "Модернізм"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Убивство Роджера Екройда",
@@ -3257,7 +3262,7 @@
     ],
     "image": "bookicon.png",
     "description": "Еркюль Пуаро береться за чергове розслідування. Проте цього разу випадок здається детективу надзвичайно банальним: в англійському містечку помирає дехто місіс Феррас, заможна вдовиця. Містяни вважають, що це самогубство, доки не знаходять убитим Роджера Екройда — вдівця, який збирався одружитися з місіс Феррас. Справа набуває цікавого повороту. Під підозрою опиняється майже все оточення жертв. Та найбільше мотивів для вбивства має Ральф Пейтон — спадкоємець убитого Роджера, що буквально «загруз» у боргах…\r\n\r\nЗвичайне розслідування перетворюється на складну головоломку, сповнену таємниць і загадок. Убивцею може виявитися будь-хто…",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Мина Мазайло",
@@ -3270,7 +3275,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Чорна рада",
@@ -3284,7 +3289,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Жарт",
@@ -3297,7 +3302,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Нестерпна легкість буття",
@@ -3311,7 +3316,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Будда з передмістя",
@@ -3324,7 +3329,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Колиска для кішки",
@@ -3338,7 +3343,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Складки часу",
@@ -3351,7 +3356,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Твори",
@@ -3365,7 +3370,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Самотня голубка",
@@ -3378,7 +3383,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Біля підніжжя вулкану",
@@ -3391,7 +3396,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Протокол",
@@ -3404,7 +3409,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Маленький острів",
@@ -3417,7 +3422,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Чи це людина?",
@@ -3432,7 +3437,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Казка мойого життя",
@@ -3445,7 +3450,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Золотий щоденник",
@@ -3458,7 +3463,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Спогади тієї, що вижила",
@@ -3471,7 +3476,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Біда навчить",
@@ -3484,7 +3489,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Поетична казка",
@@ -3497,7 +3502,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Друже Лі Бо, брате Ду Фу",
@@ -3510,7 +3515,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Вбити пересмішника",
@@ -3523,7 +3528,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Мартін Іден",
@@ -3536,7 +3541,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Будиночок у прерії",
@@ -3550,7 +3555,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Коханець леді Чаттерлей",
@@ -3563,7 +3568,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Сини і коханці",
@@ -3576,7 +3581,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Закохані жінки",
@@ -3589,7 +3594,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Хранитель",
@@ -3602,7 +3607,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Подорож на край ночі",
@@ -3615,7 +3620,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Роки сподівань і втрат",
@@ -3628,7 +3633,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Найкращі друзі",
@@ -3641,7 +3646,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Друзі за листуванням",
@@ -3654,7 +3659,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Хроніки Нарнії",
@@ -3667,7 +3672,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Лев, Біла Відьма та шафа",
@@ -3680,7 +3685,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Щоденник",
@@ -3693,7 +3698,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Коли я був справжнім",
@@ -3706,7 +3711,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Прах Анджели",
@@ -3720,7 +3725,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Спокута",
@@ -3733,7 +3738,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Книга спостережень",
@@ -3746,7 +3751,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Таємний посол",
@@ -3760,7 +3765,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Незвичайні пригоди Алі в Країні Недоладії",
@@ -3773,7 +3778,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Абра&Кадабра",
@@ -3787,7 +3792,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Злочинці з паралельного світу",
@@ -3801,7 +3806,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Все поруч",
@@ -3814,7 +3819,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Згори вниз",
@@ -3827,7 +3832,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Зачарована гора",
@@ -3841,7 +3846,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Всесвіт за колючим дротом",
@@ -3854,7 +3859,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "У пошуках утраченого часу",
@@ -3867,7 +3872,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Гроза над Славутичем",
@@ -3881,7 +3886,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Солодка Даруся",
@@ -3894,7 +3899,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Казки Різдва",
@@ -3907,7 +3912,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "День сніговика",
@@ -3921,7 +3926,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Князь роси",
@@ -3934,7 +3939,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Київські казки",
@@ -3947,7 +3952,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Таємниця козацької шаблі",
@@ -3960,7 +3965,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Як я руйнувала імперію",
@@ -3974,7 +3979,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-07-01"
+    "added": 45839
   },
   {
     "title": "Вовча зала",
@@ -3988,7 +3993,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Море, море",
@@ -4001,7 +4006,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Хіба ревуть воли, як ясла повні?",
@@ -4010,11 +4015,11 @@
     "year": "1989",
     "language": "Українська",
     "genre": [
-      "соціально-психологічний роман"
+      "Роман"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Трилогія: Сексус, Плексус, Нексус",
@@ -4028,7 +4033,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Звіяні вітром",
@@ -4042,7 +4047,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Арфа для павучка",
@@ -4055,7 +4060,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Київські контури (збірка)",
@@ -4068,7 +4073,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Тягар пристрастей людських",
@@ -4081,7 +4086,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Енн із Зелених дахів",
@@ -4095,7 +4100,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Зневага",
@@ -4108,7 +4113,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Тереза Дескейру",
@@ -4117,11 +4122,12 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "психологічний роман"
+      "Роман",
+      "Психологія"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Іван Сірко – великий характерник",
@@ -4135,7 +4141,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Іван Сірко, славетний кошовий",
@@ -4149,7 +4155,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Кохана",
@@ -4163,7 +4169,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Людина на крижині",
@@ -4176,7 +4182,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Людина без властивостей",
@@ -4190,7 +4196,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Будинок для містера Бісваса",
@@ -4203,7 +4209,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Літаюча голова (збірка)",
@@ -4216,7 +4222,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "В країні Сонячних зайчиків",
@@ -4229,7 +4235,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Незвичайні пригоди в Лісовій школі",
@@ -4242,7 +4248,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Тореадори з Васюківки",
@@ -4256,7 +4262,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Кайдашева сім'я",
@@ -4265,11 +4271,11 @@
     "year": "1970",
     "language": "Українська",
     "genre": [
-      "соціально-побутова Драма"
+      "Драма"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Лісом, небом, водою (трилогія)",
@@ -4283,7 +4289,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Прекрасний новий світ",
@@ -4297,7 +4303,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Архіпелаг ГУЛАГ",
@@ -4310,7 +4316,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "З журбою радість обнялась",
@@ -4323,7 +4329,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Підзамче",
@@ -4336,7 +4342,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Скотоферма",
@@ -4350,7 +4356,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Колгосп тварин",
@@ -4364,7 +4370,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "1984",
@@ -4378,7 +4384,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Гордість і упередження",
@@ -4391,7 +4397,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Емма",
@@ -4404,7 +4410,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Переконання",
@@ -4417,7 +4423,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Почуття і чутливість",
@@ -4430,7 +4436,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Старший боярин",
@@ -4443,7 +4449,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Пенталогія про Русалоньку із 7-В",
@@ -4457,7 +4463,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Золоторогий олень",
@@ -4470,7 +4476,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Втеча звірівабо Новий бестіарій",
@@ -4483,7 +4489,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Лялечка і Мацько",
@@ -4496,7 +4502,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Королівство",
@@ -4510,7 +4516,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Танець під музику часу",
@@ -4523,7 +4529,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Життя, інструкція з експлуатації",
@@ -4536,7 +4542,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Місто",
@@ -4549,7 +4555,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Чудові жінки",
@@ -4562,7 +4568,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Шість персонажів у пошуках автора",
@@ -4575,7 +4581,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Під скляним ковпаком",
@@ -4590,7 +4596,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Три збірки",
@@ -4603,7 +4609,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "У карнавалі історії",
@@ -4616,7 +4622,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Павлік Морозов",
@@ -4629,7 +4635,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Шедеври",
@@ -4642,7 +4648,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Хто зробить сніг? Куди зникло море? Проза",
@@ -4655,7 +4661,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "НепрОсті",
@@ -4668,7 +4674,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Темні початки",
@@ -4681,7 +4687,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Рафаелеві янголята",
@@ -4694,7 +4700,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Сосонка",
@@ -4707,7 +4713,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Невидимка",
@@ -4720,7 +4726,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "На Західному фронті без змін",
@@ -4734,7 +4740,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Щоденник",
@@ -4743,11 +4749,11 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "щоденник"
+      "Щоденник"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Атлант розправив плечі",
@@ -4762,7 +4768,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Астерікс з Галлії",
@@ -4772,11 +4778,11 @@
     "language": "Українська",
     "genre": [
       "Комікс",
-      "пригоди"
+      "Пригоди"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Під осінніми зорями",
@@ -4789,7 +4795,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Діва Обида",
@@ -4802,7 +4808,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Широке саргасове море",
@@ -4816,7 +4822,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Нотатки Мальте Лявридса Бриґґе",
@@ -4825,11 +4831,11 @@
     "year": "1910",
     "language": "Українська",
     "genre": [
-      "Поезія / лірика"
+      "Поезія"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Клариса",
@@ -4842,7 +4848,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Арсен",
@@ -4852,11 +4858,11 @@
     "language": "Українська",
     "genre": [
       "Проза",
-      "Модерн"
+      "Модернізм"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Джовані Трапатоні",
@@ -4870,7 +4876,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Гаррі Поттер і в’язень Аскабану",
@@ -4883,7 +4889,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Гаррі Поттер і таємна кімната",
@@ -4896,7 +4902,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Гаррі Поттер і філософський камінь",
@@ -4909,7 +4915,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Міти метаморфоз, або Пошуки доброго світу",
@@ -4922,7 +4928,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Співомовки",
@@ -4935,7 +4941,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Ганнуся",
@@ -4948,7 +4954,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Джури козака Швайки",
@@ -4957,11 +4963,12 @@
     "year": "2014",
     "language": "Українська",
     "genre": [
-      "історична пригодницька література"
+      "Пригоди",
+      "Історія"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Сторожова застава",
@@ -4974,7 +4981,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Опівнічні діти",
@@ -4983,11 +4990,11 @@
     "year": "1981",
     "language": "Українська",
     "genre": [
-      "магічний реалізм"
+      "Магічний реалізм"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Діти півночі",
@@ -5000,7 +5007,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Дилема українського Фауста: громадянське суспільство і розбудова держави",
@@ -5013,7 +5020,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Bonjour, печале!",
@@ -5026,7 +5033,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Кав’ярня на розі",
@@ -5035,11 +5042,11 @@
     "year": "2013",
     "language": "Українська",
     "genre": [
-      "сучасна Проза"
+      "Проза"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Новенька та інші історії",
@@ -5053,7 +5060,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Марія",
@@ -5066,7 +5073,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Чекаючи на Ґодо",
@@ -5076,11 +5083,11 @@
     "language": "Українська",
     "genre": [
       "Драма",
-      "абсурд"
+      "Абсурд"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Мораважін",
@@ -5093,7 +5100,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Тропізми",
@@ -5106,7 +5113,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Блудні сини України",
@@ -5119,7 +5126,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Медобір",
@@ -5132,7 +5139,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "У мене тільки слово",
@@ -5145,7 +5152,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Подорожі Гуллівера",
@@ -5159,7 +5166,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Ловець у житі",
@@ -5172,7 +5179,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Там, де водяться диковиська",
@@ -5186,7 +5193,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Оповідання про Патріка Мелроуза",
@@ -5199,7 +5206,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Друга стать",
@@ -5208,11 +5215,11 @@
     "year": "2017",
     "language": "Українська",
     "genre": [
-      "Феміністична література"
+      "Фемінізм"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Задивляюсь у твої зіниці",
@@ -5221,11 +5228,12 @@
     "year": "1962",
     "language": "Українська",
     "genre": [
-      "лірика / вірш‑Поезія"
+      "Лірика",
+      "Вірші"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Ти знаєш, що ти – людина",
@@ -5234,11 +5242,12 @@
     "year": "1960",
     "language": "Українська",
     "genre": [
-      "лірика / вірш‑Поезія"
+      "Лірика",
+      "Вірші"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Щедре дерево",
@@ -5251,7 +5260,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Пітер Латиш",
@@ -5264,7 +5273,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Сад божественних пісень",
@@ -5273,11 +5282,12 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "Філософська Поезія"
+      "Поезія",
+      "Філософія"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Перлина в короні",
@@ -5290,7 +5300,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Історія та культура",
@@ -5303,7 +5313,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Дерево росте у Брукліні",
@@ -5316,7 +5326,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Білі зуби",
@@ -5329,7 +5339,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Третя Рота",
@@ -5342,7 +5352,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Міс Джін Броуді в розквіті",
@@ -5355,7 +5365,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Вибір Софі",
@@ -5364,11 +5374,12 @@
     "year": "1979",
     "language": "Українська",
     "genre": [
-      "психологічна Проза"
+      "Проза",
+      "Психологія"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "За двома зайцями",
@@ -5381,7 +5392,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "На схід від Едему",
@@ -5394,7 +5405,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Про мишей і людей",
@@ -5403,11 +5414,11 @@
     "year": "2010",
     "language": "Українська",
     "genre": [
-      "новела"
+      "Новела"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Життя і думки Тристрама Шенді, джентльмена",
@@ -5420,7 +5431,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Моє слово",
@@ -5433,7 +5444,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Синя книжечка",
@@ -5442,11 +5453,11 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "Новели"
+      "Новела"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Палімпсести",
@@ -5459,33 +5470,33 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Веселий цвинтар",
     "author": "Стус Василь",
     "publisher": "Український письменник",
-    "year": "1990‑і",
+    "year": 1990,
     "language": "Українська",
     "genre": [
-      "Поезія / політична лірика"
+      "Поезія"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "З таборового зошита",
     "author": "Стус Василь",
     "publisher": "Український письменник",
-    "year": "1980‑і",
+    "year": 1980,
     "language": "Українська",
     "genre": [
-      "Поезія / есеїстика"
+      "Поезія"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Зелені яйця й шинка",
@@ -5500,7 +5511,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Лоракс",
@@ -5514,7 +5525,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Клуб веселощів і удачі",
@@ -5527,7 +5538,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Ярмарок марнославства",
@@ -5536,12 +5547,12 @@
     "year": "1847",
     "language": "Українська",
     "genre": [
-      "соціально‑побутовий Роман",
+      "Роман",
       "Сатира"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Сонячні кларнети",
@@ -5554,7 +5565,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Те, що вони несли",
@@ -5567,7 +5578,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Вечірні крамниці вулиці Волоської",
@@ -5580,7 +5591,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Володар перснів",
@@ -5593,7 +5604,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Братство персня (Володар перснів)",
@@ -5606,7 +5617,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Гоббіт, або Туди і звідти",
@@ -5619,7 +5630,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Дві вежі (трилогія Володар перснів, ч.2)",
@@ -5632,7 +5643,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Повернення короля (трилогія Володар перснів, ч.3)",
@@ -5645,7 +5656,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Барчестерські вежі",
@@ -5658,7 +5669,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Як ми тепер живемо",
@@ -5671,7 +5682,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Змова бовдурів",
@@ -5685,7 +5696,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "П'ятниця, або Тихоокеанський лімб",
@@ -5698,7 +5709,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Климко",
@@ -5711,7 +5722,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Облога",
@@ -5724,7 +5735,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Три зозулі з поклоном",
@@ -5737,7 +5748,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Вир",
@@ -5750,7 +5761,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Бояриня",
@@ -5759,11 +5770,12 @@
     "year": "2024",
     "language": "Українська",
     "genre": [
-      "історична Драма‑поема"
+      "Драма",
+      "Історія"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Кассандра",
@@ -5772,11 +5784,12 @@
     "year": "2024",
     "language": "Українська",
     "genre": [
-      "Драматична поема / Драматична лірика"
+      "Поема",
+      "Драма"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Contra spem spero!",
@@ -5785,11 +5798,11 @@
     "year": "2024",
     "language": "Українська",
     "genre": [
-      "лірика / Поезія"
+      "Поезія"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Лісова пісня",
@@ -5798,11 +5811,13 @@
     "year": "2024",
     "language": "Українська",
     "genre": [
-      "феєрія / Драма‑поема"
+      "Драма",
+      "Поема",
+      "Феєрія"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Сталінка",
@@ -5815,7 +5830,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Маленький незнайомець",
@@ -5824,11 +5839,11 @@
     "year": "2008",
     "language": "Українська",
     "genre": [
-      "трилер"
+      "Трилер"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Історія Тома Джонса, знайди",
@@ -5841,7 +5856,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Блакитна квітка",
@@ -5854,7 +5869,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Великий Ґетсбі",
@@ -5867,7 +5882,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Стовпи землі",
@@ -5881,7 +5896,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Кінець параду",
@@ -5894,7 +5909,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Хороший солдат",
@@ -5907,7 +5922,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Говардс Енд",
@@ -5920,7 +5935,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Кімната з видом",
@@ -5933,7 +5948,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Поїздка до Індії",
@@ -5946,7 +5961,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Гастон",
@@ -5959,7 +5974,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Коли ще звірі говорили",
@@ -5972,7 +5987,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Лис Микита",
@@ -5985,7 +6000,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Мойсей",
@@ -5998,7 +6013,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Украдене щастя",
@@ -6007,25 +6022,26 @@
     "year": "2001",
     "language": "Українська",
     "genre": [
-      "психологічна Повість / соціально‑побутова Проза"
+      "Повість",
+      "Психологія"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Каменярі",
     "author": "Франко Іван",
     "publisher": "Клуб Сімейного Дозвілля",
-    "year": "2000‑ті",
+    "year": 2000,
     "language": "Українська",
     "genre": [
-      "епос / соціально‑Проза",
+      "Проза",
       "Історія"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Захар Беркут",
@@ -6034,12 +6050,12 @@
     "year": "2018",
     "language": "Українська",
     "genre": [
-      "історичний Повість / Роман",
+      "Роман",
       "Історія"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Процес",
@@ -6053,7 +6069,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Три нариси з теорії сексуальності",
@@ -6067,7 +6083,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Слова і речі",
@@ -6076,12 +6092,12 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "філософія",
-      "соціологія"
+      "Філософія",
+      "Соціологія"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Я (Романтика)",
@@ -6094,7 +6110,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Аутсайдери",
@@ -6103,12 +6119,12 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "молодіжна література",
-      "роман"
+      "Роман",
+      "Молодіжна література"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Бібліотека при басейні",
@@ -6117,11 +6133,11 @@
     "year": "1988",
     "language": "Українська",
     "genre": [
-      "збірка оповідань"
+      "Збірка оповідань"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Камінна душа",
@@ -6134,7 +6150,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Сум'яття почуттів",
@@ -6143,11 +6159,12 @@
     "year": "N/A",
     "language": "Українська",
     "genre": [
-      "психологічний роман"
+      "Роман",
+      "Психологія"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Сагайдачний",
@@ -6161,7 +6178,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Глибокий сон",
@@ -6174,7 +6191,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Немає орхідей для місс Блендіш",
@@ -6187,7 +6204,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Історії Чарівного Лісу",
@@ -6200,7 +6217,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "П'ятикнижжя",
@@ -6213,7 +6230,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Лють і таємниця",
@@ -6226,7 +6243,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Кобзар",
@@ -6239,7 +6256,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Кобзар (збірка)",
@@ -6252,21 +6269,21 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Гайдамаки",
     "author": "Шевченко Тарас",
     "publisher": "Наукова думка",
-    "year": "2000‑ті",
+    "year": 2000,
     "language": "Українська",
     "genre": [
       "Роман",
-      "Історія / поема"
+      "Історія"
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Катерина",
@@ -6279,7 +6296,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "На панщині пшеницю жала",
@@ -6292,7 +6309,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Дім на горі",
@@ -6305,7 +6322,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Панна квітів: Казки",
@@ -6318,7 +6335,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Франкенштейн",
@@ -6333,7 +6350,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Я",
@@ -6346,7 +6363,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Залишенець. Чорний ворон",
@@ -6360,7 +6377,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Троща",
@@ -6374,7 +6391,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Чорний ворон",
@@ -6388,7 +6405,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Двері в день",
@@ -6401,7 +6418,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Дракони, вперед!",
@@ -6415,7 +6432,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Філософський камінь",
@@ -6429,7 +6446,7 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   },
   {
     "title": "Майстер корабля",
@@ -6442,6 +6459,6 @@
     ],
     "image": "bookicon.png",
     "description": "",
-    "added": "2025-01-10"
+    "added": 45667
   }
 ]
