@@ -186,12 +186,18 @@
       document.getElementById('pagination').innerHTML = '';
     }
 
+
     function filterByAuthor(author) {
-      filteredBooks = books.filter(b => b.author.includes(author));
-      currentPage = 1;
-      updateURLParams();
-      renderBooks();
-    }
+  filteredBooks = books.filter(b => b.author.includes(author));
+  currentPage = 1;
+  activeLetter = '';
+  document.getElementById('authorList').innerHTML = ''; // ⬅️ Очищає список авторів
+  document.querySelectorAll('.alphabet span').forEach(s => s.classList.remove('active')); // знімає підсвітку
+  updateURLParams();
+  renderBooks();
+}
+
+
 
    
 
