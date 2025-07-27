@@ -40,18 +40,13 @@
     .pagination button.active { background-color: #2980b9; color: white; border: none; }
     .annotation { background: #eef; padding: 8px; margin-top: 5px; border-left: 4px solid #2980b9; border-radius: 4px; display: none; }
     .badge-new { background-color: #2ecc71; color: white; padding: 2px 6px; border-radius: 4px; font-size: 0.75rem; margin-left: 6px; display: inline-block; text-decoration: none; }
-    .badge-genre { background-color: #3498db; color: white; padding: 2px 6px; border-radius: 4px; font-size: 0.75rem; margin: 0 4px 4px 0; display: inline-block; text-decoration: none; }
+    .badge-genre { background-color: #3498db; color: white; padding: 2px 6px; border-radius: 4px; font-size: 0.75rem; margin: 0 4px 4px 0; display: inline-block; text-decoration: none; cursor: pointer; }
     .reset-link { background-color: #f39c12; color: white; padding: 6px 12px; border-radius: 4px; text-decoration: none; font-weight: bold; }
     .author-link { text-decoration: none; color: inherit; font-weight: normal; }
     .author-link:hover { text-decoration: underline dotted; color: #2980b9; }
   </style>
 </head>
 <body>
-
-<div id="siteHeader" style="display:none; margin-bottom: 1rem;">
-  <img id="headerImage" src="" alt="Site Header" style="width:100%; height:auto; border-radius:6px;">
-</div>
-
   <h1>Бібліотечний каталог</h1>
 
   <div class="search-bar">
@@ -98,6 +93,36 @@
     const booksPerPage = 10;
     let activeLetter = '';
 
+    function updateURLParams() {
+      const params = new URLSearchParams();
+      const search = document.getElementById('searchInput').value.trim();
+      const y = document.getElementById('yearSelect').value;
+      const g = document.getElementById('genreSelect').value;
+      const l = document.getElementById('languageSelect').value;
+      if (search) params.set('search', search);
+      if (y) params.set('year', y);
+      if (g) params.set('genre', g);
+      if (l) params.set('language', l);
+      if (activeLetter) params.set('letter', activeLetter);
+      history.replaceState(null, '', '?' + params.toString());
+    }
+
+    function readURLParams() {
+      const params = new URLSearchParams(window.location.search);
+      document.getElementById('searchInput').value = params.get('search') || '';
+      document.getElementById('yearSelect').value = params.get('year') || '';
+      document.getElementById('genreSelect').value = params.get('genre') || '';
+      document.getElementById('languageSelect').value = params.get('language') || '';
+      activeLetter = params.get('letter') || '';
+      if (activeLetter) {
+        const allSpans = document.querySelectorAll('.alphabet span');
+        allSpans.forEach(s => { if (s.textContent === activeLetter) s.classList.add('active'); });
+        filterByLetter(activeLetter);
+      } else {
+        applyFilters();
+      }
+    }
+
     async function loadBooks() {
       const res = await fetch('books.json');
       books = await res.json();
@@ -107,7 +132,7 @@
       });
       populateFilters();
       buildAlphabet();
-      resetFiltersAndSearch();
+      readURLParams();
     }
 
     function populateFilters() {
@@ -130,21 +155,23 @@
       [...ukr].forEach(l => {
         const s = document.createElement('span');
         s.textContent = l;
-        s.onclick = () => filterByLetter(l, s);
+        s.onclick = () => { filterByLetter(l); updateURLParams(); };
         ukrRow.appendChild(s);
       });
       [...eng].forEach(l => {
         const s = document.createElement('span');
         s.textContent = l;
-        s.onclick = () => filterByLetter(l, s);
+        s.onclick = () => { filterByLetter(l); updateURLParams(); };
         engRow.appendChild(s);
       });
     }
 
-    function filterByLetter(letter, span) {
+    function filterByLetter(letter) {
       activeLetter = letter;
       document.querySelectorAll('.alphabet span').forEach(s => s.classList.remove('active'));
-      span.classList.add('active');
+      document.querySelectorAll('.alphabet span').forEach(s => {
+        if (s.textContent === letter) s.classList.add('active');
+      });
       const authors = [...new Set(books.flatMap(b => b.author))]
         .filter(a => a.toUpperCase().startsWith(letter))
         .sort((a, b) => a.localeCompare(b, 'uk', { sensitivity: 'base' }));
@@ -156,35 +183,25 @@
 
     function filterByAuthor(author) {
       filteredBooks = books.filter(b => b.author.includes(author));
+      currentPage = 1;
+      updateURLParams();
       renderBooks();
     }
 
     function resetFiltersAndSearch() {
-  document.getElementById('yearSelect').value = '';
-  document.getElementById('genreSelect').value = '';
-  document.getElementById('languageSelect').value = '';
-  activeLetter = '';
-
-  const term = document.getElementById('searchInput').value.toLowerCase();
-  filteredBooks = books.filter(b => {
-    const authorText = Array.isArray(b.author) ? b.author.join(', ').toLowerCase() : b.author.toLowerCase();
-    return (
-      b.title.toLowerCase().includes(term) ||
-      authorText.includes(term) ||
-      b.publisher.toLowerCase().includes(term)
-    );
-  });
-
-  document.querySelectorAll('.alphabet span').forEach(s => s.classList.remove('active'));
-
-  // 💡 ОЧИЩАЄМО СПИСОК АВТОРІВ, якщо раніше обирали букву
-  document.getElementById('authorList').innerHTML = '';
-
-  currentPage = 1;
-  renderBooks();
-  updateURLParams();
-}
-
+      const term = document.getElementById('searchInput').value.toLowerCase();
+      filteredBooks = books.filter(b => {
+        const authorText = b.author.join(', ').toLowerCase();
+        return (
+          b.title.toLowerCase().includes(term) ||
+          authorText.includes(term) ||
+          b.publisher.toLowerCase().includes(term)
+        );
+      });
+      currentPage = 1;
+      updateURLParams();
+      renderBooks();
+    }
 
     function applyFilters() {
       const term = document.getElementById('searchInput').value.toLowerCase();
@@ -199,74 +216,62 @@
         const matchGenre = !g || b.genre.includes(g);
         return matchSearch && matchYear && matchLang && matchGenre;
       });
+      currentPage = 1;
+      updateURLParams();
       renderBooks();
     }
 
     function renderBooks() {
-  const bookList = document.getElementById('bookList');
-  const pagination = document.getElementById('pagination');
-  const startIndex = (currentPage - 1) * booksPerPage;
-  const endIndex = startIndex + booksPerPage;
-  const pageBooks = filteredBooks.slice(startIndex, endIndex);
+      const bookList = document.getElementById('bookList');
+      const pagination = document.getElementById('pagination');
+      const startIndex = (currentPage - 1) * booksPerPage;
+      const endIndex = startIndex + booksPerPage;
+      const pageBooks = filteredBooks.slice(startIndex, endIndex);
 
-  bookList.innerHTML = pageBooks.map(b => {
-    const authors = b.author.map(a =>
-      `<a href="#" class="author-link" onclick="filterByAuthor('${a}'); return false;">${a}</a>`
-    ).join(', ');
-    const genres = b.genre.map(g =>
-      `<a href="#" class="badge-genre" onclick="applyGenre('${g}'); return false;">${g}</a>`
-    ).join(' ');
-    const isNew = b.added && (new Date() - new Date(b.added)) < 1000 * 60 * 60 * 24 * 30;
-    return `<div class="book">
-      <img src="${b.image || 'https://via.placeholder.com/80x120?text=Книга'}" alt="${b.title}">
-      <div><strong>${b.title}</strong> ${isNew ? '<span class="badge-new">Нове</span>' : ''}<br>
-      Автор(и): ${authors}<br>
-      Видавництво: ${b.publisher}, ${b.year}<br>
-      Мова: ${b.language}<br>
-      ${genres}</div></div>`;
-  }).join('');
+      bookList.innerHTML = pageBooks.map(b => {
+        const authors = b.author.map(a =>
+          `<a href="#" class="author-link" onclick="filterByAuthor('${a}'); return false;">${a}</a>`
+        ).join(', ');
+        const genres = b.genre.map(g =>
+          `<span class="badge-genre" onclick="applyGenre('${g}')">${g}</span>`
+        ).join(' ');
+        const isNew = b.added && (new Date() - new Date(b.added)) < 1000 * 60 * 60 * 24 * 30;
+        return `<div class="book">
+          <img src="${b.image || 'https://via.placeholder.com/80x120?text=Книга'}" alt="${b.title}">
+          <div><strong>${b.title}</strong> ${isNew ? '<span class="badge-new">Нове</span>' : ''}<br>
+          Автор(и): ${authors}<br>
+          Видавництво: ${b.publisher}, ${b.year}<br>
+          Мова: ${b.language}<br>
+          ${genres}</div></div>`;
+      }).join('');
 
-  // Пагінація
-  const totalPages = Math.ceil(filteredBooks.length / booksPerPage);
-  pagination.innerHTML = '';
-  for (let i = 1; i <= totalPages; i++) {
-    const btn = document.createElement('button');
-    btn.textContent = i;
-    btn.className = i === currentPage ? 'active' : '';
-    btn.onclick = () => {
-      currentPage = i;
-      renderBooks();
-    };
-    pagination.appendChild(btn);
-  }
-}
-
+      const totalPages = Math.ceil(filteredBooks.length / booksPerPage);
+      pagination.innerHTML = '';
+      for (let i = 1; i <= totalPages; i++) {
+        const btn = document.createElement('button');
+        btn.textContent = i;
+        btn.className = i === currentPage ? 'active' : '';
+        btn.onclick = () => {
+          currentPage = i;
+          renderBooks();
+        };
+        pagination.appendChild(btn);
+      }
+    }
 
     function applyGenre(genre) {
+      document.getElementById('searchInput').value = '';
+      document.getElementById('yearSelect').value = '';
+      document.getElementById('languageSelect').value = '';
       document.getElementById('genreSelect').value = genre;
+      activeLetter = '';
+      document.getElementById('authorList').innerHTML = '';
+      document.querySelectorAll('.alphabet span').forEach(s => s.classList.remove('active'));
       applyFilters();
     }
 
     document.getElementById('searchInput').addEventListener('input', resetFiltersAndSearch);
     loadBooks();
-    checkAndLoadHeader();
-
-
-
-function checkAndLoadHeader() {
-  const headerPath = 'header.jpg'; // шлях до зображення хедера
-  const img = new Image();
-  img.onload = () => {
-    document.getElementById('headerImage').src = headerPath;
-    document.getElementById('siteHeader').style.display = 'block';
-  };
-  img.onerror = () => {
-    // якщо зображення не знайдене — нічого не робимо
-  };
-  img.src = headerPath;
-}
-
-
   </script>
 </body>
 </html>
